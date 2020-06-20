@@ -1,0 +1,51 @@
+[
+	{
+		"Name": "Purple",
+		"TileNames": [
+			"Chelonate",
+			"StamfordsExpanse",
+			"PromisedSea",
+			"Myceligaea",
+			"GenericPurple"
+		]
+	},
+	{
+		"Name": "Yellow",
+		"TileNames": [
+			"CorsairsForest",
+			"EmpireOfHands",
+			"StonesoulIsles",
+			"SeaOfAutumns"
+		]
+	},
+	{
+		"Name": "Red",
+		"TileNames": [
+			"SeaOfVoices",
+			"GossamerWay",
+			"ShepherdsWash",
+			"DemeauxsGate",
+			"TheSnares",
+			"GenericRed"
+		]
+	},
+	{
+		"Name": "Orange",
+		"TileNames": [
+			"Rattsey",
+			"TheCalumnies",
+			"PrinciplesOfCoral",
+			"SaltSteppes",
+			"SeaOfLilies"
+		]
+	},
+	{
+		"Name": "North",
+		"TileNames": [
+			"VoidsApproach",
+			"PalmerstonsReach",
+			"Stormbones",
+			"Frostfound"
+		]
+	}
+]

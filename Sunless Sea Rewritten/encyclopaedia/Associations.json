@@ -1,0 +1,507 @@
+[
+	{
+		"Name": "Associations",
+		"Ambiences": [
+			{
+				"Name": "Fathomking",
+				"AreaId": 101996,
+				"Area": null,
+				"PrefabName": "Underwater",
+				"MusicTrackName": null
+			},
+			{
+				"Name": "The Surface",
+				"AreaId": 102882,
+				"Area": null,
+				"PrefabName": "Surface",
+				"MusicTrackName": "BustlingLondon"
+			},
+			{
+				"Name": "Victory Legacy",
+				"AreaId": 0,
+				"Area": null,
+				"PrefabName": "Wolfstack",
+				"MusicTrackName": "VictoryMusic"
+			},
+			{
+				"Name": "Loss Legacy",
+				"AreaId": 0,
+				"Area": null,
+				"PrefabName": "Underwater",
+				"MusicTrackName": "DeathMusic"
+			},
+			{
+				"Name": "Wyrmsmouth",
+				"AreaId": 104546,
+				"Area": null,
+				"PrefabName": "Godfall",
+				"MusicTrackName": null
+			},
+			{
+				"Name": "WorldOfLight",
+				"AreaId": 104545,
+				"Area": null,
+				"PrefabName": "Vienna",
+				"MusicTrackName": "UnadornedTerror"
+			},
+			{
+				"Name": "PortRosa",
+				"AreaId": 103246,
+				"Area": null,
+				"PrefabName": "Mangrove",
+				"MusicTrackName": null
+			},
+			{
+				"Name": "GoEast",
+				"AreaId": 104181,
+				"Area": null,
+				"PrefabName": "Worldsend",
+				"MusicTrackName": "Alien"
+			},
+			{
+				"Name": "Dis",
+				"AreaId": 104588,
+				"Area": null,
+				"PrefabName": "Godfall",
+				"MusicTrackName": "Infernal"
+			},
+			{
+				"Name": "Funeral",
+				"AreaId": 105136,
+				"Area": null,
+				"PrefabName": "Funeral",
+				"MusicTrackName": "VictoryMusic"
+			},
+			{
+				"Name": "Wineglasses",
+				"AreaId": 105137,
+				"Area": null,
+				"PrefabName": "Wineglasses",
+				"MusicTrackName": "VictoryMusic"
+			},
+			{
+				"Name": "Kingdom",
+				"AreaId": 105138,
+				"Area": null,
+				"PrefabName": "Garden",
+				"MusicTrackName": "VictoryMusic"
+			},
+			{
+				"Name": "Turn into a zee-monster",
+				"AreaId": 105139,
+				"Area": null,
+				"PrefabName": "ZeeMonster",
+				"MusicTrackName": "VictoryMusic"
+			},
+			{
+				"Name": "Stargate",
+				"AreaId": 105140,
+				"Area": null,
+				"PrefabName": "Stargate",
+				"MusicTrackName": "VictoryMusic"
+			},
+			{
+				"Name": "Zeppelin",
+				"AreaId": 105141,
+				"Area": null,
+				"PrefabName": "Underwater",
+				"MusicTrackName": "VictoryMusic"
+			}
+		],
+		"JettisonEvents": [
+			{
+				"Name": "Eject the Shady Sort",
+				"QualityId": 111745,
+				"Quality": null,
+				"Tooltip": "Captain! What are you thinking?"
+			},
+			{
+				"Name": "Eject the Checquered Character",
+				"QualityId": 112728,
+				"Quality": null,
+				"Tooltip": "Wrong move!"
+			},
+			{
+				"Name": "Eject the Unsettling Sage",
+				"QualityId": 109347,
+				"Quality": null,
+				"Tooltip": "No no no. We shall do... wonderful things together."
+			},
+			{
+				"Name": "Eject the Delightful Adventuress",
+				"QualityId": 114766,
+				"Quality": null,
+				"Tooltip": "I don't _think_ so."
+			},
+			{
+				"Name": "Eject the Nervous Machinist",
+				"QualityId": 710006,
+				"Quality": null,
+				"Tooltip": "Please don't. Please."
+			},
+			{
+				"Name": "Eject Children",
+				"QualityId": 710009,
+				"Quality": null,
+				"Tooltip": "Nuh-uh!"
+			},
+			{
+				"Name": "Eject a Sickly Sailor",
+				"QualityId": 710015,
+				"Quality": null,
+				"Tooltip": "The thought makes me ill."
+			},
+			{
+				"Name": "Eject a Faded Provocateur",
+				"QualityId": 710016,
+				"Quality": null,
+				"Tooltip": "Try it. See where that gets you."
+			},
+			{
+				"Name": "Eject a Crumbling Noman",
+				"QualityId": 710017,
+				"Quality": null,
+				"Tooltip": "..."
+			},
+			{
+				"Name": "Eject an Oblivious Anarchist",
+				"QualityId": 710018,
+				"Quality": null,
+				"Tooltip": "You don't have the right!"
+			}
+		],
+		"LegacyUnlockQualities": [
+			{
+				"Name": "A Ironclad Will",
+				"Description": "Your next character inherits your Lodgings, along with any Heirlooms you have stored there.",
+				"Tooltip": "Upgrade your Lodgings and purchase a Will.",
+				"UnlockQualityId": 110641,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 0,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 0,
+				"AdditionalLegaciesAllowed": 0,
+				"Order": 1
+			},
+			{
+				"Name": "A Scion",
+				"Description": "This time, you can choose two legacies.",
+				"Tooltip": "Raise a child, and bring it gifts from the zee.",
+				"UnlockQualityId": 114230,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 0,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 0,
+				"AdditionalLegaciesAllowed": 1,
+				"Order": 2
+			},
+			{
+				"Name": "Ceremonial Sword",
+				"Description": "Increases your starting Iron by +15.",
+				"Tooltip": "Become King of the Zee.",
+				"UnlockQualityId": 710020,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 102894,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 15,
+				"AdditionalLegaciesAllowed": 0,
+				"Order": 3
+			},
+			{
+				"Name": "Medal of Valor",
+				"Description": "Increases your starting Iron by +10.",
+				"Tooltip": "Uplift London.",
+				"UnlockQualityId": 710021,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 102894,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 10,
+				"AdditionalLegaciesAllowed": 0,
+				"Order": 4
+			},
+			{
+				"Name": "Scented Deathmasque",
+				"Description": "Increases your starting Iron by +5.",
+				"Tooltip": "Horrify doctors.",
+				"UnlockQualityId": 710019,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 102894,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 5,
+				"AdditionalLegaciesAllowed": 0,
+				"Order": 5
+			},
+			{
+				"Name": "Jarred Memento",
+				"Description": "Increases your starting Mirrors by +15.",
+				"Tooltip": "Gain a Lucent Soul.",
+				"UnlockQualityId": 710022,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 102895,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 15,
+				"AdditionalLegaciesAllowed": 0,
+				"Order": 6
+			},
+			{
+				"Name": "Medal of Honour",
+				"Description": "Increases your starting Mirrors by +10.",
+				"Tooltip": "Uplift the Shogunate.",
+				"UnlockQualityId": 710023,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 102895,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 10,
+				"AdditionalLegaciesAllowed": 0,
+				"Order": 7
+			},
+			{
+				"Name": "Colourproof Goggles",
+				"Description": "Increases your starting Mirrors by +5.",
+				"Tooltip": "?????",
+				"UnlockQualityId": 710024,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 102895,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 5,
+				"AdditionalLegaciesAllowed": 0,
+				"Order": 8
+			},
+			{
+				"Name": "Silvered Self-Portrait",
+				"Description": "Increases your starting Veils by +15.",
+				"Tooltip": "?????",
+				"UnlockQualityId": 710025,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 102896,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 15,
+				"AdditionalLegaciesAllowed": 0,
+				"Order": 9
+			},
+			{
+				"Name": "Medal of War",
+				"Description": "Increases your starting Veils by +10.",
+				"Tooltip": "Uplift the Ozao.",
+				"UnlockQualityId": 710026,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 102896,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 10,
+				"AdditionalLegaciesAllowed": 0,
+				"Order": 10
+			},
+			{
+				"Name": "Unfinished Painting",
+				"Description": "Increases your starting Veils by +5.",
+				"Tooltip": "?????",
+				"UnlockQualityId": 710027,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 102896,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 5,
+				"AdditionalLegaciesAllowed": 0,
+				"Order": 11
+			},
+			{
+				"Name": "Telekailedoscope",
+				"Description": "Increases your starting Pages by +15.",
+				"Tooltip": "Go South.",
+				"UnlockQualityId": 710028,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 102898,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 15,
+				"AdditionalLegaciesAllowed": 0,
+				"Order": 12
+			},
+			{
+				"Name": "Medal of Philanthropy",
+				"Description": "Increases your starting Pages by +10.",
+				"Tooltip": "Uplift the Umwelt Dynasty.",
+				"UnlockQualityId": 710033,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 102898,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 10,
+				"AdditionalLegaciesAllowed": 0,
+				"Order": 13
+			},
+			{
+				"Name": "Zee Thesis",
+				"Description": "Increases your starting Pages by +5.",
+				"Tooltip": "Survey every port.",
+				"UnlockQualityId": 710029,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 102898,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 5,
+				"AdditionalLegaciesAllowed": 0,
+				"Order": 14
+			},
+			{
+				"Name": "Burning Ring",
+				"Description": "Increases your starting Hearts by +15.",
+				"Tooltip": "Become a Molten Monk.",
+				"UnlockQualityId": 710030,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 102897,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 15,
+				"AdditionalLegaciesAllowed": 0,
+				"Order": 15
+			},
+			{
+				"Name": "Rare Postage",
+				"Description": "Increases your starting Hearts by +10.",
+				"Tooltip": "Deliver a letter.",
+				"UnlockQualityId": 710031,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 102897,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 11,
+				"AdditionalLegaciesAllowed": 0,
+				"Order": 16
+			},
+			{
+				"Name": "Ringmaster's Hat",
+				"Description": "Increases your starting Hearts by +5.",
+				"Tooltip": "Gather Mascots.",
+				"UnlockQualityId": 710032,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 102897,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 5,
+				"AdditionalLegaciesAllowed": 0,
+				"Order": 17
+			},
+			{
+				"Name": "Botanist's Bible",
+				"Description": "Increases your starting Secrets by +25.",
+				"Tooltip": "Seek Truth.",
+				"UnlockQualityId": 710011,
+				"UnlockQuality": null,
+				"QualityToIncreaseId": 102032,
+				"QualityToIncrease": null,
+				"IncreaseLevel": 25,
+				"AdditionalLegaciesAllowed": 0,
+				"Order": 18
+			}
+		],
+		"TradeRoutes": [
+			{
+				"Name": "London > Palmerston",
+				"ShipNames": [
+					"TraderTrampSteamer",
+					"TraderCaligo"
+				],
+				"OriginPortName": "FallenLondon",
+				"DestinationPortName": "MountPalmerston"
+			},
+			{
+				"Name": "AdamsWay > London",
+				"ShipNames": [
+					"TraderTrampSteamer",
+					"TraderCaligo"
+				],
+				"OriginPortName": "ApisPort",
+				"DestinationPortName": "FallenLondon"
+			},
+			{
+				"Name": "Carnelian > Khan",
+				"ShipNames": [
+					"TraderTrampSteamer",
+					"TraderCaligo"
+				],
+				"OriginPortName": "PortCarnelian",
+				"DestinationPortName": "KhansHeart"
+			},
+			{
+				"Name": "Venderbight > Palmerston",
+				"ShipNames": [
+					"TraderTrampSteamer",
+					"TraderCaligo"
+				],
+				"OriginPortName": "Venderbight",
+				"DestinationPortName": "MountPalmerston"
+			},
+			{
+				"Name": "Palmerston > Khan",
+				"ShipNames": [
+					"TraderTrampSteamer",
+					"TraderCaligo"
+				],
+				"OriginPortName": "MountPalmerston",
+				"DestinationPortName": "KhansHeart"
+			},
+			{
+				"Name": "London > Khan",
+				"ShipNames": [
+					"TraderTrampSteamer",
+					"TraderCaligo"
+				],
+				"OriginPortName": "FallenLondon",
+				"DestinationPortName": "KhansHeart"
+			},
+			{
+				"Name": "Carnelian > Venderbight",
+				"ShipNames": [
+					"TraderTrampSteamer",
+					"TraderCaligo"
+				],
+				"OriginPortName": "PortCarnelian",
+				"DestinationPortName": "Venderbight"
+			},
+			{
+				"Name": "London > Carnelian",
+				"ShipNames": [
+					"TraderTrampSteamer",
+					"TraderCaligo"
+				],
+				"OriginPortName": "FallenLondon",
+				"DestinationPortName": "PortCarnelian"
+			},
+			{
+				"Name": "Khan > AdamsWay",
+				"ShipNames": [
+					"TraderTrampSteamer",
+					"TraderCaligo"
+				],
+				"OriginPortName": "KhansHeart",
+				"DestinationPortName": "ApisPort"
+			}
+		],
+		"UnlegacyableOfficers": [
+			{
+				"Name": "Hairy",
+				"QualityId": 107458,
+				"Quality": null
+			},
+			{
+				"Name": "Perplexed",
+				"QualityId": 107459,
+				"Quality": null
+			},
+			{
+				"Name": "Fastidious",
+				"QualityId": 107460,
+				"Quality": null
+			},
+			{
+				"Name": "Impressionable",
+				"QualityId": 107461,
+				"Quality": null
+			},
+			{
+				"Name": "Unlicensed",
+				"QualityId": 107462,
+				"Quality": null
+			},
+			{
+				"Name": "WhistfulDeviless",
+				"QualityId": 109475,
+				"Quality": null
+			}
+		]
+	}
+]
