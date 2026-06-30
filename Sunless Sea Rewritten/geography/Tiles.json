@@ -7,8 +7,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Adam's Cape",
-				"Description": "A carmine tint to the waves. We're approaching Adam's Way, 'where flows the Mountain's blood'.",
+				"HumanName": "Bulwark Bluffs",
+				"Description": "A promising wind blows, smelling of copper. The way to Reality's Edge is near.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -125,7 +125,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "RepublicanDreadnought",
+								"SpawnName": "BoundShark",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -146,7 +146,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Jillyfish",
+								"SpawnName": "Jillyfleur",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -167,7 +167,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Behemoustache",
+								"SpawnName": "BlueProphets",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -597,46 +597,6 @@
 				],
 				"PhenomenaData": [
 					{
-						"Name": "AdamsWayBurn",
-						"ParentTile": null,
-						"PrefabName": "Physics/AdamsWayBurn",
-						"VisitedPrefabName": "",
-						"Subsurface": false,
-						"HumanName": "",
-						"Description": "",
-						"Position": {
-							"X": 730,
-							"Y": 180
-						},
-						"Radius": 0,
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"QualityEffects": null,
-						"StoryletId": 0,
-						"AreaId": 0,
-						"SpawnChance": 100
-					},
-					{
-						"Name": "AdamsWayBurnUnderwater",
-						"ParentTile": null,
-						"PrefabName": "Physics/AdamsWayBurn",
-						"VisitedPrefabName": "",
-						"Subsurface": true,
-						"HumanName": "",
-						"Description": "",
-						"Position": {
-							"X": 730,
-							"Y": 180
-						},
-						"Radius": 0,
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"QualityEffects": null,
-						"StoryletId": 0,
-						"AreaId": 0,
-						"SpawnChance": 100
-					},
-					{
 						"Name": "AdamsWayStorylet",
 						"ParentTile": null,
 						"PrefabName": "Physics/AdamsWayOffEdge",
@@ -704,8 +664,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "The Boreal Reach",
-				"Description": "Boreal Reach. Is this snow? Touch it, and it puffs to vapour. Your crew huddles close to the warmth of pipe and funnel.",
+				"HumanName": "The Forgetfulness",
+				"Description": "You sail The Forgetfulness. Distant fires light the zee as the temperature drops.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -825,7 +785,7 @@
 						"Name": "BorealBerg",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Discovered the Lifebergs of the Pale Haunt!",
+						"Description": "",
 						"Position": {
 							"X": 862,
 							"Y": 275
@@ -835,7 +795,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Lifeberg",
+								"SpawnName": "AlbinoMoray",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -846,7 +806,7 @@
 						"Name": "BorealBerg",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Discovered the Lifebergs of the Pale Haunt!",
+						"Description": "",
 						"Position": {
 							"X": 970,
 							"Y": 1130
@@ -856,7 +816,28 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Lifeberg",
+								"SpawnName": "AlbinoMoray",
+								"Entity": null,
+								"SpawnChance": 70,
+								"MinTerror": 0
+							}
+						]
+					},
+					{
+						"Name": "BorealBerg",
+						"Subsurface": false,
+						"QualityRequired": null,
+						"Description": "",
+						"Position": {
+							"X": 1250,
+							"Y": 130
+						},
+						"Radius": 150,
+						"DiscoveryValue": 30,
+						"ParentTile": null,
+						"Spawns": [
+							{
+								"SpawnName": "Grimroe",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -1597,8 +1578,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "The Carnelian Coast",
-				"Description": "The Carnelian Coast. Far to the South, the Neath-roof glimmers above the Mountain of Light.",
+				"HumanName": "Waxwoad",
+				"Description": "The land is fertile at the southern coast. Wax-winds from beyond Reality's Edge keep it so.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -1743,7 +1724,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Behemoustache",
+								"SpawnName": "BlueProphets",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -1764,7 +1745,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "BlueProphets",
+								"SpawnName": "AdmiraltyFrigate",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -2063,7 +2044,7 @@
 					},
 					{
 						"ParentTile": null,
-						"Label": "Rainer's Vortex",
+						"Label": "Maw's Abyss",
 						"Description": "",
 						"Position": {
 							"X": 558,
@@ -2076,7 +2057,7 @@
 					},
 					{
 						"ParentTile": null,
-						"Label": "Velten's Vortex",
+						"Label": "Paw's Abyss",
 						"Description": "",
 						"Position": {
 							"X": 895,
@@ -2197,8 +2178,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "The Chelonate",
-				"Description": "Another zee-beast corpse afloat. So much carrion. We approach the Chelonate.",
+				"HumanName": "Godspite",
+				"Description": "Dead gods lie here, locked in battle still. We enter Ozao territory.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -2304,7 +2285,7 @@
 						"Name": "ChelonateLornFluke",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Found an Ozaean Langskip at Godspite.",
 						"Position": {
 							"X": 885,
 							"Y": 1169
@@ -2314,7 +2295,28 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "LornFluke",
+								"SpawnName": "UnfinishedPirates",
+								"Entity": null,
+								"SpawnChance": 70,
+								"MinTerror": 0
+							}
+						]
+					},
+					{
+						"Name": "ChelonateEaterOfNames",
+						"Subsurface": false,
+						"QualityRequired": null,
+						"Description": "Found the Ozao Flagship at Godspite.",
+						"Position": {
+							"X": 1177,
+							"Y": 321
+						},
+						"Radius": 300,
+						"DiscoveryValue": 30,
+						"ParentTile": null,
+						"Spawns": [
+							{
+								"SpawnName": "EaterOfNames",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -2327,15 +2329,15 @@
 						"QualityRequired": null,
 						"Description": "",
 						"Position": {
-							"X": 1177,
-							"Y": 321
+							"X": 300,
+							"Y": 750
 						},
-						"Radius": 300,
+						"Radius": 250,
 						"DiscoveryValue": 20,
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "EaterOfNames",
+								"SpawnName": "Grimroe",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -2375,7 +2377,7 @@
 					"Description": "",
 					"Id": 100261
 				},
-				"MaxTilePopulation": 2,
+				"MaxTilePopulation": 3,
 				"TerrainData": [
 					{
 						"PrefabName": "Chelonate/Chelonate",
@@ -2664,6 +2666,110 @@
 						"ParentTile": null
 					},
 					{
+						"PrefabName": "Generic/screamer1",
+						"SubsurfacePrefabName": "Generic/screamer1_ZM",
+						"Name": "screamer1",
+						"Description": "",
+						"Position": {
+							"X": 1075,
+							"Y": 1026
+						},
+						"DiscoveryValue": 0,
+						"GleamValue": 0,
+						"ParentTile": null
+					},
+					{
+						"PrefabName": "Generic/screamer1",
+						"SubsurfacePrefabName": "Generic/screamer1_ZM",
+						"Name": "screamer1",
+						"Description": "",
+						"Position": {
+							"X": 352,
+							"Y": 750
+						},
+						"DiscoveryValue": 0,
+						"GleamValue": 0,
+						"ParentTile": null
+					},
+					{
+						"PrefabName": "Generic/screamer1",
+						"SubsurfacePrefabName": "Generic/screamer1_ZM",
+						"Name": "screamer1",
+						"Description": "",
+						"Position": {
+							"X": 582,
+							"Y": 257
+						},
+						"DiscoveryValue": 0,
+						"GleamValue": 0,
+						"ParentTile": null
+					},
+					{
+						"PrefabName": "Generic/screamer2",
+						"SubsurfacePrefabName": "Generic/screamer2_ZM",
+						"Name": "screamer2",
+						"Description": "",
+						"Position": {
+							"X": 1258,
+							"Y": 942
+						},
+						"DiscoveryValue": 0,
+						"GleamValue": 0,
+						"ParentTile": null
+					},
+					{
+						"PrefabName": "Generic/screamer2",
+						"SubsurfacePrefabName": "Generic/screamer2_ZM",
+						"Name": "screamer2",
+						"Description": "",
+						"Position": {
+							"X": 796,
+							"Y": 620
+						},
+						"DiscoveryValue": 0,
+						"GleamValue": 0,
+						"ParentTile": null
+					},
+					{
+						"PrefabName": "Generic/screamer3",
+						"SubsurfacePrefabName": "Generic/screamer3_ZM",
+						"Name": "screamer2",
+						"Description": "",
+						"Position": {
+							"X": 781,
+							"Y": 823
+						},
+						"DiscoveryValue": 0,
+						"GleamValue": 0,
+						"ParentTile": null
+					},
+					{
+						"PrefabName": "Generic/screamer3",
+						"SubsurfacePrefabName": "Generic/screamer3_ZM",
+						"Name": "screamer2",
+						"Description": "",
+						"Position": {
+							"X": 1246,
+							"Y": 1169
+						},
+						"DiscoveryValue": 0,
+						"GleamValue": 0,
+						"ParentTile": null
+					},
+					{
+						"PrefabName": "Generic/screamer3",
+						"SubsurfacePrefabName": "Generic/screamer3_ZM",
+						"Name": "screamer2",
+						"Description": "",
+						"Position": {
+							"X": 241,
+							"Y": 411
+						},
+						"DiscoveryValue": 0,
+						"GleamValue": 0,
+						"ParentTile": null
+					},
+					{
 						"PrefabName": "",
 						"SubsurfacePrefabName": "ZubmarinerCities/GantPole",
 						"Name": "GantPole",
@@ -2722,8 +2828,8 @@
 						"IsStartingPort": false
 					},
 					{
-						"Name": "GantPoleZM",
-						"Rotation": 180,
+						"Name": "PrinceAzor",
+						"Rotation": 45,
 						"Setting": {
 							"World": null,
 							"OwnerName": null,
@@ -2738,7 +2844,7 @@
 							"MaxCardsAllowed": 0,
 							"ActionsInPeriodBeforeExhaustion": 0,
 							"Description": "",
-							"Id": 106126
+							"Id": 600201
 						},
 						"Area": {
 							"World": null,
@@ -2754,12 +2860,12 @@
 							"UnlocksWithQuality": null,
 							"ShowOps": false,
 							"PremiumSubRequired": false,
-							"Id": 107687
+							"Id": 603154
 						},
-						"Subsurface": true,
+						"Subsurface": false,
 						"Position": {
-							"X": 542,
-							"Y": 924
+							"X": 1100,
+							"Y": 295
 						},
 						"DiscoveryValue": 0,
 						"IsStartingPort": false
@@ -2790,7 +2896,7 @@
 						"Subsurface": true,
 						"DiscoveryValue": 50,
 						"Radius": 200,
-						"Important": true
+						"Important": false
 					},
 					{
 						"ParentTile": null,
@@ -2855,13 +2961,13 @@
 						"Subsurface": false,
 						"DiscoveryValue": 50,
 						"Radius": 200,
-						"Important": true
+						"Important": false
 					}
 				],
 				"PhenomenaData": [
 					
 				],
-				"SeaColour": "Murky",
+				"SeaColour": "Grey",
 				"MusicTrackName": "Alien",
 				"Weather": [
 					"Fog"
@@ -2887,8 +2993,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Corsairs Forest",
-				"Description": "Stalagmites loom in the distance like the cranes of Wolfstack Docks, but vaster, vaster. The Corsair's Forest. Our lookouts are watchful.",
+				"HumanName": "Nike's Jaws",
+				"Description": "Hidden stones challenge your hull. Zailors whisper of winged shapes in the distance. Nike's Jaws threatens above and below.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -2980,7 +3086,7 @@
 						"Name": "CorsairsCrackFrigate",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Found the Milliner-bats of Nike's Jaws.",
 						"Position": {
 							"X": 315,
 							"Y": 440
@@ -2990,7 +3096,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "CrackPirateFrigate",
+								"SpawnName": "MillinerBats",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -3001,7 +3107,7 @@
 						"Name": "CorsairsPinnace",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Aaah! Mistresses!",
 						"Position": {
 							"X": 315,
 							"Y": 1170
@@ -3011,7 +3117,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "CrackSteamPinnace",
+								"SpawnName": "Mistresses",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -3022,7 +3128,7 @@
 						"Name": "CorsairsFrigate",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Encountered the pirate fleets of the Corsair's Forest!",
+						"Description": "Aaah! Mistresses!",
 						"Position": {
 							"X": 970,
 							"Y": 260
@@ -3032,7 +3138,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "PirateFrigate",
+								"SpawnName": "Mistresses",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -3555,7 +3661,7 @@
 					}
 				],
 				"SeaColour": "Default",
-				"MusicTrackName": "Lowlands",
+				"MusicTrackName": "ElegiacnoPerc",
 				"Weather": [
 					"Fog"
 				],
@@ -3580,8 +3686,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "The Crying Heights",
-				"Description": "The Crying Heights, where the Blue Prophets call the names of those about to die.",
+				"HumanName": "The Lands of Longing",
+				"Description": "For all their luxuries, these lands remain unsettled. A zailor sings a song of distant home.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -3724,19 +3830,31 @@
 						"Name": "CryingHeightsBlueProphets",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Found Vibrissa's spawning grounds.",
 						"Position": {
 							"X": 1169,
-							"Y": 1171
+							"Y": 971
 						},
 						"Radius": 300,
 						"DiscoveryValue": 20,
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "BlueProphets",
+								"SpawnName": "Behemoustache",
 								"Entity": null,
 								"SpawnChance": 70,
+								"MinTerror": 0
+							},
+							{
+								"SpawnName": "Behemoustache",
+								"Entity": null,
+								"SpawnChance": 70,
+								"MinTerror": 0
+							},
+							{
+								"SpawnName": "Vibrissa",
+								"Entity": null,
+								"SpawnChance": 100,
 								"MinTerror": 0
 							}
 						]
@@ -3774,7 +3892,7 @@
 					"Description": "",
 					"Id": 100261
 				},
-				"MaxTilePopulation": 2,
+				"MaxTilePopulation": 4,
 				"TerrainData": [
 					{
 						"PrefabName": "CryingHeights/CryingHeights",
@@ -4098,7 +4216,7 @@
 				"LabelData": [
 					{
 						"ParentTile": null,
-						"Label": "Crying Heights",
+						"Label": "Lands of Longing",
 						"Description": "",
 						"Position": {
 							"X": 767,
@@ -4107,7 +4225,7 @@
 						"Subsurface": false,
 						"DiscoveryValue": 50,
 						"Radius": 120,
-						"Important": true
+						"Important": false
 					},
 					{
 						"ParentTile": null,
@@ -4203,7 +4321,7 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Cumaean Canal",
+				"HumanName": "Infernal Canal",
 				"Description": "Here the waters blacken further with runoff. We approach the Infernal Canal.",
 				"ProcLocations": [
 					{
@@ -4296,7 +4414,7 @@
 						"Name": "CumaeanJillyfleur",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "You have encountered the Jillyfleurs that prey on Infernal shipping.",
+						"Description": "",
 						"Position": {
 							"X": 1130,
 							"Y": 380
@@ -4306,7 +4424,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Jillyfleur",
+								"SpawnName": "PirateSteamPinnace",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -4317,7 +4435,7 @@
 						"Name": "CanalArchMegalops",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Discovered the Auroral Megalops of the Infernal Canal.",
+						"Description": "",
 						"Position": {
 							"X": 705,
 							"Y": 1225
@@ -4327,7 +4445,28 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "AuroralMegalops",
+								"SpawnName": "EasternAnglerCrab",
+								"Entity": null,
+								"SpawnChance": 70,
+								"MinTerror": 0
+							}
+						]
+					},
+					{
+						"Name": "CanalArchMegalops",
+						"Subsurface": false,
+						"QualityRequired": null,
+						"Description": "",
+						"Position": {
+							"X": 800,
+							"Y": 625
+						},
+						"Radius": 250,
+						"DiscoveryValue": 20,
+						"ParentTile": null,
+						"Spawns": [
+							{
+								"SpawnName": "LightTanker",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -4808,8 +4947,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Dawn's Edge",
-				"Description": "Came on deck to find the metal sharp with sparks. Ozonal coronas haunt the ship. This is Dawn's Edge.",
+				"HumanName": "Incarn",
+				"Description": "Zailors sweat and lamps flicker. The darkness boils. Something far away ticks.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -4943,7 +5082,7 @@
 						"Name": "DawnFrigate",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "You have encountered the Glorious Frigates.",
+						"Description": "",
 						"Position": {
 							"X": 495,
 							"Y": 1175
@@ -4953,7 +5092,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "GloriousFrigate",
+								"SpawnName": "RepublicanDreadnought",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -4964,7 +5103,7 @@
 						"Name": "DawnDreadnaught",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Discovered the Glorious Dreadnoughts.",
+						"Description": "",
 						"Position": {
 							"X": 660,
 							"Y": 605
@@ -4974,7 +5113,28 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "GloriousDreadnought",
+								"SpawnName": "RepublicanDreadnought",
+								"Entity": null,
+								"SpawnChance": 70,
+								"MinTerror": 0
+							}
+						]
+					},
+					{
+						"Name": "DawnDreadnaught",
+						"Subsurface": false,
+						"QualityRequired": null,
+						"Description": "",
+						"Position": {
+							"X": 1000,
+							"Y": 1000
+						},
+						"Radius": 300,
+						"DiscoveryValue": 20,
+						"ParentTile": null,
+						"Spawns": [
+							{
+								"SpawnName": "LightTanker",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -5014,7 +5174,7 @@
 					"Description": "",
 					"Id": 100261
 				},
-				"MaxTilePopulation": 2,
+				"MaxTilePopulation": 4,
 				"TerrainData": [
 					{
 						"PrefabName": "DawnsEdge/DawnMachine",
@@ -5346,6 +5506,49 @@
 						},
 						"DiscoveryValue": 1,
 						"IsStartingPort": false
+					},
+					{
+						"Name": "CastleCrumbish",
+						"Rotation": 315,
+						"Setting": {
+							"World": null,
+							"OwnerName": null,
+							"Name": "",
+							"Personae": [],
+							"StartingArea": null,
+							"StartingDomicile": null,
+							"ItemsUsableHere": false,
+							"Exchange": null,
+							"TurnLengthSeconds": 0,
+							"MaxActionsAllowed": 0,
+							"MaxCardsAllowed": 0,
+							"ActionsInPeriodBeforeExhaustion": 0,
+							"Description": "",
+							"Id": 600201
+						},
+						"Area": {
+							"World": null,
+							"Name": null,
+							"Description": "",
+							"ImageName": "",
+							"MarketAccessPermitted": false,
+							"MoveMessage": "",
+							"HideName": false,
+							"RandomPostcard": false,
+							"MapX": 0,
+							"MapY": 0,
+							"UnlocksWithQuality": null,
+							"ShowOps": false,
+							"PremiumSubRequired": false,
+							"Id": 603153
+						},
+						"Subsurface": false,
+						"Position": {
+							"X": 983,
+							"Y": 1335
+						},
+						"DiscoveryValue": 1,
+						"IsStartingPort": false
 					}
 				],
 				"LabelData": [
@@ -5429,7 +5632,7 @@
 					},
 					{
 						"ParentTile": null,
-						"Label": "Castle Clare",
+						"Label": "Castle Crumbish",
 						"Description": "",
 						"Position": {
 							"X": 921,
@@ -5557,7 +5760,7 @@
 					}
 				],
 				"SeaColour": "Default",
-				"MusicTrackName": "SpookyUpLead",
+				"MusicTrackName": "Elegiac",
 				"Weather": [
 					"Fog",
 					"Waxwind"
@@ -5648,8 +5851,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Demeaux's Gate",
-				"Description": "Here the wilder airs mingle with the airs of the near reaches. Demeaux's Gate, named for a navigator lost above. How did his bones come below?",
+				"HumanName": "Sporewoods",
+				"Description": "The Sporewoods smell like every kind of rot. Zailors scrub the deck in double shifts.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -5767,7 +5970,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "PirateSteamPinnace",
+								"SpawnName": "RepublicanDreadnought",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -5788,7 +5991,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "AnglerCrab",
+								"SpawnName": "PirateSteamPinnace",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -5809,7 +6012,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Corvette",
+								"SpawnName": "Jillyfleur",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -6078,7 +6281,7 @@
 							"MaxCardsAllowed": 0,
 							"ActionsInPeriodBeforeExhaustion": 0,
 							"Description": "",
-							"Id": 101770
+							"Id": 600201
 						},
 						"Area": {
 							"World": null,
@@ -6147,7 +6350,7 @@
 					},
 					{
 						"ParentTile": null,
-						"Label": "Moody's Light",
+						"Label": "Lune's Fire",
 						"Description": "",
 						"Position": {
 							"X": 204,
@@ -6187,7 +6390,7 @@
 				],
 				"PhenomenaData": [],
 				"SeaColour": "Default",
-				"MusicTrackName": "LimpidLiquid",
+				"MusicTrackName": "OceanaLonissimusLeah",
 				"Weather": [
 					"Fog"
 				],
@@ -6212,8 +6415,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "The Empire of Hands",
-				"Description": "We approach the Empire of Hands. Let us clasp our souls tight, lest the Pentecost Apes take them from us.",
+				"HumanName": "Hypatia",
+				"Description": "Songs are sung of the beautiful women on these isles. Your crew scoff loudly, but look up with hope.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -6344,7 +6547,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "SavageLornFluke",
+								"SpawnName": "CrackPirateFrigate",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -6365,7 +6568,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "GloriousDreadnought",
+								"SpawnName": "LornFluke",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -6376,7 +6579,7 @@
 						"Name": "EmpireOfHandsDreadnought",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Found an Umwelt Corsair at Hypatia.",
 						"Position": {
 							"X": 1046,
 							"Y": 1178
@@ -6386,7 +6589,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "GloriousDreadnought",
+								"SpawnName": "FausticCorsair",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -6882,8 +7085,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Frostfound",
-				"Description": "Frostfound, vast and chilly. A fortress sieged by questions, answers, and riddles.",
+				"HumanName": "Silver's Palace",
+				"Description": "Ice rises to impossible peaks. Only a god could have built such a place.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -6989,7 +7192,7 @@
 						"Name": "FrostfoundBerg",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Discovered the Lifebergs of Frostfound!",
+						"Description": "",
 						"Position": {
 							"X": 1230,
 							"Y": 971
@@ -7000,6 +7203,48 @@
 						"Spawns": [
 							{
 								"SpawnName": "Lifeberg",
+								"Entity": null,
+								"SpawnChance": 70,
+								"MinTerror": 0
+							}
+						]
+					},
+					{
+						"Name": "FrostfoundBerg",
+						"Subsurface": false,
+						"QualityRequired": null,
+						"Description": "",
+						"Position": {
+							"X": 1230,
+							"Y": 1104
+						},
+						"Radius": 200,
+						"DiscoveryValue": 30,
+						"ParentTile": null,
+						"Spawns": [
+							{
+								"SpawnName": "Grimroe",
+								"Entity": null,
+								"SpawnChance": 70,
+								"MinTerror": 0
+							}
+						]
+					},
+					{
+						"Name": "FrostfoundBerg",
+						"Subsurface": false,
+						"QualityRequired": null,
+						"Description": "",
+						"Position": {
+							"X": 230,
+							"Y": 304
+						},
+						"Radius": 200,
+						"DiscoveryValue": 30,
+						"ParentTile": null,
+						"Spawns": [
+							{
+								"SpawnName": "AdmiraltyFrigate",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -7039,7 +7284,7 @@
 					"Description": "",
 					"Id": 100261
 				},
-				"MaxTilePopulation": 2,
+				"MaxTilePopulation": 3,
 				"TerrainData": [
 					{
 						"PrefabName": "Frostfound/Frostfound",
@@ -7229,7 +7474,7 @@
 							"MaxCardsAllowed": 0,
 							"ActionsInPeriodBeforeExhaustion": 0,
 							"Description": "",
-							"Id": 103196
+							"Id": 604409
 						},
 						"Area": {
 							"World": null,
@@ -7272,7 +7517,7 @@
 					},
 					{
 						"ParentTile": null,
-						"Label": "Stoddard's Haven",
+						"Label": "Pyrite Sanctuary",
 						"Description": "",
 						"Position": {
 							"X": 864,
@@ -7298,19 +7543,6 @@
 					},
 					{
 						"ParentTile": null,
-						"Label": "Dathooley's Rage",
-						"Description": "",
-						"Position": {
-							"X": 213,
-							"Y": 175
-						},
-						"Subsurface": false,
-						"DiscoveryValue": 50,
-						"Radius": 100,
-						"Important": false
-					},
-					{
-						"ParentTile": null,
 						"Label": "Silver's Palace",
 						"Description": "",
 						"Position": {
@@ -7324,7 +7556,7 @@
 					},
 					{
 						"ParentTile": null,
-						"Label": "Brite",
+						"Label": "Halls of Mammon",
 						"Description": "",
 						"Position": {
 							"X": 1115,
@@ -7333,11 +7565,11 @@
 						"Subsurface": false,
 						"DiscoveryValue": 50,
 						"Radius": 100,
-						"Important": true
+						"Important": false
 					},
 					{
 						"ParentTile": null,
-						"Label": "Teneb",
+						"Label": "Dragon's Den",
 						"Description": "",
 						"Position": {
 							"X": 584,
@@ -7346,7 +7578,7 @@
 						"Subsurface": false,
 						"DiscoveryValue": 50,
 						"Radius": 100,
-						"Important": true
+						"Important": false
 					}
 				],
 				"PhenomenaData": [
@@ -7361,26 +7593,6 @@
 						"Position": {
 							"X": 750,
 							"Y": 1525
-						},
-						"Radius": 0,
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"QualityEffects": null,
-						"StoryletId": 0,
-						"AreaId": 0,
-						"SpawnChance": 100
-					},
-					{
-						"Name": "vortex",
-						"ParentTile": null,
-						"PrefabName": "Physics/Vortex",
-						"VisitedPrefabName": "",
-						"Subsurface": false,
-						"HumanName": "",
-						"Description": "",
-						"Position": {
-							"X": 213,
-							"Y": 175
 						},
 						"Radius": 0,
 						"DiscoveryValue": 0,
@@ -7440,8 +7652,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Gossamer Way",
-				"Description": "A floating strand of web caresses your face. The air hints at spiders.",
+				"HumanName": "Land o' Legs",
+				"Description": "Strands of silk fall like snow, settling in sticky webs across your deck.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -7572,7 +7784,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "TreeOfAges",
+								"SpawnName": "Jillyfleur",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -7593,7 +7805,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "ElderAnglerCrab",
+								"SpawnName": "LornFluke",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -7635,19 +7847,6 @@
 				},
 				"MaxTilePopulation": 2,
 				"TerrainData": [
-					{
-						"PrefabName": "Generic/Abyss1",
-						"SubsurfacePrefabName": "",
-						"Name": "abyss",
-						"Description": "",
-						"Position": {
-							"X": 1131,
-							"Y": 1186
-						},
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"ParentTile": null
-					},
 					{
 						"PrefabName": "Generic/buoyblue",
 						"SubsurfacePrefabName": "Generic/buoyunderwater",
@@ -7790,19 +7989,6 @@
 						"DiscoveryValue": 0,
 						"GleamValue": 0,
 						"ParentTile": null
-					},
-					{
-						"PrefabName": "",
-						"SubsurfacePrefabName": "Generic/abyss_ZM",
-						"Name": "abss_ZM",
-						"Description": "",
-						"Position": {
-							"X": 1131,
-							"Y": 1168
-						},
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"ParentTile": null
 					}
 				],
 				"PortData": [
@@ -7823,7 +8009,7 @@
 							"MaxCardsAllowed": 0,
 							"ActionsInPeriodBeforeExhaustion": 0,
 							"Description": "",
-							"Id": 101770
+							"Id": 102953
 						},
 						"Area": {
 							"World": null,
@@ -7947,8 +8133,29 @@
 						"Important": false
 					}
 				],
-				"PhenomenaData": [],
-				"SeaColour": "Black",
+				"PhenomenaData": [
+					{
+						"Name": "The Finknottle Vortex",
+						"ParentTile": null,
+						"PrefabName": "Physics/Vortex",
+						"VisitedPrefabName": "",
+						"Subsurface": false,
+						"HumanName": "",
+						"Description": "",
+						"Position": {
+							"X": 1131,
+							"Y": 1186
+						},
+						"Radius": 0,
+						"DiscoveryValue": 0,
+						"GleamValue": 0,
+						"QualityEffects": null,
+						"StoryletId": 0,
+						"AreaId": 0,
+						"SpawnChance": 100
+					}
+				],
+				"SeaColour": "Green",
 				"MusicTrackName": "AlienMinimee",
 				"Weather": [
 					"Fog"
@@ -7974,8 +8181,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "The Iron Republic",
-				"Description": "Sizzling vapours rise from the sea. Time slips sideways. A coil of rope has stung a stoker, and his fellows beat it to death. We are under the hand of the Iron Republic.",
+				"HumanName": "The Mechanical Reach",
+				"Description": "Rhythmic clanging grows ever nearer. The zee is slick with oily secretions. The Machine is awake.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -8083,7 +8290,7 @@
 						"Name": "IronRepublicDreadnaught",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "You have encountered the Iron Republic Dreadnaughts.",
+						"Description": "",
 						"Position": {
 							"X": 1100,
 							"Y": 325
@@ -8093,7 +8300,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "RepublicanDreadnought",
+								"SpawnName": "EasternAnglerCrab",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -8104,7 +8311,7 @@
 						"Name": "IronRepublicUnfinishedRevolutionaries",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Discovered the Unfinished Revolutionaries of the Iron Republic.",
+						"Description": "",
 						"Position": {
 							"X": 1275,
 							"Y": 945
@@ -8114,7 +8321,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "UnfinishedRevolutionaries",
+								"SpawnName": "PirateSteamPinnace",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -8389,6 +8596,32 @@
 						"DiscoveryValue": 0,
 						"GleamValue": 0,
 						"ParentTile": null
+					},
+					{
+						"PrefabName": "Generic/Fog500_500",
+						"SubsurfacePrefabName": "",
+						"Name": "fog",
+						"Description": "",
+						"Position": {
+							"X": 750,
+							"Y": 750
+						},
+						"DiscoveryValue": 0,
+						"GleamValue": 0,
+						"ParentTile": null
+					},
+					{
+						"PrefabName": "Generic/buoyblue",
+						"SubsurfacePrefabName": "Generic/buoyunderwater",
+						"Name": "buoy",
+						"Description": "",
+						"Position": {
+							"X": 1119,
+							"Y": 1207
+						},
+						"DiscoveryValue": 0,
+						"GleamValue": 0,
+						"ParentTile": null
 					}
 				],
 				"PortData": [
@@ -8478,19 +8711,6 @@
 					},
 					{
 						"ParentTile": null,
-						"Label": "Adam's Doom",
-						"Description": "",
-						"Position": {
-							"X": 1114,
-							"Y": 1206
-						},
-						"Subsurface": false,
-						"DiscoveryValue": 50,
-						"Radius": 50,
-						"Important": false
-					},
-					{
-						"ParentTile": null,
 						"Label": "Van Horn Harbour",
 						"Description": "",
 						"Position": {
@@ -8504,46 +8724,7 @@
 					}
 				],
 				"PhenomenaData": [
-					{
-						"Name": "Adam's Doom",
-						"ParentTile": null,
-						"PrefabName": "Physics/Vortex",
-						"VisitedPrefabName": "",
-						"Subsurface": false,
-						"HumanName": "",
-						"Description": "",
-						"Position": {
-							"X": 1119,
-							"Y": 1207
-						},
-						"Radius": 0,
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"QualityEffects": null,
-						"StoryletId": 0,
-						"AreaId": 0,
-						"SpawnChance": 100
-					},
-					{
-						"Name": "Adam's Doom Underwater",
-						"ParentTile": null,
-						"PrefabName": "Physics/VortexUnderwater",
-						"VisitedPrefabName": "",
-						"Subsurface": true,
-						"HumanName": "",
-						"Description": "",
-						"Position": {
-							"X": 1119,
-							"Y": 1207
-						},
-						"Radius": 0,
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"QualityEffects": null,
-						"StoryletId": 0,
-						"AreaId": 0,
-						"SpawnChance": 100
-					}
+					
 				],
 				"SeaColour": "Murky",
 				"MusicTrackName": "SubmergoViol",
@@ -8571,8 +8752,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Myceligaea",
-				"Description": "The water is sluggish with hyphal threads. Violet vegetable bulks break the surface. Myceligaea!",
+				"HumanName": "Flamenco Rise",
+				"Description": "Waves dance to distant violins. A zailor hintingly complains of thirst.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -8688,7 +8869,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "EasternAnglerCrab",
+								"SpawnName": "Lifeberg",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -8709,7 +8890,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "EasternAnglerCrab",
+								"SpawnName": "Merchantman",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -8720,7 +8901,7 @@
 						"Name": "MyceligaeaKhanate",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Aaah! Mistresses!",
 						"Position": {
 							"X": 1178,
 							"Y": 309
@@ -8730,10 +8911,10 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "KhanateTrimaran",
+								"SpawnName": "Mistresses",
 								"Entity": null,
 								"SpawnChance": 70,
-								"MinTerror": 0
+								"MinTerror": 50
 							}
 						]
 					},
@@ -8741,7 +8922,7 @@
 						"Name": "MyceligaeaKhanate",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Found an Umwelt Caravel at Flamenco Rise.",
 						"Position": {
 							"X": 309,
 							"Y": 1187
@@ -8751,7 +8932,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "KhanateTrimaran",
+								"SpawnName": "FausticCorsair",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -8791,7 +8972,7 @@
 					"Description": "",
 					"Id": 100261
 				},
-				"MaxTilePopulation": 3,
+				"MaxTilePopulation": 4,
 				"TerrainData": [
 					{
 						"PrefabName": "Myceligaea/Uttershroom",
@@ -9028,19 +9209,6 @@
 						"ParentTile": null
 					},
 					{
-						"PrefabName": "Generic/generic_wreck",
-						"SubsurfacePrefabName": "",
-						"Name": "wreck",
-						"Description": "",
-						"Position": {
-							"X": 296,
-							"Y": 1203
-						},
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"ParentTile": null
-					},
-					{
 						"PrefabName": "",
 						"SubsurfacePrefabName": "Generic/wreckrock_ZM",
 						"Name": "wreckrock",
@@ -9112,19 +9280,6 @@
 						"DiscoveryValue": 50,
 						"Radius": 100,
 						"Important": true
-					},
-					{
-						"ParentTile": null,
-						"Label": "Wreck of the Mikko",
-						"Description": "",
-						"Position": {
-							"X": 295,
-							"Y": 1154
-						},
-						"Subsurface": false,
-						"DiscoveryValue": 50,
-						"Radius": 100,
-						"Important": false
 					}
 				],
 				"PhenomenaData": [],
@@ -9154,8 +9309,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Palmerston's Reach",
-				"Description": "Palmerston's Reach. There is brimstone on the wind.",
+				"HumanName": "Aditta",
+				"Description": "Hot and cold winds buffet the ship. Ash obscures the prow-light.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -9271,7 +9426,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "FausticCorsair",
+								"SpawnName": "Merchantman",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -9292,7 +9447,28 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "FausticCorsair",
+								"SpawnName": "LornFluke",
+								"Entity": null,
+								"SpawnChance": 70,
+								"MinTerror": 0
+							}
+						]
+					},
+					{
+						"Name": "PalmerstonFaustic",
+						"Subsurface": false,
+						"QualityRequired": null,
+						"Description": "",
+						"Position": {
+							"X": 1150,
+							"Y": 390
+						},
+						"Radius": 300,
+						"DiscoveryValue": 20,
+						"ParentTile": null,
+						"Spawns": [
+							{
+								"SpawnName": "Lifeberg",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -9716,49 +9892,6 @@
 						},
 						"DiscoveryValue": 1,
 						"IsStartingPort": false
-					},
-					{
-						"Name": "Anthe Port",
-						"Rotation": 135,
-						"Setting": {
-							"World": null,
-							"OwnerName": null,
-							"Name": "",
-							"Personae": [],
-							"StartingArea": null,
-							"StartingDomicile": null,
-							"ItemsUsableHere": false,
-							"Exchange": null,
-							"TurnLengthSeconds": 0,
-							"MaxActionsAllowed": 0,
-							"MaxCardsAllowed": 0,
-							"ActionsInPeriodBeforeExhaustion": 0,
-							"Description": "",
-							"Id": 106128
-						},
-						"Area": {
-							"World": null,
-							"Name": null,
-							"Description": "",
-							"ImageName": "",
-							"MarketAccessPermitted": false,
-							"MoveMessage": "",
-							"HideName": false,
-							"RandomPostcard": false,
-							"MapX": 0,
-							"MapY": 0,
-							"UnlocksWithQuality": null,
-							"ShowOps": false,
-							"PremiumSubRequired": false,
-							"Id": 107692
-						},
-						"Subsurface": true,
-						"Position": {
-							"X": 1060,
-							"Y": 221
-						},
-						"DiscoveryValue": 1,
-						"IsStartingPort": false
 					}
 				],
 				"LabelData": [
@@ -9799,7 +9932,7 @@
 						"Subsurface": true,
 						"DiscoveryValue": 50,
 						"Radius": 100,
-						"Important": true
+						"Important": false
 					},
 					{
 						"ParentTile": null,
@@ -9877,8 +10010,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Pillared Sea",
-				"Description": "Strange puffs of warmth from the air behind the ice. This is the Pillared Sea, where Irem will lie. Lies. Has always lain.",
+				"HumanName": "The Emerald Vastness",
+				"Description": "Ice, and nothing else.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 5,
@@ -9909,7 +10042,29 @@
 						"DisallowedFlavours": []
 					}
 				],
-				"SpawnPoints": [],
+				"SpawnPoints": [
+					{
+						"Name": "Prototype",
+						"Subsurface": false,
+						"QualityRequired": null,
+						"Description": "Found the Shogun's secret weapon!",
+						"Position": {
+							"X": 900,
+							"Y": 210
+						},
+						"Radius": 200,
+						"DiscoveryValue": 20,
+						"ParentTile": null,
+						"Spawns": [
+							{
+								"SpawnName": "Prototype",
+								"Entity": null,
+								"SpawnChance": 90,
+								"MinTerror": 0
+							}
+						]
+					}
+				],
 				"Area": {
 					"World": null,
 					"Name": null,
@@ -10289,7 +10444,7 @@
 					}
 				],
 				"SeaColour": "Grey",
-				"MusicTrackName": "Undulata2",
+				"MusicTrackName": "HarmoniumOverMatter",
 				"Weather": [],
 				"ChanceOfWeather": 0,
 				"SubsurfaceWeather": [
@@ -10312,8 +10467,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "The Principles of Coral",
-				"Description": "The Principles of Coral. The corpse-rainbow glow from beneath the waves echoes the false-stars above.",
+				"HumanName": "New Glasgow",
+				"Description": "Glassy reefs reflect your lights back at you. Some reflect other sights entirely.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -10391,7 +10546,7 @@
 						"Name": "PrinciplesShark",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Found the Bound-Sharks of Errant's Gyrus!",
+						"Description": "An obsidian wall crashes though the waters. Do we dare to face Mt Nomad?",
 						"Position": {
 							"X": 738,
 							"Y": 310
@@ -10401,7 +10556,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "BoundShark",
+								"SpawnName": "MtNomad",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -10422,7 +10577,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "AlbinoMoray",
+								"SpawnName": "BoundShark",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -10443,7 +10598,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "AlbinoMoray",
+								"SpawnName": "LornFluke",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -10725,7 +10880,7 @@
 							"MaxCardsAllowed": 0,
 							"ActionsInPeriodBeforeExhaustion": 0,
 							"Description": "",
-							"Id": 101770
+							"Id": 604459
 						},
 						"Area": {
 							"World": null,
@@ -10898,7 +11053,7 @@
 					}
 				],
 				"PhenomenaData": [],
-				"SeaColour": "Default",
+				"SeaColour": "Frosty",
 				"MusicTrackName": "Benthic",
 				"Weather": [
 					"Fog"
@@ -10924,8 +11079,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "The Promised Sea",
-				"Description": "The Promised Sea. All through this place, the song of the Drownies lies shivering-sweet along the wind.",
+				"HumanName": "Thinker's Reefs",
+				"Description": "The waves churn unnaturally here. Something in the Thinker's Reefs moves them to its will.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -11004,7 +11159,7 @@
 						"Name": "PromisedSeaFluke",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Discovered the Lorn Flukes of the Promised Sea!",
+						"Description": "",
 						"Position": {
 							"X": 547,
 							"Y": 495
@@ -11014,7 +11169,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "LornFluke",
+								"SpawnName": "Behemoustache",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -11035,7 +11190,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "AlbinoMoray",
+								"SpawnName": "PirateFrigate",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -11056,7 +11211,28 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Corvette",
+								"SpawnName": "Merchantman",
+								"Entity": null,
+								"SpawnChance": 70,
+								"MinTerror": 0
+							}
+						]
+					},
+					{
+						"Name": "PromisedPoet",
+						"Subsurface": false,
+						"QualityRequired": null,
+						"Description": "",
+						"Position": {
+							"X": 1179,
+							"Y": 328
+						},
+						"Radius": 300,
+						"DiscoveryValue": 20,
+						"ParentTile": null,
+						"Spawns": [
+							{
+								"SpawnName": "Jillyfleur",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -11096,7 +11272,7 @@
 					"Description": "",
 					"Id": 100261
 				},
-				"MaxTilePopulation": 2,
+				"MaxTilePopulation": 3,
 				"TerrainData": [
 					{
 						"PrefabName": "Generic/Abyss1",
@@ -11354,55 +11530,12 @@
 							"UnlocksWithQuality": null,
 							"ShowOps": false,
 							"PremiumSubRequired": false,
-							"Id": 101996
+							"Id": 102007
 						},
 						"Subsurface": false,
 						"Position": {
 							"X": 540,
 							"Y": 868
-						},
-						"DiscoveryValue": 1,
-						"IsStartingPort": false
-					},
-					{
-						"Name": "Aigul Port",
-						"Rotation": 90,
-						"Setting": {
-							"World": null,
-							"OwnerName": null,
-							"Name": "",
-							"Personae": [],
-							"StartingArea": null,
-							"StartingDomicile": null,
-							"ItemsUsableHere": false,
-							"Exchange": null,
-							"TurnLengthSeconds": 0,
-							"MaxActionsAllowed": 0,
-							"MaxCardsAllowed": 0,
-							"ActionsInPeriodBeforeExhaustion": 0,
-							"Description": "",
-							"Id": 106127
-						},
-						"Area": {
-							"World": null,
-							"Name": null,
-							"Description": "",
-							"ImageName": "",
-							"MarketAccessPermitted": false,
-							"MoveMessage": "",
-							"HideName": false,
-							"RandomPostcard": false,
-							"MapX": 0,
-							"MapY": 0,
-							"UnlocksWithQuality": null,
-							"ShowOps": false,
-							"PremiumSubRequired": false,
-							"Id": 107691
-						},
-						"Subsurface": true,
-						"Position": {
-							"X": 1010,
-							"Y": 202
 						},
 						"DiscoveryValue": 1,
 						"IsStartingPort": false
@@ -11433,7 +11566,7 @@
 						"Subsurface": true,
 						"DiscoveryValue": 50,
 						"Radius": 120,
-						"Important": true
+						"Important": false
 					},
 					{
 						"ParentTile": null,
@@ -11502,8 +11635,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Rattsey",
-				"Description": "Scuttering and chittering in the corners of the hold. Humped shapes on the deck rail. Rattsey air emboldens vermin.",
+				"HumanName": "Peanut's Gallery",
+				"Description": "Echoes on the breeze - Henson's Landing is near.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -11621,7 +11754,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "RatBarge",
+								"SpawnName": "Jillyfleur",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -11642,7 +11775,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "RatBarge",
+								"SpawnName": "BoundShark",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -11663,7 +11796,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Corvette",
+								"SpawnName": "CrackPirateFrigate",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -11893,7 +12026,7 @@
 							"MaxCardsAllowed": 0,
 							"ActionsInPeriodBeforeExhaustion": 0,
 							"Description": "",
-							"Id": 101770
+							"Id": 604459
 						},
 						"Area": {
 							"World": null,
@@ -11917,49 +12050,6 @@
 							"Y": 630
 						},
 						"DiscoveryValue": 0,
-						"IsStartingPort": false
-					},
-					{
-						"Name": "Nook Port",
-						"Rotation": 135,
-						"Setting": {
-							"World": null,
-							"OwnerName": null,
-							"Name": "",
-							"Personae": [],
-							"StartingArea": null,
-							"StartingDomicile": null,
-							"ItemsUsableHere": false,
-							"Exchange": null,
-							"TurnLengthSeconds": 0,
-							"MaxActionsAllowed": 0,
-							"MaxCardsAllowed": 0,
-							"ActionsInPeriodBeforeExhaustion": 0,
-							"Description": "",
-							"Id": 106129
-						},
-						"Area": {
-							"World": null,
-							"Name": null,
-							"Description": "",
-							"ImageName": "",
-							"MarketAccessPermitted": false,
-							"MoveMessage": "",
-							"HideName": false,
-							"RandomPostcard": false,
-							"MapX": 0,
-							"MapY": 0,
-							"UnlocksWithQuality": null,
-							"ShowOps": false,
-							"PremiumSubRequired": false,
-							"Id": 107695
-						},
-						"Subsurface": true,
-						"Position": {
-							"X": 173,
-							"Y": 180
-						},
-						"DiscoveryValue": 1,
 						"IsStartingPort": false
 					}
 				],
@@ -12040,7 +12130,7 @@
 						"Subsurface": true,
 						"DiscoveryValue": 50,
 						"Radius": 80,
-						"Important": true
+						"Important": false
 					}
 				],
 				"PhenomenaData": [
@@ -12111,8 +12201,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": null,
 				"Position": null,
-				"HumanName": "Salt Steppes",
-				"Description": "The Salt Steppes. This is the domain of the New Khanate, whose ancestors came here long before London fell...",
+				"HumanName": "Muchitsujo",
+				"Description": "Muchitsujo, seat of the Shogunate. Spirits howl and warships patrol.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -12204,7 +12294,7 @@
 						"Name": "SaltSteppesTrimaran",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Discovered the Trimarans of the Khanate.",
+						"Description": "",
 						"Position": {
 							"X": 1194,
 							"Y": 1186
@@ -12225,7 +12315,7 @@
 						"Name": "SaltSteppesTrimaran",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Discovered the Trimarans of the Khanate.",
+						"Description": "",
 						"Position": {
 							"X": 1197,
 							"Y": 590
@@ -12235,7 +12325,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "KhanateTrimaran",
+								"SpawnName": "Lifeberg",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -12246,7 +12336,7 @@
 						"Name": "SaltSteppesTrimaran",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Discovered the Trimarans of the Khanate.",
+						"Description": "",
 						"Position": {
 							"X": 327,
 							"Y": 1172
@@ -13408,8 +13498,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "The Sea of Autumns",
-				"Description": "The mists of the Sea of Autumn get into the eyes, the heart. It is not unusual to find yourself in unsuspected tears.",
+				"HumanName": "Umwelt Territory",
+				"Description": "These islands have become overgrown since falling under Umwelt control. Even the weeds brushing your ship are suspect.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -13502,7 +13592,7 @@
 						"Name": "SeaOfAutumnsFrigate",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Found a Debt Collector in Umwelt Territory.",
 						"Position": {
 							"X": 473,
 							"Y": 349
@@ -13512,7 +13602,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "PirateFrigate",
+								"SpawnName": "Lifeberg",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -13523,7 +13613,7 @@
 						"Name": "SeaOfAutumnsFrigate",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Found an Umwelt Corsair in Umwelt Territory.",
 						"Position": {
 							"X": 334,
 							"Y": 1184
@@ -13533,7 +13623,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "PirateFrigate",
+								"SpawnName": "FausticCorsair",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -13544,7 +13634,7 @@
 						"Name": "SeaOfAutumnsCrab",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Found a Pirate Frigate in Umwelt Territory.",
 						"Position": {
 							"X": 1166,
 							"Y": 1173
@@ -13554,7 +13644,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "EasternAnglerCrab",
+								"SpawnName": "PirateFrigate",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -13918,7 +14008,7 @@
 				"LabelData": [
 					{
 						"ParentTile": null,
-						"Label": "Lipiäinen Point",
+						"Label": "A Lovely Spot For A Picnic",
 						"Description": "",
 						"Position": {
 							"X": 1149,
@@ -13931,7 +14021,7 @@
 					},
 					{
 						"ParentTile": null,
-						"Label": "Kori Bay",
+						"Label": "???",
 						"Description": "",
 						"Position": {
 							"X": 1167,
@@ -14063,8 +14153,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "The Sea of Lilies",
-				"Description": "We watch for fungal-pads in the Sea of Lilies. There is a prison here, guarded by knot-oracles...",
+				"HumanName": "Lily's Sea",
+				"Description": "Long ago, this maze of plant life must have seemed a safe place to build a Shogunate stronghold.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -14170,7 +14260,7 @@
 						"Name": "LiliesKnotOracle",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Found an Umwelt Caravel at Lily's Sea.",
 						"Position": {
 							"X": 405,
 							"Y": 1158
@@ -14180,7 +14270,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "AlbinoMoray",
+								"SpawnName": "FausticCorsair",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -14201,9 +14291,15 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "ParticularlyTormentedBoundShark",
+								"SpawnName": "KhanateTrimaran",
 								"Entity": null,
-								"SpawnChance": 70,
+								"SpawnChance": 50,
+								"MinTerror": 0
+							},
+							{
+								"SpawnName": "LightTanker",
+								"Entity": null,
+								"SpawnChance": 50,
 								"MinTerror": 0
 							}
 						]
@@ -14212,7 +14308,7 @@
 						"Name": "LiliesKnotOracle",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Aaah! Mistresses!",
 						"Position": {
 							"X": 1183,
 							"Y": 943
@@ -14222,10 +14318,10 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "ParticularlyTormentedBoundShark",
+								"SpawnName": "Mistresses",
 								"Entity": null,
 								"SpawnChance": 70,
-								"MinTerror": 0
+								"MinTerror": 50
 							}
 						]
 					}
@@ -14262,7 +14358,7 @@
 					"Description": "",
 					"Id": 100261
 				},
-				"MaxTilePopulation": 3,
+				"MaxTilePopulation": 2,
 				"TerrainData": [
 					{
 						"PrefabName": "Generic/Abyss1",
@@ -14452,7 +14548,7 @@
 							"MaxCardsAllowed": 0,
 							"ActionsInPeriodBeforeExhaustion": 0,
 							"Description": "",
-							"Id": 101770
+							"Id": 600201
 						},
 						"Area": {
 							"World": null,
@@ -14477,55 +14573,12 @@
 						},
 						"DiscoveryValue": 1,
 						"IsStartingPort": false
-					},
-					{
-						"Name": "Scrimshander Port",
-						"Rotation": 135,
-						"Setting": {
-							"World": null,
-							"OwnerName": null,
-							"Name": "",
-							"Personae": [],
-							"StartingArea": null,
-							"StartingDomicile": null,
-							"ItemsUsableHere": false,
-							"Exchange": null,
-							"TurnLengthSeconds": 0,
-							"MaxActionsAllowed": 0,
-							"MaxCardsAllowed": 0,
-							"ActionsInPeriodBeforeExhaustion": 0,
-							"Description": "",
-							"Id": 106131
-						},
-						"Area": {
-							"World": null,
-							"Name": null,
-							"Description": "",
-							"ImageName": "",
-							"MarketAccessPermitted": false,
-							"MoveMessage": "",
-							"HideName": false,
-							"RandomPostcard": false,
-							"MapX": 0,
-							"MapY": 0,
-							"UnlocksWithQuality": null,
-							"ShowOps": false,
-							"PremiumSubRequired": false,
-							"Id": 107693
-						},
-						"Subsurface": true,
-						"Position": {
-							"X": 1009,
-							"Y": 1015
-						},
-						"DiscoveryValue": 1,
-						"IsStartingPort": false
 					}
 				],
 				"LabelData": [
 					{
 						"ParentTile": null,
-						"Label": "Sea of Lilies",
+						"Label": "Lily's Sea",
 						"Description": "",
 						"Position": {
 							"X": 433,
@@ -14547,11 +14600,11 @@
 						"Subsurface": true,
 						"DiscoveryValue": 50,
 						"Radius": 150,
-						"Important": true
+						"Important": false
 					},
 					{
 						"ParentTile": null,
-						"Label": "Nuppmiddt Harbour",
+						"Label": "Glass Harbour",
 						"Description": "",
 						"Position": {
 							"X": 859,
@@ -14616,8 +14669,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Sea of Statues",
-				"Description": "We have entered the Sea of Statues. Giants gape at us. Kingeater's Castle rises ahead, where fools give up their future.",
+				"HumanName": "Athanor's Grasp",
+				"Description": "Faces from the past reach up, up, as though clutching for freedom or another breath.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -15023,7 +15076,7 @@
 							"MaxCardsAllowed": 0,
 							"ActionsInPeriodBeforeExhaustion": 0,
 							"Description": "",
-							"Id": 101771
+							"Id": 603614
 						},
 						"Area": {
 							"World": null,
@@ -15092,19 +15145,6 @@
 					},
 					{
 						"ParentTile": null,
-						"Label": "Ptacek's Fury",
-						"Description": "",
-						"Position": {
-							"X": 1252,
-							"Y": 528
-						},
-						"Subsurface": false,
-						"DiscoveryValue": 150,
-						"Radius": 50,
-						"Important": false
-					},
-					{
-						"ParentTile": null,
 						"Label": "Vinno's Rift",
 						"Description": "",
 						"Position": {
@@ -15145,13 +15185,13 @@
 				],
 				"PhenomenaData": [
 					{
-						"Name": "Ptacek's Fury",
+						"Name": "TheEye",
 						"ParentTile": null,
-						"PrefabName": "Physics/Vortex",
-						"VisitedPrefabName": "",
+						"PrefabName": "Subsurface/TheEye",
+						"VisitedPrefabName": null,
 						"Subsurface": false,
-						"HumanName": "",
-						"Description": "",
+						"HumanName": null,
+						"Description": null,
 						"Position": {
 							"X": 1251,
 							"Y": 519
@@ -15165,13 +15205,13 @@
 						"SpawnChance": 100
 					},
 					{
-						"Name": "Ptacek's Fury Underwater",
+						"Name": "TheEyeUnderwater",
 						"ParentTile": null,
-						"PrefabName": "Physics/VortexUnderwater",
-						"VisitedPrefabName": "",
+						"PrefabName": "Misc/TheEyeUnderwater",
+						"VisitedPrefabName": null,
 						"Subsurface": true,
-						"HumanName": "",
-						"Description": "",
+						"HumanName": null,
+						"Description": null,
 						"Position": {
 							"X": 1251,
 							"Y": 519
@@ -15225,7 +15265,7 @@
 						"SpawnChance": 100
 					}
 				],
-				"SeaColour": "Default",
+				"SeaColour": "Boreal",
 				"MusicTrackName": "Infernal",
 				"Weather": [
 					"Fog",
@@ -15252,8 +15292,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "The Sea of Voices",
-				"Description": "'We hear those voices that will not be drowned.' This is the Sea of Voices: we are close to Polythreme, where nothing is truly dead.",
+				"HumanName": "No Man's Waters",
+				"Description": "More battles took place here than can be easily named. There is a disquieting lack of stillness in the waters.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -15331,7 +15371,7 @@
 						"Name": "SeaOfVoicesUnfinishedPirates",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Found a Choleric Angler-Crab in No Man's Waters.",
 						"Position": {
 							"X": 467,
 							"Y": 490
@@ -15341,7 +15381,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "UnfinishedPirates",
+								"SpawnName": "EasternAnglerCrab",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -15352,7 +15392,7 @@
 						"Name": "SeaOfVoicesUnfinishedPirates",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Found a Burnsides in No Man's Waters.",
 						"Position": {
 							"X": 1170,
 							"Y": 1082
@@ -15362,7 +15402,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "UnfinishedPirates",
+								"SpawnName": "Behemoustache",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -15373,7 +15413,7 @@
 						"Name": "SeaOfVoicesPoet",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Found an Ozaean Langskip in No Man's Waters.",
 						"Position": {
 							"X": 308,
 							"Y": 1192
@@ -15383,7 +15423,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Corvette",
+								"SpawnName": "UnfinishedPirates",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -15478,110 +15518,6 @@
 						"ParentTile": null
 					},
 					{
-						"PrefabName": "Generic/screamer1",
-						"SubsurfacePrefabName": "Generic/screamer1_ZM",
-						"Name": "screamer1",
-						"Description": "",
-						"Position": {
-							"X": 1075,
-							"Y": 1026
-						},
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"ParentTile": null
-					},
-					{
-						"PrefabName": "Generic/screamer1",
-						"SubsurfacePrefabName": "Generic/screamer1_ZM",
-						"Name": "screamer1",
-						"Description": "",
-						"Position": {
-							"X": 352,
-							"Y": 750
-						},
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"ParentTile": null
-					},
-					{
-						"PrefabName": "Generic/screamer1",
-						"SubsurfacePrefabName": "Generic/screamer1_ZM",
-						"Name": "screamer1",
-						"Description": "",
-						"Position": {
-							"X": 582,
-							"Y": 257
-						},
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"ParentTile": null
-					},
-					{
-						"PrefabName": "Generic/screamer2",
-						"SubsurfacePrefabName": "Generic/screamer2_ZM",
-						"Name": "screamer2",
-						"Description": "",
-						"Position": {
-							"X": 1258,
-							"Y": 942
-						},
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"ParentTile": null
-					},
-					{
-						"PrefabName": "Generic/screamer2",
-						"SubsurfacePrefabName": "Generic/screamer2_ZM",
-						"Name": "screamer2",
-						"Description": "",
-						"Position": {
-							"X": 796,
-							"Y": 620
-						},
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"ParentTile": null
-					},
-					{
-						"PrefabName": "Generic/screamer3",
-						"SubsurfacePrefabName": "Generic/screamer3_ZM",
-						"Name": "screamer2",
-						"Description": "",
-						"Position": {
-							"X": 781,
-							"Y": 823
-						},
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"ParentTile": null
-					},
-					{
-						"PrefabName": "Generic/screamer3",
-						"SubsurfacePrefabName": "Generic/screamer3_ZM",
-						"Name": "screamer2",
-						"Description": "",
-						"Position": {
-							"X": 1246,
-							"Y": 1169
-						},
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"ParentTile": null
-					},
-					{
-						"PrefabName": "Generic/screamer3",
-						"SubsurfacePrefabName": "Generic/screamer3_ZM",
-						"Name": "screamer2",
-						"Description": "",
-						"Position": {
-							"X": 241,
-							"Y": 411
-						},
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"ParentTile": null
-					},
-					{
 						"PrefabName": "Generic/SeaweedCluster2",
 						"SubsurfacePrefabName": "",
 						"Name": "seaweed",
@@ -15667,6 +15603,19 @@
 						"Position": {
 							"X": 502,
 							"Y": 294
+						},
+						"DiscoveryValue": 0,
+						"GleamValue": 0,
+						"ParentTile": null
+					},
+					{
+						"PrefabName": "Generic/generic_wreck",
+						"SubsurfacePrefabName": "",
+						"Name": "wreck",
+						"Description": "",
+						"Position": {
+							"X": 1113,
+							"Y": 890
 						},
 						"DiscoveryValue": 0,
 						"GleamValue": 0,
@@ -15798,49 +15747,6 @@
 						},
 						"DiscoveryValue": 1,
 						"IsStartingPort": false
-					},
-					{
-						"Name": "Dahut Port",
-						"Rotation": 270,
-						"Setting": {
-							"World": null,
-							"OwnerName": null,
-							"Name": "",
-							"Personae": [],
-							"StartingArea": null,
-							"StartingDomicile": null,
-							"ItemsUsableHere": false,
-							"Exchange": null,
-							"TurnLengthSeconds": 0,
-							"MaxActionsAllowed": 0,
-							"MaxCardsAllowed": 0,
-							"ActionsInPeriodBeforeExhaustion": 0,
-							"Description": "",
-							"Id": 106132
-						},
-						"Area": {
-							"World": null,
-							"Name": null,
-							"Description": "",
-							"ImageName": "",
-							"MarketAccessPermitted": false,
-							"MoveMessage": "",
-							"HideName": false,
-							"RandomPostcard": false,
-							"MapX": 0,
-							"MapY": 0,
-							"UnlocksWithQuality": null,
-							"ShowOps": false,
-							"PremiumSubRequired": false,
-							"Id": 107696
-						},
-						"Subsurface": true,
-						"Position": {
-							"X": 674,
-							"Y": 660
-						},
-						"DiscoveryValue": 1,
-						"IsStartingPort": false
 					}
 				],
 				"LabelData": [
@@ -15868,7 +15774,7 @@
 						"Subsurface": true,
 						"DiscoveryValue": 50,
 						"Radius": 150,
-						"Important": true
+						"Important": false
 					},
 					{
 						"ParentTile": null,
@@ -15885,7 +15791,7 @@
 					},
 					{
 						"ParentTile": null,
-						"Label": "Tides of Appetite",
+						"Label": "Wreck of the Blowhard",
 						"Description": "",
 						"Position": {
 							"X": 1113,
@@ -15894,7 +15800,7 @@
 						"Subsurface": false,
 						"DiscoveryValue": 50,
 						"Radius": 150,
-						"Important": true
+						"Important": false
 					},
 					{
 						"ParentTile": null,
@@ -15911,53 +15817,27 @@
 					},
 					{
 						"ParentTile": null,
-						"Label": "Obey",
-						"Description": "",
-						"Position": {
-							"X": 1018,
-							"Y": 298
-						},
-						"Subsurface": false,
-						"DiscoveryValue": 33,
-						"Radius": 150,
-						"Important": false
-					},
-					{
-						"ParentTile": null,
-						"Label": "Endure",
-						"Description": "",
-						"Position": {
-							"X": 1252,
-							"Y": 413
-						},
-						"Subsurface": false,
-						"DiscoveryValue": 33,
-						"Radius": 150,
-						"Important": false
-					},
-					{
-						"ParentTile": null,
-						"Label": "Forlorn",
+						"Label": "The Shattered Palace",
 						"Description": "",
 						"Position": {
 							"X": 1144,
 							"Y": 461
 						},
 						"Subsurface": false,
-						"DiscoveryValue": 33,
+						"DiscoveryValue": 50,
 						"Radius": 150,
 						"Important": false
 					},
 					{
 						"ParentTile": null,
-						"Label": "Commingle",
+						"Label": "Royal Harbour",
 						"Description": "",
 						"Position": {
 							"X": 1099,
 							"Y": 183
 						},
 						"Subsurface": false,
-						"DiscoveryValue": 33,
+						"DiscoveryValue": 50,
 						"Radius": 150,
 						"Important": false
 					},
@@ -15973,9 +15853,43 @@
 						"DiscoveryValue": 50,
 						"Radius": 150,
 						"Important": false
+					},
+					{
+						"ParentTile": null,
+						"Label": "Mecharic's Drainpipe",
+						"Description": "",
+						"Position": {
+							"X": 730,
+							"Y": 730
+						},
+						"Subsurface": false,
+						"DiscoveryValue": 50,
+						"Radius": 100,
+						"Important": false
 					}
 				],
-				"PhenomenaData": [],
+				"PhenomenaData": [
+					{
+						"Name": "vortex",
+						"ParentTile": null,
+						"PrefabName": "Physics/Vortex",
+						"VisitedPrefabName": "",
+						"Subsurface": false,
+						"HumanName": "",
+						"Description": "",
+						"Position": {
+							"X": 730,
+							"Y": 730
+						},
+						"Radius": 0,
+						"DiscoveryValue": 0,
+						"GleamValue": 0,
+						"QualityEffects": null,
+						"StoryletId": 0,
+						"AreaId": 0,
+						"SpawnChance": 100
+					}
+				],
 				"SeaColour": "Green",
 				"MusicTrackName": "ElegiacnoPerc",
 				"Weather": [
@@ -16106,8 +16020,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Shepherd's Wash",
-				"Description": "Shepherd's Wash, the salty hinterland of London, home to hermits, nuns and shadowy business.",
+				"HumanName": "Walter's Overture",
+				"Description": "Walter's Overture. A busy region for old and young alike.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -16211,7 +16125,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "AuroralMegalops",
+								"SpawnName": "Jillyfleur",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -16232,7 +16146,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Jillyfleur",
+								"SpawnName": "Lifeberg",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -16253,7 +16167,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "PirateSteamPinnace",
+								"SpawnName": "GloriousDreadnought",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -16413,19 +16327,6 @@
 						"ParentTile": null
 					},
 					{
-						"PrefabName": "Generic/Abyss1",
-						"SubsurfacePrefabName": "Generic/abyss_ZM",
-						"Name": "abyss",
-						"Description": "",
-						"Position": {
-							"X": 962,
-							"Y": 743
-						},
-						"DiscoveryValue": 0,
-						"GleamValue": 1,
-						"ParentTile": null
-					},
-					{
 						"PrefabName": "Generic/subrock1",
 						"SubsurfacePrefabName": "",
 						"Name": "subrock",
@@ -16522,7 +16423,7 @@
 							"MaxCardsAllowed": 0,
 							"ActionsInPeriodBeforeExhaustion": 0,
 							"Description": "",
-							"Id": 101770
+							"Id": 604459
 						},
 						"Area": {
 							"World": null,
@@ -16608,7 +16509,7 @@
 							"MaxCardsAllowed": 0,
 							"ActionsInPeriodBeforeExhaustion": 0,
 							"Description": "",
-							"Id": 101771
+							"Id": 604459
 						},
 						"Area": {
 							"World": null,
@@ -16669,19 +16570,6 @@
 						"Position": {
 							"X": 593,
 							"Y": 756
-						},
-						"Subsurface": false,
-						"DiscoveryValue": 50,
-						"Radius": 120,
-						"Important": false
-					},
-					{
-						"ParentTile": null,
-						"Label": "Wolf's Rift",
-						"Description": "",
-						"Position": {
-							"X": 982,
-							"Y": 752
 						},
 						"Subsurface": false,
 						"DiscoveryValue": 50,
@@ -16769,7 +16657,7 @@
 				],
 				"PhenomenaData": [],
 				"SeaColour": "Default",
-				"MusicTrackName": "Lowlandsbetter2",
+				"MusicTrackName": "Sultry",
 				"Weather": [
 					"Fog"
 				],
@@ -16794,7 +16682,7 @@
 				"MaxPhenomPopulation": 6,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Southern Archipelago",
+				"HumanName": "Fallen London",
 				"Description": "Home waters. Zailors dawdle at the rail, watching for the lights of London.",
 				"ProcLocations": [
 					{
@@ -16898,7 +16786,49 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "AuroralMegalops",
+								"SpawnName": "ElderAnglerCrab",
+								"Entity": null,
+								"SpawnChance": 70,
+								"MinTerror": 0
+							}
+						]
+					},
+					{
+						"Name": "SouthernArchBuoy",
+						"Subsurface": false,
+						"QualityRequired": null,
+						"Description": "",
+						"Position": {
+							"X": 1250,
+							"Y": 850
+						},
+						"Radius": 150,
+						"DiscoveryValue": 30,
+						"ParentTile": null,
+						"Spawns": [
+							{
+								"SpawnName": "AdmiraltyFrigate",
+								"Entity": null,
+								"SpawnChance": 70,
+								"MinTerror": 0
+							}
+						]
+					},
+					{
+						"Name": "SouthernArchBuoy",
+						"Subsurface": false,
+						"QualityRequired": null,
+						"Description": "",
+						"Position": {
+							"X": 1250,
+							"Y": 1250
+						},
+						"Radius": 150,
+						"DiscoveryValue": 20,
+						"ParentTile": null,
+						"Spawns": [
+							{
+								"SpawnName": "Merchantman",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -17045,9 +16975,9 @@
 						"ParentTile": null
 					},
 					{
-						"PrefabName": "Generic/Abyss1",
-						"SubsurfacePrefabName": "Generic/abyss_ZM",
-						"Name": "Badstevener's Abyss",
+						"PrefabName": "Generic/SeaweedCluster2",
+						"SubsurfacePrefabName": "",
+						"Name": "seaweed",
 						"Description": "",
 						"Position": {
 							"X": 1051,
@@ -17568,49 +17498,6 @@
 						},
 						"DiscoveryValue": 0,
 						"IsStartingPort": false
-					},
-					{
-						"Name": "LowBarnetZM",
-						"Rotation": 270,
-						"Setting": {
-							"World": null,
-							"OwnerName": null,
-							"Name": "",
-							"Personae": [],
-							"StartingArea": null,
-							"StartingDomicile": null,
-							"ItemsUsableHere": false,
-							"Exchange": null,
-							"TurnLengthSeconds": 0,
-							"MaxActionsAllowed": 0,
-							"MaxCardsAllowed": 0,
-							"ActionsInPeriodBeforeExhaustion": 0,
-							"Description": "",
-							"Id": 106136
-						},
-						"Area": {
-							"World": null,
-							"Name": null,
-							"Description": "",
-							"ImageName": "",
-							"MarketAccessPermitted": false,
-							"MoveMessage": "",
-							"HideName": false,
-							"RandomPostcard": false,
-							"MapX": 0,
-							"MapY": 0,
-							"UnlocksWithQuality": null,
-							"ShowOps": false,
-							"PremiumSubRequired": false,
-							"Id": 107688
-						},
-						"Subsurface": true,
-						"Position": {
-							"X": 866,
-							"Y": 1312
-						},
-						"DiscoveryValue": 0,
-						"IsStartingPort": false
 					}
 				],
 				"LabelData": [
@@ -17707,19 +17594,6 @@
 					},
 					{
 						"ParentTile": null,
-						"Label": "Badstevener's Abyss",
-						"Description": "",
-						"Position": {
-							"X": 1129,
-							"Y": 868
-						},
-						"Subsurface": false,
-						"DiscoveryValue": 50,
-						"Radius": 80,
-						"Important": false
-					},
-					{
-						"ParentTile": null,
 						"Label": "Clayborne Place",
 						"Description": "",
 						"Position": {
@@ -17772,7 +17646,7 @@
 					},
 					{
 						"ParentTile": null,
-						"Label": "Low Barnet",
+						"Label": "Nodnol",
 						"Description": "",
 						"Position": {
 							"X": 871,
@@ -17782,19 +17656,6 @@
 						"DiscoveryValue": 50,
 						"Radius": 120,
 						"Important": false
-					},
-					{
-						"ParentTile": null,
-						"Label": "Low Barnet",
-						"Description": "",
-						"Position": {
-							"X": 954,
-							"Y": 1218
-						},
-						"Subsurface": true,
-						"DiscoveryValue": 50,
-						"Radius": 80,
-						"Important": true
 					}
 				],
 				"PhenomenaData": [
@@ -17845,8 +17706,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "The Southern Wall",
-				"Description": "A buttery bloom of light on the southern horizon! You approach Varchas, the Mirrored City.",
+				"HumanName": "The Iron Pillars",
+				"Description": "A shattered glimpse of something, then nothing. Rath Ruin forbids disturbance.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -17954,7 +17815,7 @@
 						"Name": "VarchasJilly",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Aaah! Mistresses!",
 						"Position": {
 							"X": 475,
 							"Y": 980
@@ -17964,10 +17825,10 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Jillyfish",
+								"SpawnName": "Mistresses",
 								"Entity": null,
 								"SpawnChance": 70,
-								"MinTerror": 0
+								"MinTerror": 50
 							}
 						]
 					},
@@ -17975,7 +17836,7 @@
 						"Name": "VarchasMillinerBats",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Found an Aghast Angler-Crab at The Iron Pillars.",
 						"Position": {
 							"X": 1185,
 							"Y": 790
@@ -17985,7 +17846,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "MillinerBats",
+								"SpawnName": "AnglerCrab",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -18460,8 +18321,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Stamford's Expanse",
-				"Description": "The false-stars above are feral amber, like tigers' eyes. Stamford's Expanse, named for one who lost his child to cats.",
+				"HumanName": "Twinkletips",
+				"Description": "Blackness on all sides. Did someone just laugh?",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -18554,7 +18415,7 @@
 						"Name": "StamfordTormentedShark",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Found an Umwelt Caravel at Twinkletips.",
 						"Position": {
 							"X": 1173,
 							"Y": 335
@@ -18564,7 +18425,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "ParticularlyTormentedBoundShark",
+								"SpawnName": "FausticCorsair",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -18585,7 +18446,28 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Corvette",
+								"SpawnName": "BoundShark",
+								"Entity": null,
+								"SpawnChance": 70,
+								"MinTerror": 0
+							}
+						]
+					},
+					{
+						"Name": "StamfordPoet",
+						"Subsurface": false,
+						"QualityRequired": null,
+						"Description": "",
+						"Position": {
+							"X": 200,
+							"Y": 200
+						},
+						"Radius": 300,
+						"DiscoveryValue": 20,
+						"ParentTile": null,
+						"Spawns": [
+							{
+								"SpawnName": "Merchantman",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -18625,7 +18507,7 @@
 					"Description": "",
 					"Id": 100261
 				},
-				"MaxTilePopulation": 2,
+				"MaxTilePopulation": 3,
 				"TerrainData": [
 					{
 						"PrefabName": "StamfordsExpanse/IsleOfCats",
@@ -18886,6 +18768,19 @@
 						"DiscoveryValue": 0,
 						"GleamValue": 0,
 						"ParentTile": null
+					},
+					{
+						"PrefabName": "Generic/Abyss1",
+						"SubsurfacePrefabName": "Generic/abyss_ZM",
+						"Name": "abyss",
+						"Description": "",
+						"Position": {
+							"X": 200,
+							"Y": 200
+						},
+						"DiscoveryValue": 0,
+						"GleamValue": 1,
+						"ParentTile": null
 					}
 				],
 				"PortData": [
@@ -18906,7 +18801,7 @@
 							"MaxCardsAllowed": 0,
 							"ActionsInPeriodBeforeExhaustion": 0,
 							"Description": "",
-							"Id": 102966
+							"Id": 604459
 						},
 						"Area": {
 							"World": null,
@@ -18974,49 +18869,6 @@
 						},
 						"DiscoveryValue": 1,
 						"IsStartingPort": false
-					},
-					{
-						"Name": "RosegateZM",
-						"Rotation": 90,
-						"Setting": {
-							"World": null,
-							"OwnerName": null,
-							"Name": "",
-							"Personae": [],
-							"StartingArea": null,
-							"StartingDomicile": null,
-							"ItemsUsableHere": false,
-							"Exchange": null,
-							"TurnLengthSeconds": 0,
-							"MaxActionsAllowed": 0,
-							"MaxCardsAllowed": 0,
-							"ActionsInPeriodBeforeExhaustion": 0,
-							"Description": "",
-							"Id": 106135
-						},
-						"Area": {
-							"World": null,
-							"Name": null,
-							"Description": "",
-							"ImageName": "",
-							"MarketAccessPermitted": false,
-							"MoveMessage": "",
-							"HideName": false,
-							"RandomPostcard": false,
-							"MapX": 0,
-							"MapY": 0,
-							"UnlocksWithQuality": null,
-							"ShowOps": false,
-							"PremiumSubRequired": false,
-							"Id": 107689
-						},
-						"Subsurface": true,
-						"Position": {
-							"X": 1035,
-							"Y": 870
-						},
-						"DiscoveryValue": 0,
-						"IsStartingPort": false
 					}
 				],
 				"LabelData": [
@@ -19045,6 +18897,19 @@
 						"DiscoveryValue": 50,
 						"Radius": 200,
 						"Important": true
+					},
+					{
+						"ParentTile": null,
+						"Label": "Gwen's Silence",
+						"Description": "",
+						"Position": {
+							"X": 200,
+							"Y": 200
+						},
+						"Subsurface": false,
+						"DiscoveryValue": 50,
+						"Radius": 120,
+						"Important": false
 					},
 					{
 						"ParentTile": null,
@@ -19135,11 +19000,11 @@
 						"Subsurface": true,
 						"DiscoveryValue": 50,
 						"Radius": 80,
-						"Important": true
+						"Important": false
 					}
 				],
 				"PhenomenaData": [],
-				"SeaColour": "Green",
+				"SeaColour": "Black",
 				"MusicTrackName": "Undulata2",
 				"Weather": [
 					"Fog"
@@ -19165,8 +19030,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Stonesoul Isles",
-				"Description": "A baked breeze rises, the improbable scent of stone out of some distant desert. You are close to the Salt Lions.",
+				"HumanName": "The Eastern Barrier",
+				"Description": "All currents from the East pass through these waters. The crew look to the false-stars for guidance.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -19270,7 +19135,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "AnglerCrab",
+								"SpawnName": "LornFluke",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -19291,7 +19156,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Jillyfleur",
+								"SpawnName": "Merchantman",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -19302,19 +19167,19 @@
 						"Name": "StonesoulFrigate",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "This little fellow seems to be quite cross about something.",
 						"Position": {
 							"X": 1170,
 							"Y": 425
 						},
 						"Radius": 300,
-						"DiscoveryValue": 20,
+						"DiscoveryValue": 30,
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "PirateFrigate",
+								"SpawnName": "AuroralMegalops",
 								"Entity": null,
-								"SpawnChance": 70,
+								"SpawnChance": 100,
 								"MinTerror": 0
 							}
 						]
@@ -19333,7 +19198,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Corvette",
+								"SpawnName": "CrackPirateFrigate",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -19373,7 +19238,7 @@
 					"Description": "",
 					"Id": 100261
 				},
-				"MaxTilePopulation": 3,
+				"MaxTilePopulation": 4,
 				"TerrainData": [
 					{
 						"PrefabName": "StonesoulIsles/SaltLionWest",
@@ -19576,7 +19441,7 @@
 							"MaxCardsAllowed": 0,
 							"ActionsInPeriodBeforeExhaustion": 0,
 							"Description": "",
-							"Id": 101771
+							"Id": 604217
 						},
 						"Area": {
 							"World": null,
@@ -19598,49 +19463,6 @@
 						"Position": {
 							"X": 761,
 							"Y": 847
-						},
-						"DiscoveryValue": 1,
-						"IsStartingPort": false
-					},
-					{
-						"Name": "Wrack Port",
-						"Rotation": 135,
-						"Setting": {
-							"World": null,
-							"OwnerName": null,
-							"Name": "",
-							"Personae": [],
-							"StartingArea": null,
-							"StartingDomicile": null,
-							"ItemsUsableHere": false,
-							"Exchange": null,
-							"TurnLengthSeconds": 0,
-							"MaxActionsAllowed": 0,
-							"MaxCardsAllowed": 0,
-							"ActionsInPeriodBeforeExhaustion": 0,
-							"Description": "",
-							"Id": 101771
-						},
-						"Area": {
-							"World": null,
-							"Name": null,
-							"Description": "",
-							"ImageName": "",
-							"MarketAccessPermitted": false,
-							"MoveMessage": "",
-							"HideName": false,
-							"RandomPostcard": false,
-							"MapX": 0,
-							"MapY": 0,
-							"UnlocksWithQuality": null,
-							"ShowOps": false,
-							"PremiumSubRequired": false,
-							"Id": 107694
-						},
-						"Subsurface": true,
-						"Position": {
-							"X": 1089,
-							"Y": 145
 						},
 						"DiscoveryValue": 1,
 						"IsStartingPort": false
@@ -19697,7 +19519,7 @@
 						"Subsurface": true,
 						"DiscoveryValue": 50,
 						"Radius": 80,
-						"Important": true
+						"Important": false
 					}
 				],
 				"PhenomenaData": [
@@ -19742,7 +19564,7 @@
 						"SpawnChance": 100
 					}
 				],
-				"SeaColour": "Default",
+				"SeaColour": "Murky",
 				"MusicTrackName": "Elegiac",
 				"Weather": [
 					"Fog"
@@ -19768,8 +19590,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Stormbones",
-				"Description": "We enter Stormbones. St Eligius sends his fire to dance in the air, on deck. Very far away we see the great light of the Ragged Crow.",
+				"HumanName": "Darkbreath Molars",
+				"Description": "The light here is a trap. Draw too close and you'll be consumed by it.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -19861,7 +19683,7 @@
 						"Name": "StormbonesMoth",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Discovered the Tyrant Moths of The Ragged Crow.",
+						"Description": "Discovered the Tyrant Moth of The Darkbreath Molars.",
 						"Position": {
 							"X": 750,
 							"Y": 650
@@ -19873,7 +19695,7 @@
 							{
 								"SpawnName": "TyrantMoth",
 								"Entity": null,
-								"SpawnChance": 70,
+								"SpawnChance": 100,
 								"MinTerror": 0
 							}
 						]
@@ -20239,51 +20061,7 @@
 						"ParentTile": null
 					}
 				],
-				"PortData": [
-					{
-						"Name": "UnderwaterCrowZM",
-						"Rotation": 180,
-						"Setting": {
-							"World": null,
-							"OwnerName": null,
-							"Name": "",
-							"Personae": [],
-							"StartingArea": null,
-							"StartingDomicile": null,
-							"ItemsUsableHere": false,
-							"Exchange": null,
-							"TurnLengthSeconds": 0,
-							"MaxActionsAllowed": 0,
-							"MaxCardsAllowed": 0,
-							"ActionsInPeriodBeforeExhaustion": 0,
-							"Description": "",
-							"Id": 101771
-						},
-						"Area": {
-							"World": null,
-							"Name": null,
-							"Description": "",
-							"ImageName": "",
-							"MarketAccessPermitted": false,
-							"MoveMessage": "",
-							"HideName": false,
-							"RandomPostcard": false,
-							"MapX": 0,
-							"MapY": 0,
-							"UnlocksWithQuality": null,
-							"ShowOps": false,
-							"PremiumSubRequired": false,
-							"Id": 107686
-						},
-						"Subsurface": true,
-						"Position": {
-							"X": 770,
-							"Y": 424
-						},
-						"DiscoveryValue": 0,
-						"IsStartingPort": false
-					}
-				],
+				"PortData": [],
 				"LabelData": [
 					{
 						"ParentTile": null,
@@ -20296,11 +20074,11 @@
 						"Subsurface": true,
 						"DiscoveryValue": 50,
 						"Radius": 150,
-						"Important": true
+						"Important": false
 					},
 					{
 						"ParentTile": null,
-						"Label": "The Ragged Crow",
+						"Label": "Ol' Glittering Light",
 						"Description": "",
 						"Position": {
 							"X": 785,
@@ -20387,8 +20165,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "The Calumnies",
-				"Description": "And now we enter the Calumnies. There is a wild and glorious scent in the air. A kind of light. Why do zailors fear this place?",
+				"HumanName": "Nullbreach",
+				"Description": "Zailors speak of chills, though Nullbreach is far from cold. Too far.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -20495,7 +20273,7 @@
 						"Name": "ElderAnglerCrabCalumnies",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "Found an Aghast Angler-Crab at Nullbreach.",
 						"Position": {
 							"X": 334,
 							"Y": 369
@@ -20505,7 +20283,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "ElderAnglerCrab",
+								"SpawnName": "AnglerCrab",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -20526,7 +20304,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Behemoustache",
+								"SpawnName": "RatBarge",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -20547,7 +20325,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "LornFluke",
+								"SpawnName": "CrackPirateFrigate",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -20737,49 +20515,6 @@
 						},
 						"DiscoveryValue": 1,
 						"IsStartingPort": false
-					},
-					{
-						"Name": "Hideaway Port",
-						"Rotation": 180,
-						"Setting": {
-							"World": null,
-							"OwnerName": null,
-							"Name": "",
-							"Personae": [],
-							"StartingArea": null,
-							"StartingDomicile": null,
-							"ItemsUsableHere": false,
-							"Exchange": null,
-							"TurnLengthSeconds": 0,
-							"MaxActionsAllowed": 0,
-							"MaxCardsAllowed": 0,
-							"ActionsInPeriodBeforeExhaustion": 0,
-							"Description": "",
-							"Id": 101771
-						},
-						"Area": {
-							"World": null,
-							"Name": null,
-							"Description": "",
-							"ImageName": "",
-							"MarketAccessPermitted": false,
-							"MoveMessage": "",
-							"HideName": false,
-							"RandomPostcard": false,
-							"MapX": 0,
-							"MapY": 0,
-							"UnlocksWithQuality": null,
-							"ShowOps": false,
-							"PremiumSubRequired": false,
-							"Id": 107690
-						},
-						"Subsurface": true,
-						"Position": {
-							"X": 1209,
-							"Y": 1068
-						},
-						"DiscoveryValue": 1,
-						"IsStartingPort": false
 					}
 				],
 				"LabelData": [
@@ -20872,14 +20607,14 @@
 						"Subsurface": true,
 						"DiscoveryValue": 50,
 						"Radius": 80,
-						"Important": true
+						"Important": false
 					}
 				],
 				"PhenomenaData": [
 					
 				],
 				"SeaColour": "Teal",
-				"MusicTrackName": "SubmergoViol",
+				"MusicTrackName": "HarmoniumOverMatter",
 				"Weather": [],
 				"ChanceOfWeather": 0,
 				"SubsurfaceWeather": [
@@ -20902,8 +20637,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "The Snares",
-				"Description": "Creeping tendrils of fungus, zee-weed, unnamable flora. We enter the Snares.",
+				"HumanName": "Castaway's Smile",
+				"Description": "Legends say these isles were once wild and untamed. Look at them now.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -21006,7 +20741,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "BoundShark",
+								"SpawnName": "Jillyfleur",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -21027,7 +20762,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Jillyfleur",
+								"SpawnName": "RatBarge",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -21048,7 +20783,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "AnglerCrab",
+								"SpawnName": "BoundShark",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -21238,12 +20973,55 @@
 						},
 						"DiscoveryValue": 1,
 						"IsStartingPort": false
+					},
+					{
+						"Name": "LabyrinthPort",
+						"Rotation": 180,
+						"Setting": {
+							"World": null,
+							"OwnerName": null,
+							"Name": "",
+							"Personae": [],
+							"StartingArea": null,
+							"StartingDomicile": null,
+							"ItemsUsableHere": false,
+							"Exchange": null,
+							"TurnLengthSeconds": 0,
+							"MaxActionsAllowed": 0,
+							"MaxCardsAllowed": 0,
+							"ActionsInPeriodBeforeExhaustion": 0,
+							"Description": "",
+							"Id": 600201
+						},
+						"Area": {
+							"World": null,
+							"Name": null,
+							"Description": "",
+							"ImageName": "",
+							"MarketAccessPermitted": false,
+							"MoveMessage": "",
+							"HideName": false,
+							"RandomPostcard": false,
+							"MapX": 0,
+							"MapY": 0,
+							"UnlocksWithQuality": null,
+							"ShowOps": false,
+							"PremiumSubRequired": false,
+							"Id": 603155
+						},
+						"Subsurface": false,
+						"Position": {
+							"X": 428,
+							"Y": 827
+						},
+						"DiscoveryValue": 1,
+						"IsStartingPort": false
 					}
 				],
 				"LabelData": [
 					{
 						"ParentTile": null,
-						"Label": "Labyrinth of Eels",
+						"Label": "The Phantom Snarl",
 						"Description": "",
 						"Position": {
 							"X": 551,
@@ -21295,7 +21073,7 @@
 					},
 					{
 						"ParentTile": null,
-						"Label": "Crabcake",
+						"Label": "Mewtopia",
 						"Description": "",
 						"Position": {
 							"X": 389,
@@ -21388,7 +21166,7 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "The Tomb Colonies",
+				"HumanName": "Culicida",
 				"Description": "A high-pitched whine cuts at the edge of hearing. You approach Culicida, and the Swarm.",
 				"ProcLocations": [
 					{
@@ -21509,7 +21287,7 @@
 						"Name": "TombPinnace",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Discovered the flocks of bats outside the Tomb Colonies.",
+						"Description": "",
 						"Position": {
 							"X": 750,
 							"Y": 250
@@ -21530,7 +21308,7 @@
 						"Name": "TombBats",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Discovered the flocks of bats outside the Tomb Colonies.",
+						"Description": "Discovered the flocks of bats outside Culicida.",
 						"Position": {
 							"X": 1250,
 							"Y": 250
@@ -21551,7 +21329,7 @@
 						"Name": "TombMegalops",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Discovered a group of Auroral Megalops outside the Tomb Colonies.",
+						"Description": "",
 						"Position": {
 							"X": 1250,
 							"Y": 750
@@ -21561,7 +21339,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "AuroralMegalops",
+								"SpawnName": "ElderAnglerCrab",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -21572,7 +21350,7 @@
 						"Name": "TombBats",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Discovered the flocks of bats outside the Tomb Colonies.",
+						"Description": "Aaah! Mistresses!",
 						"Position": {
 							"X": 750,
 							"Y": 1250
@@ -21582,10 +21360,10 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "BatSwarm",
+								"SpawnName": "Mistresses",
 								"Entity": null,
 								"SpawnChance": 70,
-								"MinTerror": 0
+								"MinTerror": 50
 							}
 						]
 					},
@@ -21593,7 +21371,7 @@
 						"Name": "TombBats",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Discovered the flocks of bats outside the Tomb Colonies.",
+						"Description": "",
 						"Position": {
 							"X": 1250,
 							"Y": 1250
@@ -21603,7 +21381,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "BatSwarm",
+								"SpawnName": "CrackSteamPinnace",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -21643,7 +21421,7 @@
 					"Description": "",
 					"Id": 100261
 				},
-				"MaxTilePopulation": 3,
+				"MaxTilePopulation": 4,
 				"TerrainData": [
 					{
 						"PrefabName": "TombColonies/TombColoniesWest",
@@ -22001,6 +21779,49 @@
 						},
 						"DiscoveryValue": 1,
 						"IsStartingPort": false
+					},
+					{
+						"Name": "SanguineIsland",
+						"Rotation": 90,
+						"Setting": {
+							"World": null,
+							"OwnerName": null,
+							"Name": "",
+							"Personae": [],
+							"StartingArea": null,
+							"StartingDomicile": null,
+							"ItemsUsableHere": false,
+							"Exchange": null,
+							"TurnLengthSeconds": 0,
+							"MaxActionsAllowed": 0,
+							"MaxCardsAllowed": 0,
+							"ActionsInPeriodBeforeExhaustion": 0,
+							"Description": "",
+							"Id": 600201
+						},
+						"Area": {
+							"World": null,
+							"Name": null,
+							"Description": "",
+							"ImageName": "",
+							"MarketAccessPermitted": false,
+							"MoveMessage": "",
+							"HideName": false,
+							"RandomPostcard": false,
+							"MapX": 0,
+							"MapY": 0,
+							"UnlocksWithQuality": null,
+							"ShowOps": false,
+							"PremiumSubRequired": false,
+							"Id": 603156
+						},
+						"Subsurface": false,
+						"Position": {
+							"X": 1100,
+							"Y": 857
+						},
+						"DiscoveryValue": 1,
+						"IsStartingPort": false
 					}
 				],
 				"LabelData": [
@@ -22136,8 +21957,8 @@
 				"MaxPhenomPopulation": 0,
 				"ParentGroupName": "",
 				"Position": null,
-				"HumanName": "Void's Approach",
-				"Description": "This must be Void's Approach. The air crackles with frosty radiations. To the North, the false-stars fail in the darkness.",
+				"HumanName": "Mutt's Uncertainty",
+				"Description": "Harsh black waters, shifting lights. We enter Mutt's Uncertainty.",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -22229,17 +22050,17 @@
 						"Name": "MtNomad",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "discovered Mt Nomad, the black glass mountain that eats ships.",
+						"Description": "",
 						"Position": {
 							"X": 750,
 							"Y": 750
 						},
-						"Radius": 750,
+						"Radius": 250,
 						"DiscoveryValue": 20,
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "MtNomad",
+								"SpawnName": "AlbinoMoray",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -22260,7 +22081,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "Lifeberg",
+								"SpawnName": "PirateFrigate",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -22615,7 +22436,7 @@
 					},
 					{
 						"ParentTile": null,
-						"Label": "The Kisigar Vortex",
+						"Label": "Bartholomew's Basin",
 						"Description": "",
 						"Position": {
 							"X": 1207,
@@ -22811,7 +22632,7 @@
 						"Name": "GenericBats",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Encountered the colony of bats!",
+						"Description": "Bats? Bats.",
 						"Position": {
 							"X": 1105,
 							"Y": 365
@@ -23641,7 +23462,7 @@
 						"Name": "GenericJillyfleur",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "Encountered a group of Jillyfleurs!",
+						"Description": "Look, a Jellycount!",
 						"Position": {
 							"X": 545,
 							"Y": 1140
@@ -24115,7 +23936,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "AlbinoMoray",
+								"SpawnName": "Jillyfleur",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -24126,7 +23947,7 @@
 						"Name": "ReefPirate",
 						"Subsurface": false,
 						"QualityRequired": null,
-						"Description": "",
+						"Description": "What are the Ozao doing out here?",
 						"Position": {
 							"X": 1184,
 							"Y": 1190
@@ -24496,7 +24317,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "RatBarge",
+								"SpawnName": "Grimroe",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -24517,7 +24338,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "AlbinoMoray",
+								"SpawnName": "Jillyfleur",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -24913,7 +24734,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "AlbinoMoray",
+								"SpawnName": "Grimroe",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -25177,7 +24998,7 @@
 				"ParentGroupName": null,
 				"Position": null,
 				"HumanName": "The dark Unterzee",
-				"Description": "Something forgotten is here.",
+				"Description": "Nothing is here. Were you expecting something?",
 				"ProcLocations": [
 					{
 						"SpawnCount": 1,
@@ -25288,46 +25109,7 @@
 				"PortData": [],
 				"LabelData": [],
 				"PhenomenaData": [
-					{
-						"Name": "TheEye",
-						"ParentTile": null,
-						"PrefabName": "Subsurface/TheEye",
-						"VisitedPrefabName": null,
-						"Subsurface": false,
-						"HumanName": null,
-						"Description": null,
-						"Position": {
-							"X": 465,
-							"Y": 1054
-						},
-						"Radius": 0,
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"QualityEffects": null,
-						"StoryletId": 0,
-						"AreaId": 0,
-						"SpawnChance": 100
-					},
-					{
-						"Name": "TheEyeUnderwater",
-						"ParentTile": null,
-						"PrefabName": "Misc/TheEyeUnderwater",
-						"VisitedPrefabName": null,
-						"Subsurface": true,
-						"HumanName": null,
-						"Description": null,
-						"Position": {
-							"X": 465,
-							"Y": 1054
-						},
-						"Radius": 0,
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"QualityEffects": null,
-						"StoryletId": 0,
-						"AreaId": 0,
-						"SpawnChance": 100
-					}
+					
 				],
 				"SeaColour": "Default",
 				"MusicTrackName": "SubmergoViol",
@@ -25451,7 +25233,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "ParticularlyTormentedBoundShark",
+								"SpawnName": "BoundShark",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0
@@ -25493,7 +25275,7 @@
 						"ParentTile": null,
 						"Spawns": [
 							{
-								"SpawnName": "RatBarge",
+								"SpawnName": "Merchantman",
 								"Entity": null,
 								"SpawnChance": 70,
 								"MinTerror": 0

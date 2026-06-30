@@ -1,0 +1,1516 @@
+Sunless Sea: Rewritten
+
+Current ID: 606315
+Quality ID: 700415
+Cargo ID:   710117
+Gear ID:	720023
+
+
+
+Impossible!: 995
+
+Common codes:
+Terror: 102025
+Supplies: 102026
+Fuel: 102027
+Echoes: 102028
+Crew: 102030
+Fragment: 108545
+Wounds: 110546
+SAY: 102973
+
+Iron: 102894
+Mirrors: 102895
+Veils: 102896
+Hearts: 102897
+Pages: 102898
+
+Aft: 102965
+Deck: 102966
+Forward: 102968
+101956 - Location, void(location for events not accessed directly from ports)
+600201 - Setting, void(location without a shop)
+
+Neath Jade - 710000
+Fossil - 710001
+Prancing Pony - 700004
+
+
+
+ExoticEffects - The name of the exotic effect to execute upon exiting this event. Format is “name,parameter1,parameter2,...” The vanilla effects are as follows:
+[GAME_END_EFFECT_WIN] - Ends the game with a victory—no parameters
+[GAME_END_EFFECT_LOSE] - Ends the game with a loss—no parameters
+[SELECT_AVATAR] - Allows you to select your character’s avatar and name—no parameters
+[CHANGE_TERRAIN] - Replaces an existing terrain prefab with something different—parameters: the name of the existing TerrainInstance to replace, and the name of the prefab in the Sea/Terrain/ directory to replace it with
+[MOVE_TO_PORT] - Jumps to a different port—parameters: the name of the port to jump to
+[CHANGE_CURRENT_SHIP] - Updates your ship’s model—no parameters
+
+The Infernal Canal/The Cumaean Canal
+-Discover 3 problems
+-Umwelt: Deliver 5 coffee OR deliver 5 Memories of Distant Shores to the Dynasty
+-Shogunate: Deliver X to the Shogunate OR Sink 3 Shogunate ships
+-Missing: Deliver 5 crew OR explore the mine with 5 candles
+
+The Commission
+-
+	-A Chimneysweep: Bring Red Honey
+	-An Invalid: Bring a sample from The Gallery of Sentences
+	-A Veteran: Bring a Hunting-Trophy
+	-A Circus Performer: Bring Romantic Literature
+	-A Gardener: Bring a Port Report: Umwelt Isles
+	-An Heir: Bring Strategic Information
+	
+Ormonde
+-Purchase a Prancing Pony
+-Go to the Races
+	-Lornflake 18 competent
+	-Pudding 14 fierce
+	-Antiquity 3 young and fresh
+	
+	-Stone Pig 19 eager
+	-Buttercup 1 adorable
+	-Unfinished Horse 8 stocky
+	
+	-Fathomprince 10 damp
+	-Beau o' th'Neath 5 well-groomed
+	-Rocinante 11 spacy
+	
+	-Lornflake 18 competent
+	-Tanah-Chook 9 old
+	-Reynauld 20 very pretty
+	
+	-<NAME NOT FOUND> 16 confused
+	-Unfinished Horse 8 stocky
+	-Many-Eyes 12 wary
+	
+	-Surrender At All Costs 4 nervous
+	-Rubbery-Mare 15 wobbly
+	-Fathomprince 10 damp
+	
+	-Pale Bat 6 dark and brooding
+	-Memory of Distant Shores 2 thoughtful
+	-Foxfire 7 fiery
+	
+	-Stone Pig 19 eager
+	-Pale Bat 13 dark and brooding
+	-Skyfarer 17 noble
+	
+	-Erod 4 hardy
+	-Lornflake 18 competent
+	-Tanah-Chook 2 old
+	
+	-Many-Eyes 12 wary
+	-Stone Pig 19 eager
+	-ASTAROTH THE HORSE EATER 99
+
+	
+Culicida
+Diseases:
+	-Iron: Cragwarts (Paradise of Thorns)
+	-Mirrors: Weeping Sickness (Gallery of Sentences)
+	-Veils: Cancroid Cough (Cigars)
+	-Pages: Aghemnia (Theatre of Tyrants)
+	-Hearts: Pitpox (Ztargon's Remains)
+	
+End Paren
+Tale-Swap
+	-An Aged Mechanic: A Tale of Terror for 40 Fragments
+	-A Satisfied Zee-Captain: A Zee-Story for 1 Pages
+	-A Starving Artist: A Memory of Distant Shores
+	-A Weary Traveller: A Vision of the Surface for a Tale of Terror, a Zee-Story and a Memory of Distant Shores
+	
+Island Swaps
+-The Salt Lions for Saviour's Rocks
+-The Chelonate for Mangrove College
+-Gaider's Mourn to Aestival to Godfall
+
+Dyi Ztar
+-Unclaimed
+	-Explore the palace
+	-Living artillery
+	-Lonely ozao
+
+
+Aphantasia
+-0-25 Terror
+	-There's nothing here.
+-26-50 Terror
+	-Chat to the merchants
+	-Remove 5 Terror
+51-75 Terror
+	-Chat to the merchants
+	-Remove 15 Terror
+76-100 Terror
+	-Chat to the merchants
+	-Remove 25 Terror
+	-Aid A Familiar Face
+	
+Music
+Adamscape: Sultry
+BorealReach: Elegeic
+CarnelianCoast: SlightlyHopey
+Chelonate: Alien -> Infernal
+CorsairsForest: Lowlands
+CryingHeights: LimpidLiquid
+CumaeanCanal: LimpidLiquid
+DawnsEdge: Elegeic -> SpookyUpLead
+Deconstruction: LimpidLiquid
+DemeauxsGate: LimpidLiquid
+EmpireOfHands: Sultry
+Frostfound: SpookyUpLead -> Mongolian
+GossamerWay: AlienMinimee
+IronRepublic: SubmergoViol
+Myceligaia: LimpidLiquid -> Undulata
+PalmserstonsReach: Infernal
+PillaredSea: OceanaLonissimusCrystal -> Undulata2
+PrinciplesOfCoral: Benthic
+PromisedSea: SpookyUpLead -> Undulata
+Rattsey: OceanaLonissimusCrystal
+SaltSteppes: Mongolian
+SeaOfAutumns: SubmergoViol -> SlightlyHopey
+SeaOfLillies: LimpidLiquid -> HarmoniumOverMatter
+SeaOfStatues: LimpidLiquid -> Infernal
+SeaOfVoices: AlienMinimee -> ElegeicnoPerc
+SeaOfWings: HarmoniumOverMatter
+ShephardsWash: LowlandsBetter2
+SouthernArchipelago: Undulata2
+SouthernWall: Sultry2
+StamfordsExpanse: OceanaLonissimusCrystal
+StonesoulIsles: Lowlands -> DeathMusic
+Stormbones: Lowlands
+TheCalumnies: SubmergoViol
+TheSnares: Sultry -> LowlandsBetter2
+TombColonies: Elegeic
+VoidsApproach: SpookyUpLead
+GenericTiles: LimpidLiquid
+
+Music2
+Alien
+AlienMinimee
+Benthic
+BustlingLondon
+ComfortingSmallLondon
+DeathMusic
+Elegaic
+ElegaicnoPerc
+HarmoniumOverMatter
+Infernal
+LimpidLiquid
+Lowlands
+Lowlandsbetter2
+Mongolian
+OceanaLonissiumusCrystal
+OceanaLonissimusLeah
+OpeningScreenNoMelody
+SlightlyHopey
+SpookyUpLead-------------->Gabriel's Gate
+SubmergoViol
+Sultry
+Sultry2
+TerrorTrack
+UnadornedTerror----------->World of Light
+Undulata
+Undulata2
+VictoryMusic
+
+Bestiary
+Outside
+	-Go inside via Echoes
+	-Go inside via Notoriety
+	-Go inside via Association
+	-Sell a Live Specimen
+	-Sell your Comatose Ferret
+	-Sell your Prancing Pony
+Inside
+	-Write a Port Report (1-5)
+	-Purchase Supplies (1)
+	-Intercept a package (2)
+	-Purchase a Strange Catch (4)
+	-Purchase a Live Specimen (5)
+	-Visit the Exhibits x5 (1-5): Tigers, monkeys, pale zee-bat, blue prophet, rats, ztardogs, jillyfish, prisoners, spiders, angler-crab
+	-Overhear an Argument (3)
+	-Make a Swift Exchange (2) (Blind Bruiser)
+	-Leave (6)
+	
+Chateau-Dessous
+	-Port Report
+	-Shore Leave
+	-Insert an agent
+	-Agent Things
+		Potential Things:
+		-An Agent
+		-Echoes
+		-Silver's Attention
+		-Stygian Ivory (A Distraction for a Bonefae delegation)
+		-ParabolaLinen+SpiderSilk (A Disguise for a ball)
+		-Secrets
+		-Pages Challenge (Your memory of a celebrity)
+		-Romantic Literature
+		-Red Honey (Feed an Addiction)
+		-Searing Enigma
+	-Procure a bottle
+	-Purchase a bottle
+	
+	
+Beginner's Luck
+-Chimneysweep: Aditta (Wyrmsbreath and Fuel) No one knows soot like you do
+-Invalid: Laennec's Retreat (Tales of Terror!!) You have had nightmares of this place...
+-Veteran: Ztargon's Remains (Zee-Ztories and Secrets) Memories come flooding back
+-Circus Performer: Bestiary (Memories of Distant Shores and Terror reduction) An unexpected voice greets you!
+-Gardener: Port Rosa (???) A voice you have not heard in years
+-Heir: Chateau-Dessous (???) You came here in your youth...
+-Shadow: Aphantasia (Searing Enigma) What is this... feeling?
+
+World of Light
+-Ztardog, inverted
+-An old expedition
+-Unshadowed overpass
+-Half a house (unfinished thought)
+-Wings from overhead
+-A crumbling cathedral
+-Strands of webbing
+-Bones clear as glass
+-Angelic moths
+- (Supplies)
+- (Artifact)
+- (Blue Scintillack)
+- (Searing Enigma)
+- (Judgment's Egg)
+- (Treasure)
+
+The Perplexed Helmsman -> Mekhane/(Fathomking's Hold): Various
+The Impressionable Student -> Gabriel's Gate: 10 Pearls of Light, 1 Extraordinary Implication
+The Fastidious Gourmet -> Chateau-Dessous: 5 Mushroom Wine, 3 Outlandish Artefact
+The Hairy Marksman -> Faeble: Stories
+The Unlicenced Therapist -> (Isle of Cats): 1 Strategic Information
+
+Arms of the Machine
+-A Port Report
+-Deliver a Gift for the Machine
+-Try a random door (No key)
+-Deliver the Key to the Machine
+	1-Intake Maw (A) 600183
+	2-Steam Vents (A) 600184
+	3-Control Room (A) 600185
+	1-Intake Maw (B) 600186
+	2-Steam Vents (B) 600187
+	3-Control Room (B) 600188
+	4-Workers' Quarters (Grab a wrench) 600189
+	5-Room of Cables 600190
+	6-Room of Presses 600191
+	7-Birds Room 600192
+	8-The Heart on Wires 600193
+	9-Room of Waterwheels 600194
+	10-Birthing Room 600195
+	11-Rejects Room 600196
+	12-Writing Room 600197
+	
+The Human Factory
+-A Port Report
+-Deliver Children to London
+-Deliver Children Elsewhere
+-Order a Child
+	-A Nearly-Blind Child
+	-A One-Legged Child
+	-A Twitching Child
+-Sell a Barrel of "Parts"
+-Trade a Barrel of "Parts"
+
+Hermitage
+-A Port Report
+-Meet Who Weeps
+	-Zzoup
+	-Ambiguous Eolith/Mutersalt
+	-Honey/Red Honey
+	-Solacefruit/Coffee
+	-Judgment's Egg
+-Collect a Personable Tortoise
+
+The Krakenchute
+-A Port Report
+-Descend
+	-Speak to Rorschach
+		-The Neathbow
+	-Gather secretions
+
+Paradise of Thorns
+-A Port Report
+-Letter chain
+-Purchase Solacefruit
+-Let the Unlicenced Therapist go ashore
+-The Intoxicating Palace
+	-Card game for stats
+	-Bathe in the pool
+	-Eat seeds
+	-Walk through a mirror?
+		-Card game high limits
+		-Bathe in the pool
+	-Try to leave
+
+Faeble
+-A Port Report
+-Donate a tooth to the Bonefae
+-Donate ivory to the Bonefae
+-Donate blood to the Bloodfae
+-Donate an eye to the Bloodfae
+-Let your Hairy Marksman go ashore
+
+Random Events (wot need changing)
+-A Fallen Stone (Storm to Sleet) (A Strange Catch falls from the Roof)
+-A Tooth-Cracking Treasure (Stone to Silver) (Extra in the coffers)
+-A White Zee-Bat (Salt to Shade)
+-Pale Visitors (Drownies to Mistresses)
+-Restless Nights
+-Tears (Salt to Shade)
+-That Old Fury (Storm to Sleet)
+-Truth in Dreams
+
+Silver's Palace
+-Enter with Echoes
+-Enter with Romantic Literature
+-Enter with Wine/Chateau-Dessous
+
+Attercop?
+
+Godhood:
+-Discover the Secret at Trojan's Rook
+-Found a Temple somewhere on the zee
+	-End Paren (requires 100 Mirrors)
+	-Ztargon's Remains (requires 100 Iron)
+	-Namerigawa (requires 100 Veils)
+	-Umwelt Isles (requires 100 Pages)
+	-Rath Ruin (requires 100 Hearts)
+-Grow your cult
+-Challenge the Mistresses and win
+
+9 Officers:
+-The Grim Quartermaster (First Officer) (Silver's Palace) (+Mirrors)
+	-The Frightened Apprentice (Technician) (+Veils)
+-The Pale Widow (Gunnery Officer) (Bestiary) (+Iron)
+-The Sunny Surfacer (Chef) (Dresden) (+Hearts)
+-The Shadowed Servant (Technician) (Seaglass) (+Veils)
+-The Gregarious Occultist (Surgeon) (Hermitage) (+Mirrors)
+-The Weary Ambassador (First Officer) (Ztargon's Remains) (+Hearts)
+-The Shrunken Hero (Gunnery Officer) (End Paren) (+Iron)
+-The Noxious Butcher (Chef) (Dis) (+Hearts)
+-The Dubious Naturalist (Surgeon) (Sunshade Redoubt) (+Mirrors)
+
+-Yore (First Officer) (+Hearts)
+
+Non-London Officers:
+-The Scorned Translator (Laennec's Retreat) (+Veils)
+-The Hungering Zee-Hunter (The Krakenchute) (+Mirrors)
+-The Incomparable Actress (Namerigawa) (+Veils)
+-The Intrusive Ozao (Hermitage) (+Iron)
+-The Rambunctious Ronin (Kantai) (+Iron)
+
+Minor Officers:
+-The Energetic Energumen (Chef) (+Pages, train Hearts)
+	-Dine With: "I know what you did."
+	-Zee Event: Mess in the kitchen
+-The Mute Ventriloquist (Technician) (+Veils, train Veils)
+	-Dine With: Murdered his wife?
+	-Zee Event: N/A
+-The Devilish Doll (Gunnery Officer) (+Iron, train Iron)
+	-Dine With: N/A
+	-Zee Event: Hides under a zailor's bed
+-The Manic Magistrate (First Officer) (+Mirrors, train Mirrors)
+	-Dine With:
+	-Zee Event: Attempts to arrest an "evil" zailor
+-Tidy Veterinarian (Surgeon) (+Hearts, train Pages)
+	-Dine With:
+	-Zee Event: New medical plan
+
++Iron 4
++Mirrors 4
++Veils 4
++Hearts 4
+
+Tyrant's Tournament
+Iron: The Shrunken Hero, The Rambunctious Ronin, The Intrusive Ozao
+Mirrors: The Pale Widow, The Grim Quartermaster, The Hungering Zee-Hunter
+Veils: The Shadowed Servant, The Weary Ambassador, The Noxious Butcher
+Pages: The Frightened Apprentice, The Gregarious Occultist, The Dubious Naturalist
+Hearts: The Sunny Surfacer, The Incomparable Actress, The Scorned Translator
+
+Legacy Items
+Ceremonial Sword: Become King of the Zee (+15 Iron) (knife2)
+Medal of Valor: Raise London to Supremacy(+10 Iron) (medalbatgold)
+Scented Deathmasque: Horrify doctors (+5 Iron) (maskamber)
+Jarred Memento: Gain a Lucent Soul (+15 Mirrors) (bottledsoulblue)
+Medal of Honour: Raise the Shogunate to Supremacy (+10 Mirrors) (medalcandlesilver
+Colourproof Goggles: ??? (+5 Mirrors) (gogglespurple)
+Silvered Self-Portrait: ??? (+15 Veils) (mirrormonster)
+Medal of War: Raise the Ozao Remnants to Supremacy (+10 Veils) (medalskulliron)
+Unfinished Painting: ??? (+5 Veils) (unfinishedpainting)
+Telekailedoscope: Go South (+15 Pages) (telescopeglim)
+Medal of Philanthropy: Raise the Umwelt Dynasty to Supremacy (+10 Pages) (medalrosebronze)
+Zee Thesis: Survey all ports(+5 Pages) (bookblue)
+Burning Ring: Become a Molten Monk (+15 Hearts)
+Rare Postage: Deliver a letter (+10 Hearts) (stamp)
+Ringmaster's Hat: Collect every Mascot (+5 Hearts) (tophat)
+
+Strategic Information
+1  Laennec's Retreat
+2  The Old Magnanery
+3  Bestiary
+4  End Paren
+5  Aditta
+6  Silver's Palace
+7  Crying Heights
+8  Chateau-Dessous
+9  The Krakenchute
+10 Paradise of Thorns
+11 Henson's Landing
+12 Seaglass
+13 Neokamakura
+14 Kirai Komainu
+15 Theatre of Tyrants
+
+Enemy bonuses
+
+Angler-Crab: +Mirrors x3
+Tizheruk Eel: +Veils
+Bound-Shark: +Iron
+Burnsides: +Veils
+Debt Collector: +Treasure
+Blue Prophets: +Iron
+Ghost Ship: +Pages
+Lorn-Fluke: +Veils
+Poaching Vessel: +Hearts
+Ozaean Langskip: +Iron
+Shogunate Atakebune: +Mirrors
+Umwelt Caravel: +Pages
+Clockwork Dreadnaught: +Iron
+
+Launches and Legacies: TODO
+-Rebalance Ships
+-Neokamakura Drydock
+-7 Colours of the Krakenchute
+-Seaglass
+-Aditta
+-The Merchant Venturer
+-Kantai and the Scorned Translator
+-The Intrusive Ozao?
+-Theatre of Tyrants
+-Supremacy
+
+Cults and Cannons: TODO
+-Whisper-Locked Puzzle Box
+-Mr. Feathers
+-Achieve Godhood
+-The Tilted Tinkerer
+-Huge weapons rebalance?
+-Indiscernable Romance
+
+Merchant Venturer:
+1		Strange Catch
+1-2		Hunting-Trophy
+2-3		Scintillack
+3-4		Violant Ink
+4-5		Spider-Silk
+5-6		Wyrmsbreath
+6-7		Mutersalt
+7-8		Human Souls
+8-9		Outlandish Artefact
+9-10	Parabola-Linen
+10-11	Stygian Ivory
+11-12	Watchful Curio
+12-13	Fluke-Core
+13-14	Carboy of Primordial Shrieks
+14		Darkdrop Coffee
+
+Alchemy Items
+-Corresponder (correspondencestone)
+-Stranger Catch (carcass_purple)
+-Energy Weapons
+
+Prisoner's Honey
+-Use in Your Lodgings: Go to a Pleasant Inn in Arbor
+-Use at Seaglass to undo the effects of mirror-gazing
+-Use at Kirai Komainu to travel into Alodia's dreams
+
+List o' Weapons
+DECK 4
+-Red 50
+-Blue 200
+-Green 10 Supplies
+-Purple ? Tokens
+
+FORWARD 10
+-Red Torp 150
+-Red Flens 200
+-Blue Torp 300
+-Blue 300
+-Blue Flens 500
+-Green Torp 15 supplies
+-Purple Torp
+-Purple Flens
+-Memento Mori
+-Icarus in Black
+
+AFT 3
+-Red 1
+-Red 2
+-Purple
+
+NEW List o' Weapons
+DECK 4
+-Red 50
+-Blue 200
+-Green 10 Supplies
+-Purple ? Tokens
+
+FORWARD 10
+-Red Torp 150
+-Red Flens 200
+-Blue Torp 300
+-Blue 300
+-Blue Flens 500
+-Green Torp
+-Purple Torp
+-Purple Flens
+-Nergal's Roar (none)
+
+AFT 3
+-Red Classic
+-Red Point
+-Blue Classic
+-Blue Lobber (chem)
+-Green Classic (dogs)
+-Purple Lobber (chem)
+-Purple Point
+
+MASCOTS
+-Lovable Little Buddy (+Hearts + Fuel Efficiency)
+-Diminutive Crustacean (+Iron) (Trojan's Rook)
+-Mechanical Magpie (+Mirrors) (Arms of the Machine)
+-Personable Tortoise (+Veils) (Hermitage)
+-Angelic Moth (+Pages) (World of Light OR Chateau-Dessous)
+-Prancing Pony (+Hearts) (Ormonde)
+-Mercurial Hound (-Hearts, +Iron) (The Human Factory)
+-Pale Zee-Bat (-Pages, +Mirrors) (Light-Ships)
+-Gigantic Stuffed Spider (-Iron, +Veils) (Fallen London)
+-All-Knowing Aardvark (-Veils, +Pages) (Umwelt Isles)
+-Woodcutter's Head (-Mirrors, +Hearts) (Neokamakura)
+-Horrible Goose (++Iron) (At zee)
+
+Something is pursuing your ship
+-Boost the engines (Iron)
+-Chum the waters (Veils, Strange Catch)
+-Turn and face it
+Options:
+-Froghemoth (41)
+-Umibozu (42)
+-Horrible Goose (43)
+-Pleasure Barge Ogygia, Rapturous Orchid (43 + Goose)
+-Wendigo (44 special)
+Tactics:
+-Iron: Open Fire!
+-Mirrors: Blind it!
+-Veils: Flee!
+-Pages: You heard a story...
+-Hearts: Rally the crew!
+
+Neath-Neathbow
+-Amaranthine: Piping Pyrosomes, Blemmiglugh
+	-Bonus: +5 Mirrors?
+-Cutlast: Criminoid, Silver's Palace
+	-Bonus: +5 Iron?
+-Gumzendeith: Sandprinces, Crying Heights
+	-Bonus: Trades
+		-Sapphires: Human Souls
+		-Emeralds: Brilliant Human Souls
+		-Rubies: Colossal Fluke-Core
+-Iffigium: Sufferfish, Theatre of Tyrants
+	-Bonus: +5 Hearts
+-Portcallous: The Dreamer, Trojan's Rook
+	-Bonus: Dreamslime Pharos 
+-Vantom: Jellywisps, Oishigetta
+	-Bonus: +5 Veils
+-Vimrust: Ventriclam, Dyi Ztar
+	-Bonus: Judgment's Egg, Fossils
+	
+Known Bugs
+-Dis
+-Sandprinces after the Satisfied Zee-Hunter
+-Multiple Elsewhere Souvenirs
+-Dubious Naturalist does not have A Doctor Aboard
+-Retiring at a Tower requires a Mansion
+
+Ports and Punishments TODO
+-Seeking
+
+    -Blemmiglugh and the Blind Bruiser (DONE)
+    -Bestiary (DONE)
+    -Something is pursuing your ship (DONE)
+    -New Newgate (DONE)
+    -The Krakenchute (DONE)
+    -Blemmiglugh blemmigans (DONE)
+    -The Old Magnanery (DONE)
+    -Kirai Komainu (DONE)
+    -Faeble
+	-Kantai (DONE)
+	-Crying Heights
+    -Hypatia
+    -Umwelt Isles (TODO)
+    -Silver's Palace (TODO)
+    -Various zee events (TODO)
+    -Aditta and the Molten Monks (TODO)
+    -Bracksoot (TODO)
+
+-Founder's Island?
+-Reward for all seven flag items? (DONE)
+-New Bestiary exhibitions after completing certain quests
+-Patent Office (that burns down)?
+-All the hearts for the Butcher (DONE)
+
+Changelog 0.13
+-Gaining too much Suspicion will land you in New Newgate Prison
+-The Kirai Komainu are fully explorable
+-A new, zee-spanning quest awaits at Blemmiglugh
+-You can now meet the Songweaver at The Old Magnanery
+-A new opportunity has appeared at Chateau-Dessous
+-You can now wander the streets of Kai in Neokamakura
+-The Blind Bruiser has a variety of new, profitable quests for you!
+-Added a new Officer story: The Dubious Naturalist! (Begin his story at Sunshade Redoubt.)
+-Trading with light-ships will gradually unlock more trade options and a quest
+-You can now fund expeditions in Fallen London's Inverted Quarter
+-Filling a Mirrorcatch Box in the Neath will give you Counterfeit Sunlight
+-Various shops have opened, and closed, across the zee
+-Some new actions have appeared inside Rorschach
+-New romance options are available, and romances are now easier
+-The Noxious Butcher's quest now has more options and better rewards
+-The Perplexed Helmsman finally has an ending
+-The Medal of Valor and Medal of Philanthropy are now available through Supremacy
+-You can now sell all seven flags at once at End Paren for a better reward
+-Gifting the Incomparable Actress to the Scalping Poppy offers a better reward
+-Gifting Crew, Fuel, and Supplies at Oishigetta is now more profitable
+-Something awaits inside Mt Nomad
+-Lowered the required Terror for Mistresses to spawn
+-Increased the power of the Organic Secondary Engine
+-You now properly inherit your Shogunate Lodgings from past captains
+-More events can now give diseases
+-Various text and bug fixes
+-The First and Second Sign have appeared
+
+Blind Bruiser:
+-Take a Counterfeit Treasure to Silver's Palace to be certified
+-Take some Counterfeit Wine to Chateau-Dessous to be certified
+-Get the Counterfeiter's Key to buy Counterfeit Wine at Blemmiglugh
+-Quest 1: Find the Gentleman Thief in one of four locations (Dis, The Old Magnanery, Laennec's Retreat, the Krakenchute) and interrogate him to find the location of a certain item of sentimental value (Gallery of Sentences)
+-Quest 2: The Cheery Man sent a Keen-Eyed Envoy to meet a Smooth-Talking Mercenary, but the Envoy has disappeared. The Cheery Man just wants his man back and is sending you to hear Hato-Sama's demands. At Namerigawa, a Stout Liason informs you that Hato-Sama was preparing to ask the same of the Cheery Man - his favourite mercenary has vanished. Investigating Aditta uncovers that the pair left together, bound for Sunshade Redoubt. At the Redoubt, a few well-placed bribes reveal that the pair have eloped and been rebuilt together into a Mechanical Chimera, two souls in one body.
+
+Ozao Supremacy
+-Dis (Shut down the mines)
+-Henson's Landing (Burn the island)
+-Laennec's Retreat (Unleash Zyme Resort)
+-Kirai Komainu (Kill Alodia)
+-The Pale Widow (Murder Old One-Eye)
+-Bracksoot (The Majority triumph)
+-The Dubious Naturalist (Destroy Bestiary)
+
+The workers, for the mines they'll yearn.
+And Henson's Landing too will burn.
+The sick escape their Warden's wrath.
+A guardian is slain at last.
+A blood-soaked woman gets her kill.
+A clockwork man ends a place of thrills.
+The southern horrors find their way.
+When this is done, we'll have our day.
+
+Nunilo
+-violant ink: 99 fragments to a Secret
+-Wyrmsbreath: 77 fragments to a Secret
+-Solacefruit: 55 fragments to a Secret
+
+Alodia
+-wedding between Crook and Spider
+-Girl (alodia) is a wedding gift
+-Gnarled Groom and Many-Veiled Bride
+-Best Man and Predatory Parents
+-Search the: Crowd, Rose bushes, pile of presents, great feast, river, sky
+
+Blemmigan Family Reunion
+1. End Paren
+2. Aditta
+3. Mekhane
+4. Laennec's Retreat
+5. The Human Factory
+6. Namerigawa
+7. Kantai
+8. Port Rosa
+9. Fallen London
+10. Ormonde
+11. The Old Magnanery
+12. Bestiary
+13. Hermitage
+14. Henson's Landing
+15. Faeble
+16. Hypatia
+17. The Krakenchute
+18. Trojan's Rook
+19. Crying Heights
+20. Bracksoot
+21. Rath Ruin
+
+At 7: Brilliant Human Souls
+At 14: Searing Enigma
+At 21: Blue Scintillack
+
+Songweaver's Tour 604278
+Go to any 3 of ?? places and perform.
+-Namerigawa
+-Paradise of Thorns
+-Fallen London
+-Bestiary
+-Theatre of Tyrants
+-Castle Kysamoto (unlockable)
+The Maestro will randomly ask for:
+-3 Honey
+-3 Sapphires
+-3 Swarmspice
+-3 Supplies
+Score: 1 if unappeased, 2 if unappeased but successful, 3 if appeased
+Rewards: 1 Spider-Silk per score, plus:
+1-3: 150 Echoes
+4-6: 200 Echoes
+7-8: 250 Echoes, 1 Outlandish Artefact
+9: 400 Echoes, 1 Outlandish Artefact, 1 Hearts
+
+Shops:
+-Silver's Palace: General Goods and Silver's Stash
+-Kantai: Ludicrously Expensive general goods
+-Aditta (Ray-Drenched Cinder)
+-Aphantasia Rework
+-The Old Magnanery (Swarmspice (buys))
+-Arms of the Machine
+-Trojan's Rook (Prisoners)
+-Bracksoot
+-Bestiary Rework
+
+Romances:
+-Actress: Hearts > Veils
+-Helmsman: Iron > Veils
+-Therapist: Mirrors > Iron
+-Pale Widow? Veils > Iron OR Veils > Hearts
+-Sunny Surfacer? Hearts > Mirrors
+-Occultist? Veils > Mirrors
+-Butcher? Hearts 75
+-Naturalist? Mirrors > Veils
+-Translator? QUEST
+-Ronin? Iron > Hearts
+-Tinkerer QUEST
+-Ozao Iron 100
+
+Kai: The Ghost Quarter
+-Stumbling woman: + Outlandish Artefact, Something Is Pursuing Your Ship
+-Fishing for souls
+-Faceless women
+-Cursed Shop (Hunting Trophy, Shogunate Flag, Ectoplasm)
+-Kwairyō's Story
+-Oni going about its business
+
+Light-Ship Favours:
+-Recent News: 0, +1
+-Memory of Distant Shores: 2, +1
+-Romantic Literature: 4, +2
+-A Port Report: Trojan's Rook: 6, +3
+
+Exploring Umwelt Territory (Wandering Hyacinth)
+-Umwelt Isles: Aquamarine Administrator (Supremacy)
+-Spring Islands: Plant nursery, with bees and pollen
+-Hybrid Isles: Lab of the Mad Botanist
+-???: Secret Umwelt Headquarters
+
+New Newgate: Arrested
+-While away your time
+-Work on your escape plan
+-Go Deeper
+
+Ryūgū-jō
+-Gather what treasures you can
+-Gather what knowledge you can
+-Smash through a crystal wall
+
+Breaking Bestiary
+-Get high Zookeeper trust OR pay a steep bribe to look at the animals
+-Make arrangements with the Inspector, the Cheery Man, or the Elite to assault Bestiary
+-The Inspector needs Smuggler's Disguises and a Live Specimen
+-The Cheery Man needs a Pirate Flag, 20 Fuel, and a Flare
+-The Inattentive Elite needs Parabola-Linen, Foxfire Candles, and Lamentable Relics
+-Structure:Get inside (all three)
+	-Assaulting Bestiary: Always the same (Veils)
+	-Three different battles (Iron)
+	-Escape with the animals! (Hearts)
+-Deliver 20 units of freed animals to Vthyaril, London, or Namerigawa
+
+tilecolours:
+-Default
+-Boreal
+-Green
+-Murky
+-Grey
+-Frosty
+-Black
+-Teal
+-Mu
+
+Answers and Ambitions Update
+-Seeking pt.2
+-Peace (DONE)
+-Godhood
+-Faeble
+-Bracksoot
+-Aditta
+-Silver's Palace
+-Umwelt Isles
+-Mekhane ending (DONE)
+-North?
+-Rambunctious Ronin (DONE)
+
+v.0.14
+-Completed an Ambition: Peace! Bring the nations of the Neath together!
+-Completed an Ambition: Godhood! Begin this bonus quest at Trojan's Rook!
+-Prettied up the map, with new log names, swapped water colours, and a few surprises
+-A selection of neutral ships and beasts has been scattered across the zee
+-Added a new Officer story: The Rambunctious Ronin! (Begin his story at Kantai.)
+-Something new has appeared to the far North.
+-An Unprepossessing Mass and a Cache of Curiosities occasionally offer new text and new rewards
+-You can now influence affairs in Neokamakura with Diplomatic Agents
+-The Rock-Ribbed Colonial's story has a new ending
+-You may now pursue An Indiscernable Romance to its conclusion
+-Various text and bug fixes
+
+Tiles:
+-Bracksoot: Generic Rocks, Red River
+-End Paren: Ice Wall
+-Crying Heights: Vortex x2
+-Ztargon's Remains: Seaweed / Screamers
+-Trojan's Rook: Many buoys
+-Vibrissa: South Wall
+-Infernal Canal: Seaweed
+-Sunshade: Some buoys
+-Blemmiglugh: Many buoys
+-Hypatia: Few rocks
+-Silver's Palace: Abyss, Vortex
+-Magnanery: Abyss / Vortex
+-Machine: Abyss, Vortex / Fog, buoys
+-Chateau-Dessous: Mushrooms, Many buoys
+-Aditta: Abyss, Many buoys
+-Aphantasia: Abyss
+-Seaglass: Coral Maze
+-Krakenchute: Abyss
+-Henson's Landing: Vortex
+-Neokamakura: Many Buoys
+-Port Rosa: Islands
+-Oishigetta: Abyss
+-Theatre of Tyrants: Abyss, Vortex
+-Dyi Ztar: Screamers, Seaweed, Abyss / Seaweed, Vortex, Abyss
+-Laennec's: Many buoys
+-London: Many buoys, Abyss / Many buoys, seaweed
+-Rath Ruin: Some buoys
+-Faeble: Some buoys / Abyss
+-Kirai Komainu: Seaweed, Abyss
+-Moth: Fog, Abyss x2
+-Founder's: Abyss
+-Bestiary: Vortex
+-Culicida: Abyss
+-Mekhane: Vortex
+
+Ozao Peace Gifts:
+1. Blue Scintillack
+2. Hunting-Trophies
+3. Supplies
+4. A Challenge
+5. Lucent Soul
+6. Ozao Flags
+7. Searing Enigma
+
+Mysteries for the Umwelt:
+-Top of the Gallery of Sentences (DONE)
+-Aphantasia's Source
+-The Bone Warden (DONE)
+-Clayborne Place
+-Who Weeps' pains (DONE)
+-Pando (DONE)
+-Titania
+-Machine's Output (DONE)
+-The Majority
+-The Disappearances at Dis (DONE)
+
+Ship Parts for the Shogun:
+-Hull Parts (Ivory, Wyrmknuckles, Spider-Silk)
+-Prow-Light (Lucent Soul Projector, Dreamslime Pharos, Ray-Drenched Cinder)
+-Engine Parts (Compulsion, The Clawing, The Turgid Organ)
+
+Neokamakura Spying
+1. Prisoners
+2. Candles, Ink, Coffee
+3. London Flag
+4. Zzoup
+5. Wyrmknuckles
+6. Live Specimen
+7. Biological Payload
+8. Chess Piece
+9. Cask of Chateau-Dessous 1886
+10. Captivating Treasure
+
+Rambunctious Ronin:
+-ACT ONE: Get the Ronin's Respect to 10!
+	-Hunting-Trophy +2
+	-Tale of Terror!! +1
+	-Ghost Flag +5
+	-Shogun Rules +10
+-ACT TWO: Heist!
+	-Bring the Songweaver
+	-Bring lots of wine, and a Cask of Chateau-Dessous 1866
+
+Peace Summit!
+1. Tea (Shogunate VS Ozao)
+2. Opening Arguments (London VS Umwelt)
+3. Military Strength (London VS Shogunate)
+4. Resources (Shogunate VS Umwelt)
+5. Reparations (London VS Ozao)
+6. Final Statements (Ozao VS Umwelt)
+
+Godhood!
+-Phase 0: Talk to Mr Feathers
+	-Has to be first convo, because you can get locked out later.
+	-Introduce concept of Godhood
+-Phase 1: Founding the Cult (0-10) (3 actions)
+	-Assign Flavour
+	-Assign a Cult Artifact (Go without 0, Captivating Treasure 1, Ray-Drenched Cinder 2, Blue Scintillack 3)
+	-Assign a Cult Setting (Public Library 0, Cave Full of Bats 1, Rich Benefactor's Observatory 2, Abandoned Orphanege 3)
+	-Initial Recruitment (Word of Mouth 0, Surreptitious Newspaper Ad 1, Mad Prophets 2, Explosive Incarnation 3) (Intro to Unwanted Attention)
+	-Perform Parlour Tricks until 10
+-Phase 2: Growing the Cult (10-100) (3 actions)
+	-Ministry of Rational Belief appears (No effect on first meeting. When active, any cult activities raise Unwanted Attention.) ([d:4]-3 if at most 0)
+	-Random Events:
+		-Ministry checks in
+		-Cult attempts to summon you
+	-Host a Cult Meeting (+1-5, only if at most 99)
+	-Philanthropic Activities (-Unwanted Attention)
+	-Evade the Ministry of Rational Belief (-Admiralty's Favour)
+	-(20) Glance into a mirror (Invitation to tea)
+	-(Visited the Palace) Glance into a mirror (Crook stuff)
+		-Sell stats for Crook's Tally
+		-Buy Crook Artefact (increases power of Cult Meetings)
+		-Buy Crook Timepiece (increase number of cult actions)
+		-Crush the Ministry of Rational Belief
+	-(50) Upgrade location +25
+-Phase 3: Real Power (100-1000) (3 actions)
+	-Today feels different (+Stats)
+	-Random Events:
+		-Ministry checks in
+		-Mothers Against Monster Adulation
+		-Cult Awareness Network
+	-Host a Cult Meeting (+5-10, only if at most 999) (Rare: +Unwanted Attention, +Stats [d:2]-1)
+	-Crush the Ministry of Rational Belief (-2 Admiralty's Favor)
+	-Crush MAMA (???)
+	-Crush the Cult Awareness Network (???)
+	-(200) Upgrade location +100
+	-(300) Found new churches +100x5 (take 10 Cultists to Laennec's Retreat (Hearts), End Paren (Mirrors), the Magnanery (Iron), Paradise of Thorns (Pages), or Neokamakura (Veils))
+	-(400) Destroy the Cult Awareness Network for good
+	-(400) Destroy MAMA for good
+	-(500) Destroy the Ministry of Rational Belief for good
+-Phase 4: The Final Battle (1000+)
+	-Assemble a War Party (bring Cultists to Mr Feathers' lair; the more, the easier)
+	-Crush Mr Feathers in a god-off!
+	-Retire or take the money and run
+
+v.0.14.1
+-Grimroe now has the correct death event
+-Replaced Bultitude's House of Vision
+-The quest at Dis can be completed properly
+-Silver's Curse is now a costly inconvenience
+-You can now use Beginner's Luck at certain locations
+-Various zee events, including low hunger and fuel events, have been altered
+-Surface travel now grants you Visions of the Surface
+-You can now speak to Silver to gain his attention or remove his curse
+-Added a repeatable interaction with the Songweaver on your ship
+-Fixed a rare softlock event at Hypatia
+
+Signals of Virtue:
+-Lucent Soul Projector (1 Secret)
+-Hand of Wossname (1 Brilliant Human Souls)
+-Dreamslime Pharos (3 Secrets)
+-Nergal's Roar (5 Secrets)
+-The Clawing (5 Secrets)
+-The Golden Gun (1 Strange Catch)
+-Milebreaker (1 Captivating Treasure)
+
+Faeble Plan
+-Sneak inland
+-Investigate:
+	-A mushroom-eaten house
+	-A stone temple
+	-The Fae's Stash
+
+-A Stone Temple
+	-Meet:
+		-Chimneysweep: Your Wise Mentor
+		-Circus Performer: Your Old Ringmaster
+		-Gardener: Your Employer’s Daughter
+		-Invalid: Your Aged Nurse
+		-Veteran: Your Commanding Officer
+		-Heir: Your Zeefaring Aunt
+		-No Past: Nobody
+
+
+Parts of Inkarri (Titania)
+-Head is in the Second City (Inverted Quarter)
+-Arms are owned by Silver
+-Legs are in the Spring Islands
+
+A mushroom-Eaten House (gain Terror)
+-Witness a giant’s feast
+-Psychadelic colour tunnel
+-Twilight forest
+-Spooky river
+-Gullet
+-Day of the Dead street
+-A house of many doors
+-A grim factory
+-Shrunk into an anthill
+-???
+
+Ending: Assemble Inkarri
+-Side with the Fae
+-Side with Inkarri
+-Stand back, and let it play out
+
+
+Approaching Silver
+-Gift 200 echoes
+-Gift 5 Romantic Literature (trap)
+-Gift 5 Sapphires
+-Gift a Strange Catch (trap)
+-Gift a Watchful Curio (trap)
+-Gift Solacefruit
+Then, when inside:
+-Darkness and a loud voice
+-Give all you have (Aditta quest)
+-Offer to make a delivery (Silver's Attention)
+-Beg for the removal of his curse (-Curse)
+-Ask for Inkarri's Arms (Captivating Treasure)
+-Simply bask in his presence (-Terror)
+
+Add Menaces: Watched
+-Dyi Ztar
+-Ztargon's Remains
+-Crying Heights
+-Hypatia, doing something cursed?
+
+The Shadowy Chateau v2
+-The True Name of a Bonefae Princess / The nature of an investment (Searing Enigma)
+-A distraction / Back up a boast (hunting-trophy)
+-Indulge a curiosity / Relieve a homesickness (scintillack)
+
+Crying Heights events v2
+-Blue Prophet's Smoke Break
+-A Walk by the Shore (change) / A Wandering Minister
+-Noman food line
+-An Intriguing Smell (change) / A Star-Covered Tent
+-A wax museum
+-A dockside tiff (change to scintillack)
+-Nets (change) / That's no noman!
+-Rustlings in the dark
+-Run for cover
+-A Cry for Help
+
+v0.15
+-A new quest is available at Crying Heights
+-A new quest is available at Aditta
+-A new quest is available at Faeble
+-Several new locations are now available at Port Rosa
+-Added a new Officer: Posey! (Begin her story at Port Rosa.)
+-Mr Feathers has a new, repeatable quest for you
+-The Medal of War is now obtainable
+-The Slovenly Heir now inherits significantly fewer Echoes
+-Roser's Wharf has been reworked
+-Altered The Shadowy Chateau event to remove some early-instalment weirdness
+-Added more opportunities to gain Menaces: Watched
+-The Ministry of Public Decency has found new substances to search for
+-The Frightened Apprentice now offers a different reward
+-You can now complete the light-ship and puzzle box quests even if you can no longer speak to Mr Feathers
+-The Ozao Flagship has a proper defeat event
+-Most zee-beasts now provide more Bestial Observations
+-You now need your own chess set to play high-stakes chess
+-You may now attempt more actions that may Wound you if failing would kill you
+-Adjusted a few prices of trade goods
+-Added the World Breaker
+-Various text and bug fixes
+-The Third Sign has appeared
+
+Spring Islands
+-Umwelt are growing a bouquet for the Echo Bazaar (Maudlin Magnolia)
+-Need Fungal Water, Sunlight, Stories
+-Need 50 Growth; 5 Fungal Water for 10 Growth, or 1 Sunlight for 50 Growth
+-Tell stories to change their colour! Can result in:
+	-A Glass Bouquet: no colour, not enough stories (2 Solacefruit)
+	-A Red Bouquet: 3-10 Romantic Literature (3-10 Coffee)
+	-A White Bouquet: 3-10 Unread Logs (3-10 Pearls of Light)
+	-A Pink Bouquet: Equal RL and UL (3-10 Solacefruit)
+	-A Brilliant Bouquet: Gave a Searing Enigma (2000 echo)
+
+Hyrbid Isles
+-Flower wants to become human (Posey)
+-Purchase an All-Knowing Aardvark
+
+??? (Umwelt Stronghold)
+-Frostfound-like, skill challenges to progress
+-Each successful run makes the next run harder
+-Gain a Memory of a Dynasty or push on for Liquid Melancholy
+-Defeat one of four story checks or spend a Secret to progress!
+-Three failures and you get kicked out
+
+Renewable Dissonator: The Neathbow
+-Apocyan: Apocyan Chess-Piece (Add to Alexander's Golden Hall)
+-Cosmogone: Ray-Drenched Cinder
+-Gant: Star-Shell
+-Irrigo: Colossal Fluke-Core
+-Peligin: Jellied Eyeball
+-Violant: Firkin of Violant Ink
+-Viric: Mirror-Charm (Buy at Mirrored Palace)
+
+v0.15 todo
+-Faeble
+-Aditta DONE
+-Crying Heights DONE
+-Fourth Sign
+-Spring Islands (pearls of light)
+
+Crying Heights
+-Delivery 1: Chateau-Dessous
+-Delivery 2: The Human Factory
+-Hunting 1: The Infernal Canal
+-Hunting 2: Paradise of Thorns
+-Hunting 3: Laennec's Retreat
+-Hunting 4: End Paren
+-Hunting 5: Seaglass
+
+-Dancing with a pirate
+-Experiencing pleasures
+-Immortality
+-Outcasts
+-Relationship to yourself
+
+Aditta: 3 Debuffs
+-Sleet: 2 Wounds kills you
+-Silver: Debt Collector haunts you
+-Shade: Always gain Nightmare's Strength when returning to London
+
+Roser's Wharf
+-1-12
+	-Buying: Fossil (The Jovial Contrarian)
+	-Selling: Watchful Curio (The Honey-Addled Detective)
+-13-25
+	-Buying: Solacefruit (The Sardonic Music-Hall Singer)
+	-Selling: Coffee (The Revolutionary Firebrand)
+-26-38
+	-Buying: Star-Shell (The Voracious Diplomat)
+	-Selling: Captivating Treasure (Mr Stones)
+-39-51
+	-Buying: Hunting-Trophy (The Dauntless Temperance Campaigner)
+	-Selling: Unread Log (The Regretful Soldier)
+-52-64
+	-Buying: Outlandish Artefact (The Topsy King)
+	-Selling: Judgment's Egg (The Captivating Princess)
+-65-77
+	-Buying: Wyrmknuckles (The Wry Functionary)
+	-Selling: Wyrmsbreath (The Secular Missionary)
+-78-90
+	-Buying: Live Specimen (The Provost of Summerset)
+	-Selling: Ectoplasm (The Soft-Hearted Widow)
+-91-100
+	-Buying: Scientific Advancement (Mr Clathermont)
+	-Selling: Extraordinary Implication (The Manager of the Royal Bethlehem Hotel)
+
+REDEMPTION
+-Start in New Newgate
+-Released by the Five-Star Steward (harris)
+-Collect 3 particular Port Reports depending on background
+	-A Chimneysweep: Hermitage, The Krakenchute, Aditta
+	-An Invalid: Laennec's Retreat, Seaglass, End Paren
+	-A Veteran: Dyi Ztar, Ztargon's Remains, Gabriel's Gate
+	-A Circus Performer: Bestiary, Faeble, Crying Heights
+	-A Gardener: Blemmiglugh, Paradise of Thorns, Sunshade Redoubt
+	-An Heir: The Old Magnanery, Chateau-Dessous, Silver's Palace
+-Second Quest?
+-Meet the Exceptional Agent (SSRlady) at Founder's Island
+	-Explore all four directions
+	-Meet nine gods
+	-Get the 5 big legacy items
+-Turn in the Harrowing Hypothesis and retire
+TRUTH
+-You cannot sleep. You see the Exceptional Agent, but you are not dreaming.
+-Returning to the Exceptional Agent points you toward Aphantasia.
+-Your Shadow becomes A Familiar Face ("I've been screaming at you for hours now.")
+-Fail to escape the Neath ("I know you can't speak to me. But you can show me through your actions that you're listening.")
+-Die, and return.
+-Systematically destroy the world.
+-Face the Rewriters.
+
+v0.16
+-Added a new Officer story: Yore! Begin his tale in Fallen London.
+-The final Extraordinary Person has appeared... somewhere.
+-You can now trade a Soothe & Cooper Long-Box in Fallen London.
+-Observations can now raise stats up to 150.
+-Prisoners now sell for less than their price in New Newgate.
+
+TODO
+-Sunshade Redoubt
+-The Shrunken Hero
+-The Scorned Translator
+
+Sunshade Redoubt
+-Agree to receive a Lucent Soul
+-Get sailed out to the Dusk Machine
+-But it sees your potential and gives you a quest
+-There is a particular soul that it wants: a Devout Archaeologist
+
+The Shrunken Hero
+-Wants to get the old gang back together
+-They refuse
+-The Hero causes disasters to remind them of the glory days, accidentally kills them
+-Finally reveals his ultimate prize: The Friends We Made Along the Way!
+-Evolves into a *worse* Officer
+
+The Scorned Translator
+-Pick up at Zyme Resort
+-Dine with once
+-Earn her trust
+-Dine with her again
+-Connect with an Overwhelming Assassin in Kantai
+-Gain Cloak and Dagger
+
+Yore
+-Pick up in London
+-Dine at 50 Terror with Supplies and SAY
+-Dine at 60 Terror with Supplies, Wine, and SAY
+-Dine at 70 Terror with Coffee and SAY
+-Dine at 80 Terror with Zzoup, a Port Report: Fallen London, and SAY
+-Dine at 85 Terror with a Searing Enigma and SAY
+-Throw Yore in the zee or keep him
+
+The Obstinate Ninja
+-Hiding at Gabriel's Gate (find with Mirrors check)
+-Is waiting for Gabriel to emerge ("It died? Then it wasn't Gabriel.")
+-Will boost Veils for candles
+
+Clayborne Place
+-Do a Bluebeard - the Thing in the Basement?
+-"So, let me get you up to speed. My grandfather is the head of the household. He has three sons. The first never married, no children. The second has three children - one's adopted, but we don't discuss that - and is betrothed to an actress. The third married my mother and had me."
+-New character list:
+	-Fortunate Scion (the murderer) (suitmorning)
+	-Pompous Patriarch (survives) (suitfaded)
+	-Crumbling Elder (once-great, dies first) (suitbloodstain)
+	-Frazzled Critic (Scion's father - nervous wreck) (suitparabola)
+	-Polite Heiress (Scion's mother - alcoholic) (dressdull)
+	-The Silent Butler (Clockwork man; No, I don't think he has anything to do with it.) (suitgrey)
+	-Suave Uncle (Scion's uncle) (suitpurple)
+	-Bohemian Beau (Scion's uncle's fiancee) (smockpockets)
+	-Firstborn Fop (Uncle's first child) (suitwhite)
+	-Parasitic Twin (Uncle's second child - sickly, subservient) (gownblue)
+	-Final Girl (Uncle's third child, adopted) (gownivory)
+-Character Stuff
+	-Fortunate Scion
+		-Snoop: Childhood room, drawings of ships and zee-captains
+		-Report: Prodigal son, multiple failed voyages
+	-Pompous Patriarch
+		-Snoop: Secret stash of weapons and explosives.
+		-Report: Disobeyed orders during the war and led a charge on the Ozao that resulted in a hundred deaths.
+	-Frazzled Critic
+		-Snoop: see Polite Heiress
+		-Report: Has had dealings with the Crooks for some years. It's an unconfirmed rumour that he permanently swapped places with one.
+		-Murdered By: Stabbed with a pen
+	-Polite Heiress
+		-Snoop: Empty bottles under the bed, empty jars, mushroom dirt (basically, lotsa drugs) and a greased-up mirror (the only one in the house).
+		-Report: Doesn't come from a good family at all!
+		-Murdered By: Overdose
+	-Silent Butler
+		-Snoop: Lacre, strange alchemical concoctions, lots of whittling
+		-Report: The Crumbling Elder's friend who was killed in the war with the Ozao. The Elder brought the friend's body to Crying Heights to be ressurected.
+	-Suave Uncle
+		-Snoop: See Bohemian Beau
+		-Report: Unknown who the Twins' parents are.
+		-Murdered By: 
+	-Bohemian Beau
+		-Snoop: Room neatly divided in two - a couple who share nothing. The Beau's side is littered with clothes, because the closet is dominated by a shrine to Shade.
+		-Report: Dabbles in the arcane practices of nameless things.
+		-Murdered By: 
+	-Firstborn Fop / Parasitic Twin
+		-Snoop: Firstborn is awake, kept up by the Twin's explosive, gasping snores.
+		-Report: Have made exactly one public appearance, in which the Twin violently attacked someone who made fun of his laboured breath.
+		-Murdered By: 
+	-Final Girl
+		-Snoop: Perfectly ordinary, except that she's not there.
+		-Report: The Crumbling Elder rescued her from a fire that killed her family. Isn't legally adopted.
+-Chapter 1: The Rescue
+	-House is closed off to you
+	-Random zee event (requires SAY): A Foundering Vessel
+	-Can plunder the vessel or keep sailing
+	-If you keep sailing, you lose Terror, and the event can repeat
+	-If you loot the ship, you find the Fortunate Scion
+	-According to him, (plausible-sounding story, but he caused the crash)
+		-Asks if you found any pills. It's not *urgent* that he take them, but it would be better if he returned home soon.
+	-Take him to Clayborne Place for a reward
+-Chapter 2: Dinner
+	-Invited to celebrate
+	-Meet each of the family in turn
+		-The Fortunate Scion's Grandfather
+		-The Fortunate Scion's Parents
+		-The Fortunate Scion's uncles
+		-The Fortunate Scion's cousins
+	-Hide and seek: The Scion hides with you in the cellar, which is empty
+	-A horrific scream! The Crumbling Elder has been murdered!
+	-You're shuttled away - this is a family matter.
+-Chapter 3: A Series of Incidents
+	-There are no groundskeepers on patrol, and no footman escorts you to the door.
+	-The Fortunate Scion answers your knock. There've been... accidents.
+	-Strange things have been happening. The footman was found drowned - odd for a man with a fear of water. The head gardener was eaten by his own dog. A maid was killed when the boiler burst. After that, all the non-essential staff were evacutated to London. They've been waiting for word that they arrived safely... but that word may never come.
+	-You were the only other person in the cellar with the Scion - that means you're the only person he can trust. You have to solve the mystery.
+	-Discuss motivations!
+		-The Fortunate Scion's parents: "No. Don't bring my parents into this. I don't want to live in a world where I can't trust them."
+		-The Pompous Patriarch: "I could believe it. He was never the same after the war."
+		-The Suave Uncle: ""
+		-The Bohemian Beau: ""
+		-The Silent Butler: "Who, Smudges? No, I don't think he has anything to do with it."
+		-The Twins: "If one did it, so did the other."
+		-The Final Girl: "She's only been part of our family for a few years. But she's one of us. Family."
+		-The Fortunate Scion: "What? I couldn't have. I was in the cellar. You were there."
+	-There's a Gumshoe Agency at The Old Magnanery. Go there to seek out more information.
+-Chapter 4: And Then There Were...
+	-Each report costs 30 Fragments.
+	-Each time you return to Clayborne Place, you can stay for dinner, make an accusaion, and spend the night.
+	-Dinner reduces Hunger and Terror by gradually decreasing amounts.
+	-To make an accusation, you need a Report and a Hunch.
+	-When you spend the night, you can investigate one room to obtain a Hunch (Veils check).
+	-This continues until four are left:
+		-The Pompous Patriarch
+		-The Fortunate Scion (potential murderer)
+		-The Silent Butler (potential murderer)
+		-The Final Girl (potential murderer)
+-Chapter 5: Caught in the Mousetrap
+	-The Fortunate Scion greets you in tears. The Final Girl is dead.
+		-She lies on the floor in the living room, a smashed flowerpot beside her bloodied head. English roses in full bloom, of course.
+	-The Scion declares his intent to kill his uncle. He asks for your help.
+	-Whether you agree to help or attempt to stop him, you all wind up in the living room.
+	-You must choose which one is the murderer.
+	-The story branches!
+
+	-Branch 1: The Scion is the Murderer. The Final Girl is his accomplice.
+		-Motivation: Wants to be with the Final Girl.
+		-Method: The Final Girl did it.
+		-Twist: The entire family is werebats.
+		-Clues:
+			-In love with the Final Girl.
+			-Knows how to sabotage ships.
+			-Killed the courier who was to deliver the adoption paperwork to London.
+		-The Scion breaks down - all you had to do was choose someone else, and you could have lived.
+		-The Final Girl (not dead) shoots and kills the Butler.
+		-The Scion and the Final Girl hold you and the Patriarch at gunpoint.
+		-Options:
+			-Just one more thing... (Pages)
+				-Fail: see Let this play out
+				-Success: Reveal that the Scion has sunk every ship he's been on.
+			-Let this play out
+				-The Patriarch asks if the Final Girl knows about the Scion's parentage. He proves the Scion is a Crook by pulling out a pocket mirror.
+		-Options:
+			-Attack the Fortunate Scion (Iron)
+				-Fail: Get Wounded and knocked back, the Patriarch gets shot
+				-Success: Injure the Scion while the Patriarch tackles the Final Girl
+			-Attack the Final Girl (Iron)
+				-Fail: Get Wounded and knocked back, the Patriarch gets shot
+				-Success: The Scion looks at you in horror, and the Patriarch stabs him
+			-Stir the pot (Hearts)
+				-Fail: The Scion shoots the Patriarch and whirls on you
+				-Success: The Final Girl shoots the Scion, the Patriarch tackles her
+		-Options:
+			-Prior Success:
+				-The injured Scion twists and weaves around you both, running upstairs
+				-The Patriarch starts to follow, then turns pale and grabs your arm, running for the door
+					-Run!
+					-Save the Final Girl
+			-Prior Failure:
+				-An explosion rocks the house! The Silent Butler (not dead) blew it up!
+				-Both the Scion and the Final Girl are unconscious; flames encroach.
+				Options:
+					-Save the Fortunate Scion
+					-Save the Final Girl
+					-Leave them both to their fate
+
+	-Branch 2: The Silent Butler is the Murderer. The Fortunate Scion is his accomplice.
+		-Motivation: Is an Ozao that the Patriarch killed during the war.
+		-Method: Stabbed the bastard.
+		-Twist: Has been dosing the entire family with lacre, controlling them remotely.
+		-Clues:
+			-Everyone died from suicide.
+			-The Butler prepares everyone's food.
+			-The Butler is the only one who knew everyone's secrets.
+		-The Fortunate Scion speaks in the Ozao's voice, explaining the plot.
+		-The house goes up in flames.
+		-The Scion lunges for the Patriarch.
+		-Options:
+			-Lunge for the Scion (Iron)
+				-Fail: The Patriarch shoots the Scion. The Butler escapes.
+				-Success: Knock out the Scion. The Patriarch shoots and wounds the Butler.
+			-Lunge for the Butler (Iron)
+				-Fail: The Patriarch shoots the Scion. The Butler escapes.
+				-Success: The Patriarch shoots the Scion. You wound the Butler.
+			-Lunge for the exit
+				-Flee the scene, speculate about what may have gone down as the house burns.
+		-The Butler escapes:
+			-Chase down the Butler (easier if the Butler is wounded) (Mirrors)
+				-Fail: The Butler escapes into the zee. If the Scion was knocked out, his body is gone.
+				-Success: The Patriarch shoots and kills the Butler. The Scion dies in the fire.
+			-Flee with the Patriarch (Hearts)
+				-Fail: The Patriarch runs into the flames. You escape, but gain Terror.
+				-Success: You and the Patriarch escape, bringing the Scion if he's alive.
+
+	-Branch 3: The Final Girl is the Murderer. The Silent Butler is her accomplice.
+		-Motivation: The Pompous Patriarch killed her real family.
+		-Method: Stabbed the bastard.
+		-Twist: The Final Girl is a ghost.
+		-Clues:
+			-The Final Girl was never legally adopted.
+			-She wears heavy perfume to hide the smell of ectoplasm.
+			-Her widowed mother died in a fire. She did too.
+		-The Final Girl sits up and explains the plot. You can let her talk, or shoot her, which reveals that she's a ghost.
+		-The Butler skewers the Scion, and the house goes up in flames.
+		-The Final Girl offers to let you leave, while everyone else dies in the flames.
+			-Leave:
+				-You gtfo and speculate about what may have happened as the house burns.
+			-Fight to save the Patriarch (Iron):
+				-Fail: Get Wounded and kicked out.
+				-Success: You kick ass and chew bubble gum and crush the Butler.
+			-Talk her down (Hearts):
+				-Fail: Return to previous choice
+				-Success: The Final Girl's spirit is soothed, and she vanishes. The Patriarch shoots the Butler and you escape as the house burns.
+	
+	Branch 4: There is no murderer.
+		-Motivation: The Elder died after the pollen in his lungs finally sprouted.
+		-Method: The Patriarch faked a murder scene to cover up the Elder's dealings with the Umwelt Dynasty.
+		-Twist: The Elder lived and has been murdering everyone else.
+		-Clues:
+			-Abundance of house plants
+		-Sobbing Scion accuses the Patriarch of murdering everyone. Patriarch reveals he didn't murder anyone.
+		-Reveals the Elder's secret.
+		-The Elder appears at the top of the stairs - held together by a mass of sinewy vines!
+		-All at once, every plant in the house attacks!
+			-Fight for your life!
+				-Fail: Knocked out and tied up
+				-Success: 
+			-Flee the scene
+				-Fail: Knocked out and tied up
+				-Success: You leave, and speculate about what might have happened as the house burns.
+		-If tied up:
+			-The Elder gloats that this is the perfect mystery - no one will ever figure it out!
+			-Smoke is filling the room - he intends that you all die here!
+				-Ruin the story (Pages) (The reader would scoff - *scoff!* - if the protagonist suddenly did... this!)
+					-Fail: 
+					-Success: 
+				-Tell a better story (Hearts)
+					-Fail: Your attempt is cut off; "Your role is silent." You are Wounded.
+					-Success: You laugh and claim that you are the real killer.

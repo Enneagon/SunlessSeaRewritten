@@ -2,7 +2,7 @@
 	{
 		"Name": "AuroralMegalops",
 		"ParentSpawnPoint": null,
-		"HumanName": "Auroral Megalops",
+		"HumanName": "Apoplectic Angler Crab",
 		"Neutral": false,
 		"Description": "",
 		"PrefabName": "Fierce/Organic/AuroralMegalops",
@@ -10,9 +10,9 @@
 		"AwareBehaviour": "HuntingPlus",
 		"Hull": 0,
 		"Crew": 0,
-		"Life": 20,
-		"MovementSpeed": 16,
-		"RotationSpeed": 1,
+		"Life": 400,
+		"MovementSpeed": 20,
+		"RotationSpeed": 0.5,
 		"BeastieCharacteristicsName": "LightShySwimmer",
 		"BeastieCharacteristics": {
 			"MinAttackRange": 0,
@@ -27,7 +27,8 @@
 			"ChanceToStartSubmerged": 0
 		},
 		"CombatAttackNames": [
-			"Ram01"
+			"Ram06Swift",
+			"RoarWeak"
 		],
 		"CombatItems": [],
 		"StartCombatEventId": 0,
@@ -82,7 +83,7 @@
 		"PrefabName": "Fierce/Ships/PirateSteamPinnace",
 		"DormantBehaviour": "Wandering",
 		"AwareBehaviour": "HuntingPlus",
-		"Hull": 30,
+		"Hull": 70,
 		"Crew": 5,
 		"Life": 0,
 		"MovementSpeed": 20,
@@ -113,7 +114,7 @@
 	{
 		"Name": "Jillyfleur",
 		"ParentSpawnPoint": null,
-		"HumanName": "Jillyfleur",
+		"HumanName": "Jellycount",
 		"Neutral": false,
 		"Description": "",
 		"PrefabName": "Fierce/Organic/Jillyfleur",
@@ -121,7 +122,7 @@
 		"AwareBehaviour": "HuntingPlus",
 		"Hull": 0,
 		"Crew": 0,
-		"Life": 50,
+		"Life": 45,
 		"MovementSpeed": 21,
 		"RotationSpeed": 1,
 		"BeastieCharacteristicsName": "GenericSwimmer",
@@ -156,8 +157,8 @@
 		"PrefabName": "Fierce/Ships/PirateSteamPinnace",
 		"DormantBehaviour": "Wandering",
 		"AwareBehaviour": "HuntingPlus",
-		"Hull": 80,
-		"Crew": 8,
+		"Hull": 120,
+		"Crew": 10,
 		"Life": 0,
 		"MovementSpeed": 21,
 		"RotationSpeed": 0.2,
@@ -193,8 +194,8 @@
 		"PrefabName": "Fierce/Ships/PirateFrigate",
 		"DormantBehaviour": "Wandering",
 		"AwareBehaviour": "HuntingPlus",
-		"Hull": 90,
-		"Crew": 10,
+		"Hull": 180,
+		"Crew": 14,
 		"Life": 0,
 		"MovementSpeed": 16,
 		"RotationSpeed": 0.2,
@@ -212,7 +213,8 @@
 			"ChanceToStartSubmerged": 0
 		},
 		"CombatAttackNames": [
-			"DeckSalvo02"
+			"DeckSalvo02",
+			"ForwardSalvo02"
 		],
 		"CombatItems": [],
 		"StartCombatEventId": 0,
@@ -232,7 +234,7 @@
 		"AwareBehaviour": "HuntingPlus",
 		"Hull": 0,
 		"Crew": 0,
-		"Life": 140,
+		"Life": 150,
 		"MovementSpeed": 15,
 		"RotationSpeed": 0.9,
 		"BeastieCharacteristicsName": "GenericSwimmer",
@@ -262,7 +264,7 @@
 	{
 		"Name": "AnglerCrab",
 		"ParentSpawnPoint": null,
-		"HumanName": "Western Angler Crab",
+		"HumanName": "Aghast Angler Crab",
 		"Neutral": false,
 		"Description": "",
 		"PrefabName": "Fierce/Organic/AnglerCrab",
@@ -270,8 +272,8 @@
 		"AwareBehaviour": "HuntingPlus",
 		"Hull": 0,
 		"Crew": 0,
-		"Life": 150,
-		"MovementSpeed": 12,
+		"Life": 200,
+		"MovementSpeed": 14,
 		"RotationSpeed": 1,
 		"BeastieCharacteristicsName": "GenericSwimmer",
 		"BeastieCharacteristics": {
@@ -287,7 +289,8 @@
 			"ChanceToStartSubmerged": 0
 		},
 		"CombatAttackNames": [
-			"Ram03"
+			"Ram06",
+			"RoarMedium"
 		],
 		"CombatItems": [],
 		"StartCombatEventId": 0,
@@ -299,14 +302,14 @@
 	{
 		"Name": "RatBarge",
 		"ParentSpawnPoint": null,
-		"HumanName": "Rat-Barge",
+		"HumanName": "Poaching Vessel",
 		"Neutral": false,
 		"Description": "",
 		"PrefabName": "Fierce/Ships/RatBarge",
 		"DormantBehaviour": "Wandering",
 		"AwareBehaviour": "HuntingPlus",
-		"Hull": 130,
-		"Crew": 15,
+		"Hull": 140,
+		"Crew": 14,
 		"Life": 0,
 		"MovementSpeed": 14,
 		"RotationSpeed": 0.2,
@@ -342,14 +345,14 @@
 	{
 		"Name": "UnfinishedPirates",
 		"ParentSpawnPoint": null,
-		"HumanName": "Unfinished Pirates",
+		"HumanName": "Ozaean Langskip",
 		"Neutral": false,
 		"Description": "",
 		"PrefabName": "Fierce/Ships/UnfinishedPirates",
 		"DormantBehaviour": "Wandering",
 		"AwareBehaviour": "HuntingPlus",
-		"Hull": 160,
-		"Crew": 15,
+		"Hull": 260,
+		"Crew": 19,
 		"Life": 0,
 		"MovementSpeed": 14,
 		"RotationSpeed": 0.3,
@@ -367,7 +370,7 @@
 			"ChanceToStartSubmerged": 0
 		},
 		"CombatAttackNames": [
-			"DeckSalvo03"
+			"Ztardog1"
 		],
 		"CombatItems": [],
 		"StartCombatEventId": 0,
@@ -385,7 +388,7 @@
 		"PrefabName": "Fierce/Ships/PirateFrigate",
 		"DormantBehaviour": "Wandering",
 		"AwareBehaviour": "HuntingPlus",
-		"Hull": 140,
+		"Hull": 240,
 		"Crew": 20,
 		"Life": 0,
 		"MovementSpeed": 17,
@@ -404,13 +407,14 @@
 			"ChanceToStartSubmerged": 0
 		},
 		"CombatAttackNames": [
-			"DeckSalvo02",
-			"ForwardSalvo01"
+			"DeckSalvo03",
+			"ForwardSalvo04",
+			"Ram06Swift"
 		],
 		"CombatItems": [],
 		"StartCombatEventId": 0,
-		"PacifyEventId": 171423,
-		"KillQualityEventId": 171418,
+		"PacifyEventId": 171359,
+		"KillQualityEventId": 144316,
 		"LootPrefabName": "Crates",
 		"GleamValue": 0
 	},
@@ -455,7 +459,7 @@
 	{
 		"Name": "AlbinoMoray",
 		"ParentSpawnPoint": null,
-		"HumanName": "Albino Moray",
+		"HumanName": "Tizheruk Eel",
 		"Neutral": false,
 		"Description": "",
 		"PrefabName": "Fierce/Organic/AlbinoMoray",
@@ -463,7 +467,7 @@
 		"AwareBehaviour": "HuntingPlus",
 		"Hull": 0,
 		"Crew": 0,
-		"Life": 210,
+		"Life": 180,
 		"MovementSpeed": 12,
 		"RotationSpeed": 0.9,
 		"BeastieCharacteristicsName": "LightShySwimmer",
@@ -492,7 +496,7 @@
 	{
 		"Name": "Behemoustache",
 		"ParentSpawnPoint": null,
-		"HumanName": "Behemoustache",
+		"HumanName": "Burnsides",
 		"Neutral": false,
 		"Description": "",
 		"PrefabName": "Fierce/Organic/Behemoustache",
@@ -500,7 +504,7 @@
 		"AwareBehaviour": "HuntingPlus",
 		"Hull": 0,
 		"Crew": 0,
-		"Life": 210,
+		"Life": 220,
 		"MovementSpeed": 14,
 		"RotationSpeed": 1,
 		"BeastieCharacteristicsName": "GenericSwimmer",
@@ -530,13 +534,13 @@
 	{
 		"Name": "KhanateTrimaran",
 		"ParentSpawnPoint": null,
-		"HumanName": "Shogunate War Trimaran",
+		"HumanName": "Shogunate Atakebune",
 		"Neutral": false,
 		"Description": "",
 		"PrefabName": "Fierce/Ships/KhanateTrimaran",
 		"DormantBehaviour": "Wandering",
 		"AwareBehaviour": "HuntingPlus",
-		"Hull": 210,
+		"Hull": 300,
 		"Crew": 20,
 		"Life": 0,
 		"MovementSpeed": 15,
@@ -606,7 +610,7 @@
 	{
 		"Name": "EasternAnglerCrab",
 		"ParentSpawnPoint": null,
-		"HumanName": "Eastern Angler Crab",
+		"HumanName": "Choleric Angler Crab",
 		"Neutral": false,
 		"Description": "",
 		"PrefabName": "Fierce/Organic/AnglerCrabBlue",
@@ -614,8 +618,8 @@
 		"AwareBehaviour": "HuntingPlus",
 		"Hull": 0,
 		"Crew": 0,
-		"Life": 300,
-		"MovementSpeed": 11,
+		"Life": 100,
+		"MovementSpeed": 10,
 		"RotationSpeed": 1,
 		"BeastieCharacteristicsName": "GenericSwimmer",
 		"BeastieCharacteristics": {
@@ -631,8 +635,8 @@
 			"ChanceToStartSubmerged": 0
 		},
 		"CombatAttackNames": [
-			"Ram05",
-			"RoarMedium"
+			"Ram03",
+			"RoarWeak"
 		],
 		"CombatItems": [],
 		"StartCombatEventId": 0,
@@ -644,13 +648,13 @@
 	{
 		"Name": "FausticCorsair",
 		"ParentSpawnPoint": null,
-		"HumanName": "Umwelt Corsair",
+		"HumanName": "Umwelt Caravel",
 		"Neutral": false,
 		"Description": "",
 		"PrefabName": "Fierce/Ships/FausticCorsair",
 		"DormantBehaviour": "Wandering",
 		"AwareBehaviour": "HuntingPlus",
-		"Hull": 300,
+		"Hull": 250,
 		"Crew": 30,
 		"Life": 0,
 		"MovementSpeed": 14,
@@ -726,7 +730,7 @@
 	{
 		"Name": "Jillyfish",
 		"ParentSpawnPoint": null,
-		"HumanName": "Jillyfish",
+		"HumanName": "The Jillyqueen",
 		"Neutral": false,
 		"Description": "",
 		"PrefabName": "Fierce/Organic/Jillyfish",
@@ -734,7 +738,7 @@
 		"AwareBehaviour": "HuntingPlus",
 		"Hull": 0,
 		"Crew": 0,
-		"Life": 400,
+		"Life": 600,
 		"MovementSpeed": 12,
 		"RotationSpeed": 1,
 		"BeastieCharacteristicsName": "GenericSwimmer",
@@ -751,7 +755,8 @@
 			"ChanceToStartSubmerged": 0
 		},
 		"CombatAttackNames": [
-			"Ram06Swift"
+			"Ram06Swift",
+			"PrinceTorp"
 		],
 		"CombatItems": [],
 		"StartCombatEventId": 0,
@@ -763,7 +768,7 @@
 	{
 		"Name": "Lifeberg",
 		"ParentSpawnPoint": null,
-		"HumanName": "Lifeberg",
+		"HumanName": "Debt Collector",
 		"Neutral": false,
 		"Description": "",
 		"PrefabName": "Fierce/Organic/Lifeberg",
@@ -794,20 +799,20 @@
 		"StartCombatEventId": 0,
 		"PacifyEventId": 0,
 		"KillQualityEventId": 144296,
-		"LootPrefabName": "Blood",
+		"LootPrefabName": "Crates",
 		"GleamValue": 0
 	},
 	{
 		"Name": "RepublicanDreadnought",
 		"ParentSpawnPoint": null,
-		"HumanName": "Republican Dreadnought",
+		"HumanName": "Clockwork Dreadnought",
 		"Neutral": false,
 		"Description": "",
 		"PrefabName": "Fierce/Ships/RepublicanDreadnought",
 		"DormantBehaviour": "Wandering",
 		"AwareBehaviour": "HuntingPlus",
-		"Hull": 400,
-		"Crew": 40,
+		"Hull": 700,
+		"Crew": 50,
 		"Life": 0,
 		"MovementSpeed": 14,
 		"RotationSpeed": 0.4,
@@ -825,9 +830,9 @@
 			"ChanceToStartSubmerged": 0
 		},
 		"CombatAttackNames": [
-			"DeckSalvo04",
-			"ForwardSalvo04",
-			"AftSalvo01"
+			"DeckSalvo06",
+			"ForwardSalvo06",
+			"PointDefense"
 		],
 		"CombatItems": [],
 		"StartCombatEventId": 0,
@@ -864,10 +869,16 @@
 			"ChanceToStartSubmerged": 0
 		},
 		"CombatAttackNames": [
-			"Ram06",
-			"Ram06Swift"
+			"Ram06Swift",
+			"MothBlast"
 		],
-		"CombatItems": [],
+		"CombatItems": [
+			{
+				"Name": "GloriousFlare",
+				"Quantity": 4,
+				"UseChance": 20
+			}
+		],
 		"StartCombatEventId": 0,
 		"PacifyEventId": 0,
 		"KillQualityEventId": 173743,
@@ -885,7 +896,7 @@
 		"AwareBehaviour": "HuntingPlus",
 		"Hull": 0,
 		"Crew": 0,
-		"Life": 400,
+		"Life": 200,
 		"MovementSpeed": 21,
 		"RotationSpeed": 0.9,
 		"BeastieCharacteristicsName": "GenericMonster",
@@ -902,7 +913,7 @@
 			"ChanceToStartSubmerged": 0
 		},
 		"CombatAttackNames": [
-			"Ram07Terror"
+			"Ram03"
 		],
 		"CombatItems": [],
 		"StartCombatEventId": 0,
@@ -922,7 +933,7 @@
 		"AwareBehaviour": "HuntingPlus",
 		"Hull": 0,
 		"Crew": 0,
-		"Life": 460,
+		"Life": 40,
 		"MovementSpeed": 18,
 		"RotationSpeed": 0.9,
 		"BeastieCharacteristicsName": "GenericMonster",
@@ -957,9 +968,9 @@
 		"PrefabName": "Fierce/Ships/GloriousDreadnought",
 		"DormantBehaviour": "Wandering",
 		"AwareBehaviour": "HuntingPlus",
-		"Hull": 500,
-		"Crew": 50,
-		"Life": 0,
+		"Hull": 0,
+		"Crew": 0,
+		"Life": 444,
 		"MovementSpeed": 14,
 		"RotationSpeed": 0.2,
 		"BeastieCharacteristicsName": "GenericShip",
@@ -976,75 +987,31 @@
 			"ChanceToStartSubmerged": 0
 		},
 		"CombatAttackNames": [
-			"DeckSalvo05",
-			"ForwardSalvo05",
-			"AftSalvo02"
+			"GhostAttack2",
+			"GhostDefense"
 		],
 		"CombatItems": [
-			{
-				"Name": "GloriousFlare",
-				"Quantity": 4,
-				"UseChance": 20
-			}
+			
 		],
 		"StartCombatEventId": 0,
-		"PacifyEventId": 171372,
+		"PacifyEventId": 0,
 		"KillQualityEventId": 144312,
-		"LootPrefabName": "Crates",
-		"GleamValue": 0
-	},
-	{
-		"Name": "Soultaker",
-		"ParentSpawnPoint": null,
-		"HumanName": "Soultaker",
-		"Neutral": false,
-		"Description": "",
-		"PrefabName": "Fierce/Ships/FausticCorsair",
-		"DormantBehaviour": "Wandering",
-		"AwareBehaviour": "HuntingPlus",
-		"Hull": 500,
-		"Crew": 50,
-		"Life": 0,
-		"MovementSpeed": 14,
-		"RotationSpeed": 0.2,
-		"BeastieCharacteristicsName": "GenericShip",
-		"BeastieCharacteristics": {
-			"MinAttackRange": 0,
-			"MaxAttackRange": 0,
-			"AwarenessRange": 0,
-			"VisionConeRange": 0,
-			"VisionConeAngle": 0,
-			"EvadeRange": 0,
-			"IlluminationTimeToEvade": 0,
-			"ChaseTimeToSneaking": 0,
-			"CanSubmerge": false,
-			"ChanceToStartSubmerged": 0
-		},
-		"CombatAttackNames": [
-			"DeckSalvo05",
-			"ForwardSalvo05",
-			"AftSalvo02"
-		],
-		"CombatItems": [],
-		"StartCombatEventId": 0,
-		"PacifyEventId": 150216,
-		"KillQualityEventId": 150216,
-		"LootPrefabName": "Crates",
+		"LootPrefabName": "Blood",
 		"GleamValue": 0
 	},
 	{
 		"Name": "ElderAnglerCrab",
 		"ParentSpawnPoint": null,
-		"HumanName": "Elder Angler Crab",
-		"Neutral": false,
+		"HumanName": "Unassertive Angler Crab",
+		"Neutral": true,
 		"Description": "",
 		"PrefabName": "Fierce/Organic/ElderAnglerCrab",
 		"DormantBehaviour": "Wandering",
 		"AwareBehaviour": "HuntingPlus",
 		"Hull": 0,
 		"Crew": 0,
-		"Life": 600,
-		"MovementSpeed": 10,
+		"Life": 15,
+		"MovementSpeed": 8,
 		"RotationSpeed": 1,
 		"BeastieCharacteristicsName": "GenericSwimmer",
 		"BeastieCharacteristics": {
@@ -1060,7 +1027,7 @@
 			"ChanceToStartSubmerged": 0
 		},
 		"CombatAttackNames": [
-			"Ram08"
+			"Ram02"
 		],
 		"CombatItems": [],
 		"StartCombatEventId": 0,
@@ -1078,9 +1045,9 @@
 		"PrefabName": "Fierce/Organic/LornFluke",
 		"DormantBehaviour": "Wandering",
 		"AwareBehaviour": "HuntingPlus",
-		"Hull": 0,
-		"Crew": 0,
-		"Life": 600,
+		"Hull": 500,
+		"Crew": 25,
+		"Life": 0,
 		"MovementSpeed": 11,
 		"RotationSpeed": 1,
 		"BeastieCharacteristicsName": "GenericSwimmer",
@@ -1098,13 +1065,13 @@
 		},
 		"CombatAttackNames": [
 			"Ram05",
-			"LornFlukeTalk"
+			"LesserTorp"
 		],
 		"CombatItems": [],
 		"StartCombatEventId": 0,
-		"PacifyEventId": 0,
+		"PacifyEventId": 602387,
 		"KillQualityEventId": 144304,
-		"LootPrefabName": "Blood",
+		"LootPrefabName": "Crates",
 		"GleamValue": 0
 	},
 	{
@@ -1116,8 +1083,8 @@
 		"PrefabName": "Fierce/Ships/EaterOfNames",
 		"DormantBehaviour": "Wandering",
 		"AwareBehaviour": "HuntingPlus",
-		"Hull": 700,
-		"Crew": 77,
+		"Hull": 666,
+		"Crew": 66,
 		"Life": 0,
 		"MovementSpeed": 12,
 		"RotationSpeed": 0.6,
@@ -1141,9 +1108,9 @@
 		],
 		"CombatItems": [],
 		"StartCombatEventId": 0,
-		"PacifyEventId": 182154,
+		"PacifyEventId": 153582,
 		"KillQualityEventId": 153582,
-		"LootPrefabName": "Crates",
+		"LootPrefabName": "Blood",
 		"GleamValue": 0
 	},
 	{
@@ -1262,7 +1229,7 @@
 	{
 		"Name": "TreeOfAges",
 		"ParentSpawnPoint": null,
-		"HumanName": "Ztarchild",
+		"HumanName": "The Ztarchild",
 		"Neutral": false,
 		"Description": "",
 		"PrefabName": "Fierce/Organic/TreeofAges",
@@ -1270,7 +1237,7 @@
 		"AwareBehaviour": "HuntingPlus",
 		"Hull": 0,
 		"Crew": 0,
-		"Life": 900,
+		"Life": 1200,
 		"MovementSpeed": 14,
 		"RotationSpeed": 0.3,
 		"BeastieCharacteristicsName": "GenericMonster",
@@ -1288,7 +1255,8 @@
 		},
 		"CombatAttackNames": [
 			"TreeAgesRam",
-			"TreeAgesSpit"
+			"RedSalvo",
+			"PointDefense"
 		],
 		"CombatItems": [],
 		"StartCombatEventId": 0,
@@ -1306,8 +1274,8 @@
 		"PrefabName": "Neutral/Ships/MerchantTrampSteamer",
 		"DormantBehaviour": "Shuttling",
 		"AwareBehaviour": "HuntingPlus",
-		"Hull": 130,
-		"Crew": 15,
+		"Hull": 75,
+		"Crew": 8,
 		"Life": 0,
 		"MovementSpeed": 16,
 		"RotationSpeed": 0.2,
@@ -1343,9 +1311,9 @@
 		"PrefabName": "Fierce/Ships/GloriousFrigate",
 		"DormantBehaviour": "Shuttling",
 		"AwareBehaviour": "HuntingPlus",
-		"Hull": 300,
-		"Crew": 30,
-		"Life": 0,
+		"Hull": 0,
+		"Crew": 0,
+		"Life": 270,
 		"MovementSpeed": 14,
 		"RotationSpeed": 0.3,
 		"BeastieCharacteristicsName": "GenericShip",
@@ -1362,14 +1330,13 @@
 			"ChanceToStartSubmerged": 0
 		},
 		"CombatAttackNames": [
-			"DeckSalvo03",
-			"ForwardSalvo03"
+			"GhostAttack1"
 		],
 		"CombatItems": [],
 		"StartCombatEventId": 0,
-		"PacifyEventId": 174339,
+		"PacifyEventId": 0,
 		"KillQualityEventId": 174347,
-		"LootPrefabName": "Crates",
+		"LootPrefabName": "Blood",
 		"GleamValue": 1
 	},
 	{
@@ -1452,6 +1419,306 @@
 		"PacifyEventId": 0,
 		"KillQualityEventId": 167987,
 		"LootPrefabName": "Blood",
+		"GleamValue": 0
+	},
+	{
+		"Name": "Vibrissa",
+		"ParentSpawnPoint": null,
+		"HumanName": "Vibrissa",
+		"Neutral": false,
+		"Description": "",
+		"PrefabName": "Fierce/Organic/Behemoustache",
+		"DormantBehaviour": "Wandering",
+		"AwareBehaviour": "HuntingPlus",
+		"Hull": 0,
+		"Crew": 0,
+		"Life": 400,
+		"MovementSpeed": 12,
+		"RotationSpeed": 1,
+		"BeastieCharacteristicsName": "GenericSwimmer",
+		"BeastieCharacteristics": {
+			"MinAttackRange": 0,
+			"MaxAttackRange": 0,
+			"AwarenessRange": 0,
+			"VisionConeRange": 0,
+			"VisionConeAngle": 0,
+			"EvadeRange": 0,
+			"IlluminationTimeToEvade": 0,
+			"ChaseTimeToSneaking": 0,
+			"CanSubmerge": false,
+			"ChanceToStartSubmerged": 0
+		},
+		"CombatAttackNames": [
+			"Ram04BigStagger",
+			"LesserTorp"
+		],
+		"CombatItems": [],
+		"StartCombatEventId": 0,
+		"PacifyEventId": 0,
+		"KillQualityEventId": 602540,
+		"LootPrefabName": "Blood",
+		"GleamValue": 0
+	},
+	{
+		"Name": "Merchantman",
+		"ParentSpawnPoint": null,
+		"HumanName": "Merchantman",
+		"Neutral": true,
+		"Description": "",
+		"PrefabName": "Neutral/Ships/MerchantTrampSteamer",
+		"DormantBehaviour": "Wandering",
+		"AwareBehaviour": "HuntingPlus",
+		"Hull": 150,
+		"Crew": 12,
+		"Life": 0,
+		"MovementSpeed": 16,
+		"RotationSpeed": 0.2,
+		"BeastieCharacteristicsName": "GenericShip",
+		"BeastieCharacteristics": {
+			"MinAttackRange": 0,
+			"MaxAttackRange": 0,
+			"AwarenessRange": 0,
+			"VisionConeRange": 0,
+			"VisionConeAngle": 0,
+			"EvadeRange": 0,
+			"IlluminationTimeToEvade": 0,
+			"ChaseTimeToSneaking": 0,
+			"CanSubmerge": false,
+			"ChanceToStartSubmerged": 0
+		},
+		"CombatAttackNames": [
+			"DeckSalvo03"
+		],
+		"CombatItems": [],
+		"StartCombatEventId": 0,
+		"PacifyEventId": 602482,
+		"KillQualityEventId": 602478,
+		"LootPrefabName": "Crates",
+		"GleamValue": 1
+	},
+	{
+		"Name": "Mistresses",
+		"ParentSpawnPoint": null,
+		"HumanName": "Mistresses",
+		"Neutral": false,
+		"Description": "",
+		"PrefabName": "Fierce/Organic/BatSwarm",
+		"DormantBehaviour": "Wandering",
+		"AwareBehaviour": "HuntingPlus",
+		"Hull": 0,
+		"Crew": 0,
+		"Life": 400,
+		"MovementSpeed": 23,
+		"RotationSpeed": 1,
+		"BeastieCharacteristicsName": "GenericMonster",
+		"BeastieCharacteristics": {
+			"MinAttackRange": 0,
+			"MaxAttackRange": 0,
+			"AwarenessRange": 0,
+			"VisionConeRange": 0,
+			"VisionConeAngle": 0,
+			"EvadeRange": 0,
+			"IlluminationTimeToEvade": 0,
+			"ChaseTimeToSneaking": 0,
+			"CanSubmerge": false,
+			"ChanceToStartSubmerged": 0
+		},
+		"CombatAttackNames": [
+			"Ram07Supplies"
+		],
+		"CombatItems": [],
+		"StartCombatEventId": 0,
+		"PacifyEventId": 0,
+		"KillQualityEventId": 602559,
+		"LootPrefabName": "Blood",
+		"GleamValue": 0
+	},
+	{
+		"Name": "BuoyMimic",
+		"ParentSpawnPoint": null,
+		"HumanName": "Buoy Mimic",
+		"Neutral": false,
+		"Description": "",
+		"PrefabName": "../Generic/buoyblue",
+		"DormantBehaviour": "Wandering",
+		"AwareBehaviour": "HuntingPlus",
+		"Hull": 0,
+		"Crew": 0,
+		"Life": 30,
+		"MovementSpeed": 23,
+		"RotationSpeed": 1,
+		"BeastieCharacteristicsName": "GenericMonster",
+		"BeastieCharacteristics": {
+			"MinAttackRange": 0,
+			"MaxAttackRange": 0,
+			"AwarenessRange": 0,
+			"VisionConeRange": 0,
+			"VisionConeAngle": 0,
+			"EvadeRange": 0,
+			"IlluminationTimeToEvade": 0,
+			"ChaseTimeToSneaking": 0,
+			"CanSubmerge": false,
+			"ChanceToStartSubmerged": 0
+		},
+		"CombatAttackNames": [
+			"Ram07Supplies"
+		],
+		"CombatItems": [],
+		"StartCombatEventId": 0,
+		"PacifyEventId": 0,
+		"KillQualityEventId": 602559,
+		"LootPrefabName": "Blood",
+		"GleamValue": 0
+	},
+	{
+		"Name": "AdmiraltyFrigate",
+		"ParentSpawnPoint": null,
+		"HumanName": "Recommissioned Admiralty Frigate",
+		"Neutral": true,
+		"Description": "",
+		"PrefabName": "Fierce/Ships/PirateFrigate",
+		"DormantBehaviour": "Wandering",
+		"AwareBehaviour": "HuntingPlus",
+		"Hull": 280,
+		"Crew": 16,
+		"Life": 0,
+		"MovementSpeed": 15,
+		"RotationSpeed": 0.2,
+		"BeastieCharacteristicsName": "GenericShip",
+		"BeastieCharacteristics": {
+			"MinAttackRange": 0,
+			"MaxAttackRange": 0,
+			"AwarenessRange": 0,
+			"VisionConeRange": 0,
+			"VisionConeAngle": 0,
+			"EvadeRange": 0,
+			"IlluminationTimeToEvade": 0,
+			"ChaseTimeToSneaking": 0,
+			"CanSubmerge": false,
+			"ChanceToStartSubmerged": 0
+		},
+		"CombatAttackNames": [
+			"DeckSalvo03",
+			"ForwardSalvo04"
+		],
+		"CombatItems": [],
+		"StartCombatEventId": 0,
+		"PacifyEventId": 604687,
+		"KillQualityEventId": 604694,
+		"LootPrefabName": "Crates",
+		"GleamValue": 0
+	},
+	{
+		"Name": "LightTanker",
+		"ParentSpawnPoint": null,
+		"HumanName": "Shogunate Light Tanker",
+		"Neutral": true,
+		"Description": "",
+		"PrefabName": "Fierce/Ships/KhanateTrimaran",
+		"DormantBehaviour": "Wandering",
+		"AwareBehaviour": "HuntingPlus",
+		"Hull": 130,
+		"Crew": 8,
+		"Life": 0,
+		"MovementSpeed": 12,
+		"RotationSpeed": 0.3,
+		"BeastieCharacteristicsName": "GenericShip",
+		"BeastieCharacteristics": {
+			"MinAttackRange": 0,
+			"MaxAttackRange": 0,
+			"AwarenessRange": 0,
+			"VisionConeRange": 0,
+			"VisionConeAngle": 0,
+			"EvadeRange": 0,
+			"IlluminationTimeToEvade": 0,
+			"ChaseTimeToSneaking": 0,
+			"CanSubmerge": false,
+			"ChanceToStartSubmerged": 0
+		},
+		"CombatAttackNames": [
+			"DeckSalvo03"
+		],
+		"CombatItems": [],
+		"StartCombatEventId": 0,
+		"PacifyEventId": 604698,
+		"KillQualityEventId": 604704,
+		"LootPrefabName": "Crates",
+		"GleamValue": 0
+	},
+	{
+		"Name": "Grimroe",
+		"ParentSpawnPoint": null,
+		"HumanName": "Grimroe",
+		"Neutral": false,
+		"Description": "",
+		"PrefabName": "Fierce/Organic/LornFluke",
+		"DormantBehaviour": "Wandering",
+		"AwareBehaviour": "Wandering",
+		"Hull": 0,
+		"Crew": 0,
+		"Life": 900,
+		"MovementSpeed": 2,
+		"RotationSpeed": 0.2,
+		"BeastieCharacteristicsName": "GenericSwimmer",
+		"BeastieCharacteristics": {
+			"MinAttackRange": 0,
+			"MaxAttackRange": 0,
+			"AwarenessRange": 0,
+			"VisionConeRange": 0,
+			"VisionConeAngle": 0,
+			"EvadeRange": 0,
+			"IlluminationTimeToEvade": 0,
+			"ChaseTimeToSneaking": 0,
+			"CanSubmerge": false,
+			"ChanceToStartSubmerged": 0
+		},
+		"CombatAttackNames": [
+			"LornFlukeTalk"
+		],
+		"CombatItems": [],
+		"StartCombatEventId": 0,
+		"PacifyEventId": 0,
+		"KillQualityEventId": 605267,
+		"LootPrefabName": "Blood",
+		"GleamValue": 0
+	},
+	{
+		"Name": "Prototype",
+		"ParentSpawnPoint": null,
+		"HumanName": "Prototype Devastator",
+		"Neutral": false,
+		"Description": "",
+		"PrefabName": "Fierce/Ships/KhanateTrimaran",
+		"DormantBehaviour": "Wandering",
+		"AwareBehaviour": "HuntingPlus",
+		"Hull": 400,
+		"Crew": 25,
+		"Life": 0,
+		"MovementSpeed": 18,
+		"RotationSpeed": 0.4,
+		"BeastieCharacteristicsName": "GenericShip",
+		"BeastieCharacteristics": {
+			"MinAttackRange": 0,
+			"MaxAttackRange": 0,
+			"AwarenessRange": 0,
+			"VisionConeRange": 0,
+			"VisionConeAngle": 0,
+			"EvadeRange": 0,
+			"IlluminationTimeToEvade": 0,
+			"ChaseTimeToSneaking": 0,
+			"CanSubmerge": false,
+			"ChanceToStartSubmerged": 0
+		},
+		"CombatAttackNames": [
+			"DeckSalvo03",
+			"ForwardSalvoTNT",
+			"SecretWeapon"
+		],
+		"CombatItems": [],
+		"StartCombatEventId": 0,
+		"PacifyEventId": 604715,
+		"KillQualityEventId": 604715,
+		"LootPrefabName": "Crates",
 		"GleamValue": 0
 	}
 ]

@@ -141,5 +141,44 @@
 		"IsInfinate": false,
 		"IsUsable": null,
 		"IsUsableFuncName": "CanDisengage"
+	},
+	{
+		"Name": "Wyrmsbreath",
+		"Image": "SSRbreath_ability",
+		"Description": "Fill all of your firing solutions instantly.",
+		"AssociatedQuality": null,
+		"AssociatedQualityId": 710034,
+		"ExoticEffect": null,
+		"ExoticEffectName": "FillSolution",
+		"Cooldown": 20,
+		"IsInfinate": false,
+		"IsUsable": null,
+		"IsUsableFuncName": "HasTarget"
+	},
+	{
+		"Name": "Jillycaller",
+		"Image": "SSRsummon_square",
+		"Description": "Summon the Jillyqueen.\n\nYou must be in open waters in order to use this.",
+		"AssociatedQuality": null,
+		"AssociatedQualityId": 710097,
+		"ExoticEffect": null,
+		"ExoticEffectName": "SummonBeastie,Jillyfish",
+		"Cooldown": 1,
+		"IsInfinate": false,
+		"IsUsable": null,
+		"IsUsableFuncName": "CanDisengage"
+	},
+	{
+		"Name": "Bone Whistle",
+		"Image": "SSRsummon2_square",
+		"Description": "Summon the Ztarchild.\n\nYou must be in open waters in order to use this.",
+		"AssociatedQuality": null,
+		"AssociatedQualityId": 710098,
+		"ExoticEffect": null,
+		"ExoticEffectName": "SummonBeastie,TreeOfAges",
+		"Cooldown": 1,
+		"IsInfinate": false,
+		"IsUsable": null,
+		"IsUsableFuncName": "CanDisengage"
 	}
 ]

@@ -3,7 +3,7 @@
 		"Name": "Associations",
 		"Ambiences": [
 			{
-				"Name": "Fathomking",
+				"Name": "Krakenchute",
 				"AreaId": 101996,
 				"Area": null,
 				"PrefabName": "Underwater",
@@ -31,11 +31,25 @@
 				"MusicTrackName": "DeathMusic"
 			},
 			{
-				"Name": "Wyrmsmouth",
+				"Name": "New Newgate",
 				"AreaId": 104546,
 				"Area": null,
 				"PrefabName": "Godfall",
-				"MusicTrackName": null
+				"MusicTrackName": "AlienMinimee"
+			},
+			{
+				"Name": "Incarcerated",
+				"AreaId": 605602,
+				"Area": null,
+				"PrefabName": "Godfall",
+				"MusicTrackName": "AlienMinimee"
+			},
+			{
+				"Name": "Wyrmsmouth",
+				"AreaId": 605585,
+				"Area": null,
+				"PrefabName": "Godfall",
+				"MusicTrackName": "AlienMinimee"
 			},
 			{
 				"Name": "WorldOfLight",
@@ -45,8 +59,8 @@
 				"MusicTrackName": "UnadornedTerror"
 			},
 			{
-				"Name": "PortRosa",
-				"AreaId": 103246,
+				"Name": "Umwelt Isles",
+				"AreaId": 605296,
 				"Area": null,
 				"PrefabName": "Mangrove",
 				"MusicTrackName": null
@@ -54,6 +68,20 @@
 			{
 				"Name": "GoEast",
 				"AreaId": 104181,
+				"Area": null,
+				"PrefabName": "Worldsend",
+				"MusicTrackName": "Alien"
+			},
+			{
+				"Name": "AboveEast",
+				"AreaId": 606012,
+				"Area": null,
+				"PrefabName": "Worldsend",
+				"MusicTrackName": "Alien"
+			},
+			{
+				"Name": "BeyondEast",
+				"AreaId": 606013,
 				"Area": null,
 				"PrefabName": "Worldsend",
 				"MusicTrackName": "Alien"
@@ -77,7 +105,7 @@
 				"AreaId": 105137,
 				"Area": null,
 				"PrefabName": "Wineglasses",
-				"MusicTrackName": "VictoryMusic"
+				"MusicTrackName": "BustlingLondon"
 			},
 			{
 				"Name": "Kingdom",
@@ -91,7 +119,7 @@
 				"AreaId": 105139,
 				"Area": null,
 				"PrefabName": "ZeeMonster",
-				"MusicTrackName": "VictoryMusic"
+				"MusicTrackName": "TerrorTrack"
 			},
 			{
 				"Name": "Stargate",
@@ -109,30 +137,6 @@
 			}
 		],
 		"JettisonEvents": [
-			{
-				"Name": "Eject the Shady Sort",
-				"QualityId": 111745,
-				"Quality": null,
-				"Tooltip": "Captain! What are you thinking?"
-			},
-			{
-				"Name": "Eject the Checquered Character",
-				"QualityId": 112728,
-				"Quality": null,
-				"Tooltip": "Wrong move!"
-			},
-			{
-				"Name": "Eject the Unsettling Sage",
-				"QualityId": 109347,
-				"Quality": null,
-				"Tooltip": "No no no. We shall do... wonderful things together."
-			},
-			{
-				"Name": "Eject the Delightful Adventuress",
-				"QualityId": 114766,
-				"Quality": null,
-				"Tooltip": "I don't _think_ so."
-			},
 			{
 				"Name": "Eject the Nervous Machinist",
 				"QualityId": 710006,
@@ -168,11 +172,35 @@
 				"QualityId": 710018,
 				"Quality": null,
 				"Tooltip": "You don't have the right!"
+			},
+			{
+				"Name": "Eject the Rock-Ribbed Colonial",
+				"QualityId": 710061,
+				"Quality": null,
+				"Tooltip": "Stand down, in the name of Her Majesty!"
+			},
+			{
+				"Name": "Eject the Broken-Ribbed Colonial",
+				"QualityId": 710062,
+				"Quality": null,
+				"Tooltip": "Ikki, ikki, weeeek!"
+			},
+			{
+				"Name": "Eject a Secretive Engineer",
+				"QualityId": 710084,
+				"Quality": null,
+				"Tooltip": "Bad idea. I can back that up with numbers."
+			},
+			{
+				"Name": "Eject the Incomparable Actress",
+				"QualityId": 710087,
+				"Quality": null,
+				"Tooltip": "It won't make a difference."
 			}
 		],
 		"LegacyUnlockQualities": [
 			{
-				"Name": "A Ironclad Will",
+				"Name": "An Ironclad Will",
 				"Description": "Your next character inherits your Lodgings, along with any Heirlooms you have stored there.",
 				"Tooltip": "Upgrade your Lodgings and purchase a Will.",
 				"UnlockQualityId": 110641,
@@ -256,9 +284,9 @@
 				"Order": 7
 			},
 			{
-				"Name": "Colourproof Goggles",
+				"Name": "Heaven's Warning",
 				"Description": "Increases your starting Mirrors by +5.",
-				"Tooltip": "?????",
+				"Tooltip": "Investigate the Heavens.",
 				"UnlockQualityId": 710024,
 				"UnlockQuality": null,
 				"QualityToIncreaseId": 102895,
@@ -268,9 +296,9 @@
 				"Order": 8
 			},
 			{
-				"Name": "Silvered Self-Portrait",
+				"Name": "Grimoire of Lost Secrets",
 				"Description": "Increases your starting Veils by +15.",
-				"Tooltip": "?????",
+				"Tooltip": "Follow the Shadowed Servant.",
 				"UnlockQualityId": 710025,
 				"UnlockQuality": null,
 				"QualityToIncreaseId": 102896,
@@ -294,7 +322,7 @@
 			{
 				"Name": "Unfinished Painting",
 				"Description": "Increases your starting Veils by +5.",
-				"Tooltip": "?????",
+				"Tooltip": "Hunt Yourself.",
 				"UnlockQualityId": 710027,
 				"UnlockQuality": null,
 				"QualityToIncreaseId": 102896,
@@ -304,7 +332,7 @@
 				"Order": 11
 			},
 			{
-				"Name": "Telekailedoscope",
+				"Name": "Elsewhere Souvenir",
 				"Description": "Increases your starting Pages by +15.",
 				"Tooltip": "Go South.",
 				"UnlockQualityId": 710028,
@@ -359,7 +387,7 @@
 				"UnlockQuality": null,
 				"QualityToIncreaseId": 102897,
 				"QualityToIncrease": null,
-				"IncreaseLevel": 11,
+				"IncreaseLevel": 10,
 				"AdditionalLegaciesAllowed": 0,
 				"Order": 16
 			},
@@ -498,8 +526,18 @@
 				"Quality": null
 			},
 			{
-				"Name": "WhistfulDeviless",
-				"QualityId": 109475,
+				"Name": "DevilishDoll",
+				"QualityId": 700226,
+				"Quality": null
+			},
+			{
+				"Name": "FrightenedApprentice",
+				"QualityId": 700063,
+				"Quality": null
+			},
+			{
+				"Name": "Posey",
+				"QualityId": 720026,
 				"Quality": null
 			}
 		]
