@@ -1,6 +1,6 @@
 Sunless Sea: Rewritten
 
-Current ID: 606315
+Current ID: 606524
 Quality ID: 700415
 Cargo ID:   710117
 Gear ID:	720023
@@ -1253,6 +1253,7 @@ TRUTH
 -Face the Rewriters.
 
 v0.16
+-A random zee event now begins the mystery of Clayborne Place.
 -Added a new Officer story: Yore! Begin his tale in Fallen London.
 -The final Extraordinary Person has appeared... somewhere.
 -You can now trade a Soothe & Cooper Long-Box in Fallen London.
@@ -1268,7 +1269,8 @@ Sunshade Redoubt
 -Agree to receive a Lucent Soul
 -Get sailed out to the Dusk Machine
 -But it sees your potential and gives you a quest
--There is a particular soul that it wants: a Devout Archaeologist
+-There is a particular soul that it wants: a Daring Archaeologist (Lady Leonora "Nora" Fortescue) (sardonicmusichallsinger.png)
+-And another: A Debonair Deductress (<i>Minadora "Mina" Fortesque - The Unterzee's Greatest Investigator.</i>) (wit.png)
 
 The Shrunken Hero
 -Wants to get the old gang back together
@@ -1280,10 +1282,24 @@ The Shrunken Hero
 The Scorned Translator
 -Pick up at Zyme Resort
 -Dine with once
+	-
+-Almost get assassinated
+	-She planned to steal your ship and sell it in Kantai, but couldn't go through with it
 -Earn her trust
+	-Mutersalt, Solacefruit, Sunlight, freedom
 -Dine with her again
 -Connect with an Overwhelming Assassin in Kantai
--Gain Cloak and Dagger
+	-He's enormous. Eye-catching. Seemingly incapable of subtlety. In short, he's the last person you'd expect to be an assassin - which makes him very good at his job.
+-Gain Cloak and Dagger (min 0, max 100)
+-The heist begins!
+	-Approaching the Susanoo (60 Cloak, 60 Dagger)
+	-Boarding the Susanoo (50 Cloak, 120 Dagger)
+	-Getting into position (120 Cloak, 50 Dagger)
+	-A party on the Susanoo (80 Cloak, 80 Dagger, or neither)
+	-The last hurdle (Go with her, Stay hidden)
+	-A chance for revenge (Let the Translator get her revenge (severely raises alarm), Advise forgiveness (Hearts 200 or lose the Translator))
+	-Placing the charge (60 Cloak, 60 Dagger, failure fails the mission)
+	-Escape! (50 Cloak, 50 Dagger, failure wounds you)
 
 Yore
 -Pick up in London
