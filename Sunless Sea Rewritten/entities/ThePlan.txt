@@ -1,6 +1,6 @@
 Sunless Sea: Rewritten
 
-Current ID: 606524
+Current ID: 606610
 Quality ID: 700415
 Cargo ID:   710117
 Gear ID:	720023
@@ -1254,16 +1254,20 @@ TRUTH
 
 v0.16
 -A random zee event now begins the mystery of Clayborne Place.
+-Added a new Officer story: The Scorned Translator! Begin her tale at Zyme Resort.
 -Added a new Officer story: Yore! Begin his tale in Fallen London.
 -The final Extraordinary Person has appeared... somewhere.
 -You can now trade a Soothe & Cooper Long-Box in Fallen London.
+-You can now trade a Hesperidean Apple at Kantai.
+-The rewards for delivering a bouquet of roses are now much higher.
 -Observations can now raise stats up to 150.
+-Stock prices no longer fluctuate when returning to Fallen London.
 -Prisoners now sell for less than their price in New Newgate.
+-Various text and bug fixes.
 
 TODO
 -Sunshade Redoubt
 -The Shrunken Hero
--The Scorned Translator
 
 Sunshade Redoubt
 -Agree to receive a Lucent Soul
@@ -1272,12 +1276,25 @@ Sunshade Redoubt
 -There is a particular soul that it wants: a Daring Archaeologist (Lady Leonora "Nora" Fortescue) (sardonicmusichallsinger.png)
 -And another: A Debonair Deductress (<i>Minadora "Mina" Fortesque - The Unterzee's Greatest Investigator.</i>) (wit.png)
 
-The Shrunken Hero
--Wants to get the old gang back together
+The Shrunken Hero (Herman Wilhelm)
+-Can trade Tales of Terror!! for Visions of the Surface
+-Wants to get the old gang back together (must dine with him five times)
+	-Pertev, The Wrinkled Right Hand, Ottoman dragoman
+		-At Ormonde, living a peaceful life
+	-Seirgei, The Sagging Muscle, Russian strongman
+		-At Laennec's Retreat, already dead
+		-Discover a lonely grave atop a hill
+		-The grave is symbolic; bodies are burned at the Retreat
+		-Receive Seirgei's effects, including the map
+	-Gerónimo, The Antiquated Prodigy, Spanish charlatan
+		-At Sunshade Redoubt, in the process of becoming a clockwork man
+		-He pulls you into an alleyway
+		-
+	-Barbara, The Venerable Lady, Egyptian spy
+		-At Culicida, fate unknown
 -They refuse
--The Hero causes disasters to remind them of the glory days, accidentally kills them
 -Finally reveals his ultimate prize: The Friends We Made Along the Way!
--Evolves into a *worse* Officer
+-Evolves into a *worse* Officer (the Shrunken Scoundrel)
 
 The Scorned Translator
 -Pick up at Zyme Resort
