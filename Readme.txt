@@ -54,29 +54,25 @@ GavnerPurl (Writer and editor)
 Brogues (Ideas, Discord help)
 Auriculas (Ideas, editing)
 quasimonomial (Ideas: Kirai Komainu)
+ElBartzo (Playtesting)
+JoeBob (Playtesting)
 
 ***Changelog***
 
-v.0.15
--A new quest is available at Crying Heights
--A new quest is available at Aditta
--A new quest is available at Faeble
--Several new locations are now available at Port Rosa
--Added a new Officer: Posey! (Begin her story at Port Rosa.)
--Mr Feathers has a new, repeatable quest for you
--The Medal of War is now obtainable
--The Slovenly Heir now inherits significantly fewer Echoes
--Roser's Wharf has been reworked
--Altered The Shadowy Chateau event to remove some early-instalment weirdness
--Added more opportunities to gain Menaces: Watched
--The Ministry of Public Decency has found new substances to search for
--The Frightened Apprentice now offers a different reward
--You can now complete the light-ship and puzzle box quests even if you can no longer speak to Mr Feathers
--The Ozao Flagship has a proper defeat event
--Most zee-beasts now provide more Bestial Observations
--You now need your own chess set to play high-stakes chess
--You may now attempt more actions that may Wound you if failing would kill you
--Adjusted a few prices of trade goods
--Added the World Breaker
--Various text and bug fixes
--The Third Sign has appeared
+v0.16
+-A random zee event now begins the mystery of Clayborne Place.
+-Visitors at Your Lodgings will now lead you on a quest at Sunshade Redoubt.
+-Added a new Officer story: The Scorned Translator! Begin her tale at Zyme Resort.
+-Added a new Officer story: The Shrunken Hero! Begin his tale at End Paren.
+-Added a new Officer story: Yore! Begin his tale in Fallen London.
+-The final Extraordinary Person has appeared... somewhere.
+-New romance options are available in Fallen London.
+-You can now trade a Soothe & Cooper Long-Box in Fallen London.
+-You can now trade a Hesperidean Apple at Kantai.
+-The rewards for delivering a bouquet of roses are now much higher.
+-Repairing your ship now costs a variable amount based on damage taken.
+-Observations can now raise stats up to 150.
+-Stock prices no longer fluctuate when returning to Fallen London.
+-Prisoners now sell for less than their price in New Newgate.
+-Nothing has appeared at Aphantasia.
+-Various text and bug fixes.

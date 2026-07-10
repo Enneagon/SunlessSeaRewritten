@@ -1246,5 +1246,21 @@
 		"ShowOps": false,
 		"PremiumSubRequired": false,
 		"Id": 603156
+	},
+	{
+		"World": null,
+		"Name": "The Dusk Machine",
+		"Description": "The light is cold. Nothing it touches casts a shadow.",
+		"ImageName": "dawnmachine",
+		"MarketAccessPermitted": false,
+		"MoveMessage": "You have moved to a new area",
+		"HideName": false,
+		"RandomPostcard": false,
+		"MapX": 0,
+		"MapY": 0,
+		"UnlocksWithQuality": null,
+		"ShowOps": false,
+		"PremiumSubRequired": false,
+		"Id": 606644
 	}
 ]

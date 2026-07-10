@@ -6887,7 +6887,7 @@
 							"Name": "",
 							"Id": 110233
 						},
-						"Cost": 40,
+						"Cost": 50,
 						"SellPrice": 27,
 						"InShop": null,
 						"PurchaseQuality": {
@@ -9536,7 +9536,7 @@
 							"Name": "",
 							"Id": 108658
 						},
-						"Cost": 10,
+						"Cost": 20,
 						"SellPrice": 4,
 						"InShop": null,
 						"PurchaseQuality": {

@@ -5549,6 +5549,49 @@
 						},
 						"DiscoveryValue": 1,
 						"IsStartingPort": false
+					},
+					{
+						"Name": "DuskMachine",
+						"Rotation": 315,
+						"Setting": {
+							"World": null,
+							"OwnerName": null,
+							"Name": "",
+							"Personae": [],
+							"StartingArea": null,
+							"StartingDomicile": null,
+							"ItemsUsableHere": false,
+							"Exchange": null,
+							"TurnLengthSeconds": 0,
+							"MaxActionsAllowed": 0,
+							"MaxCardsAllowed": 0,
+							"ActionsInPeriodBeforeExhaustion": 0,
+							"Description": "",
+							"Id": 600201
+						},
+						"Area": {
+							"World": null,
+							"Name": null,
+							"Description": "",
+							"ImageName": "",
+							"MarketAccessPermitted": false,
+							"MoveMessage": "",
+							"HideName": false,
+							"RandomPostcard": false,
+							"MapX": 0,
+							"MapY": 0,
+							"UnlocksWithQuality": null,
+							"ShowOps": false,
+							"PremiumSubRequired": false,
+							"Id": 606644
+						},
+						"Subsurface": false,
+						"Position": {
+							"X": 281,
+							"Y": 334
+						},
+						"DiscoveryValue": 1,
+						"IsStartingPort": false
 					}
 				],
 				"LabelData": [
@@ -5659,66 +5702,6 @@
 				],
 				"PhenomenaData": [
 					{
-						"Name": "DawnsEdgeTerror",
-						"ParentTile": null,
-						"PrefabName": "Statechange/TerrorCircleLarge",
-						"VisitedPrefabName": "",
-						"Subsurface": false,
-						"HumanName": "",
-						"Description": "",
-						"Position": {
-							"X": 190,
-							"Y": 215
-						},
-						"Radius": 0,
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"QualityEffects": null,
-						"StoryletId": 0,
-						"AreaId": 0,
-						"SpawnChance": 100
-					},
-					{
-						"Name": "DawnsEdgeTerrorUnderwater",
-						"ParentTile": null,
-						"PrefabName": "Statechange/TerrorCircleLarge",
-						"VisitedPrefabName": "",
-						"Subsurface": true,
-						"HumanName": "",
-						"Description": "",
-						"Position": {
-							"X": 190,
-							"Y": 215
-						},
-						"Radius": 0,
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"QualityEffects": null,
-						"StoryletId": 0,
-						"AreaId": 0,
-						"SpawnChance": 100
-					},
-					{
-						"Name": "DawnsEdgeTerrorIntense",
-						"ParentTile": null,
-						"PrefabName": "Statechange/AwfulTerrorCircleSmall",
-						"VisitedPrefabName": "",
-						"Subsurface": true,
-						"HumanName": "",
-						"Description": "",
-						"Position": {
-							"X": 190,
-							"Y": 215
-						},
-						"Radius": 0,
-						"DiscoveryValue": 0,
-						"GleamValue": 0,
-						"QualityEffects": null,
-						"StoryletId": 0,
-						"AreaId": 0,
-						"SpawnChance": 100
-					},
-					{
 						"Name": "DawnsEdgeStorylet",
 						"ParentTile": null,
 						"PrefabName": "Physics/DawnMachineExit",
@@ -5759,7 +5742,7 @@
 						"SpawnChance": 100
 					}
 				],
-				"SeaColour": "Default",
+				"SeaColour": "Black",
 				"MusicTrackName": "Elegiac",
 				"Weather": [
 					"Fog",
